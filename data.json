@@ -1,0 +1,29 @@
+{
+  "funds": {},
+  "market": {
+    "usdtry": {
+      "value": 47.205501556396484,
+      "chg": 0.05
+    },
+    "eurtry": {
+      "value": 53.85609817504883,
+      "chg": -0.01
+    },
+    "gold_oz": {
+      "value": 4135.0,
+      "chg": 1.57
+    },
+    "bist100": {
+      "value": 13974.099609375,
+      "chg": -0.69
+    },
+    "gram_altin": {
+      "value": 6275.65,
+      "chg": 1.57
+    },
+    "policy_rate": {
+      "value": 37.0,
+      "note": "23 Temmuz 2026 PPK karari"
+    }
+  }
+}
