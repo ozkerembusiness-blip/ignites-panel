@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabah Paneli — AGESA BEFAS Takip</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0E1420; --panel:#161D2E; --panel-2:#1C2438; --line:#2A3348;
+    --gold:#C9A227; --text:#EDEAE2; --text-muted:#8A93A6; --up:#3FA34D; --down:#D64545; --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:980px;margin:0 auto;padding:36px 20px 60px;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase;margin-bottom:10px;}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:34px;line-height:1.25;margin:0 0 6px;}
+  .date-line{color:var(--text-muted);font-size:14px;margin-bottom:28px;}
+  .ticker{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:36px;}
+  .tick{padding:14px 10px;border-right:1px solid var(--line);text-align:center;}
+  .tick:last-child{border-right:none;}
+  .tick .label{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--text-muted);text-transform:uppercase;margin-bottom:6px;}
+  .tick .val{font-family:'IBM Plex Mono',monospace;font-size:16px;font-weight:600;}
+  .tick .chg{font-family:'IBM Plex Mono',monospace;font-size:12px;margin-top:3px;}
+  .up{color:var(--up);} .down{color:var(--down);} .flat{color:var(--text-muted);}
+  section{margin-bottom:38px;}
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:8px;}
+  .section-title{font-family:'Fraunces',serif;font-size:20px;font-weight:600;}
+  .section-note{font-size:12px;color:var(--text-muted);}
+  .fund-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+  .fund-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;}
+  .fund-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;}
+  .fund-code{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--gold);font-weight:600;letter-spacing:.04em;}
+  .fund-name{font-size:13px;color:var(--text-muted);margin-top:3px;max-width:210px;}
+  .fund-price{font-family:'IBM Plex Mono',monospace;font-size:17px;font-weight:600;text-align:right;}
+  .returns{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+  .ret{text-align:center;background:var(--panel-2);border-radius:8px;padding:8px 4px;}
+  .ret .p{font-size:10px;color:var(--text-muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace;}
+  .ret .v{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;}
+  .compare{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;}
+  .compare-row{display:grid;grid-template-columns:110px 1fr 70px;align-items:center;gap:14px;margin-bottom:14px;}
+  .compare-row:last-child{margin-bottom:0;}
+  .compare-name{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;}
+  .compare-name span{display:block;font-family:'Inter',sans-serif;font-weight:400;color:var(--text-muted);font-size:11px;margin-top:2px;}
+  .bar-track{background:var(--panel-2);border-radius:6px;height:10px;overflow:hidden;}
+  .bar-fill{height:100%;border-radius:6px;}
+  .compare-val{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;text-align:right;}
+  footer{border-top:1px solid var(--line);padding-top:18px;font-size:12.5px;color:var(--text-muted);line-height:1.6;}
+  footer b{color:var(--text);}
+  @media (max-width:640px){
+    .ticker{grid-template-columns:repeat(3,1fr);}
+    .tick:nth-child(3){border-right:none;}
+    .tick:nth-child(n+4){border-top:1px solid var(--line);}
+    .fund-grid{grid-template-columns:1fr;}
+    .compare-row{grid-template-columns:90px 1fr 60px;}
+    h1{font-size:26px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
+  <h1>Günaydın — piyasalar ve fonların bugün böyle görünüyor.</h1>
+  <div class="date-line">23.07.2026 Persembe - Ilk kurulum anlik goruntusu</div>
+
+  <div class="ticker">
+    
+<div class="tick"><div class="label">Dolar</div><div class="val">46,97</div><span class="chg up">up %0,11</span></div>
+<div class="tick"><div class="label">Euro</div><div class="val">53,89</div><span class="chg up">up %0,20</span></div>
+<div class="tick"><div class="label">Gram Altin</div><div class="val">6.248</div><span class="chg up">up %1,00</span></div>
+<div class="tick"><div class="label">BIST 100</div><div class="val">14.322</div><span class="chg up">up %1,53</span></div>
+<div class="tick"><div class="label">TCMB Faizi</div><div class="val">%37,00</div><span class="chg flat">23 Temmuz 2026 PPK karari</span></div>
+<div class="tick"><div class="label">Gosterge Tahvil</div><div class="val">%41,90</div><span class="chg down">down %0,05</span></div>
+
+  </div>
+
+  <section>
+    <div class="section-head">
+      <div class="section-title">AGESA Emeklilik Fonların</div>
+      <div class="section-note">Son fiyat · 1A / 3A / 6A / 1Y getiri</div>
+    </div>
+    <div class="fund-grid">
+      
+<div class="fund-card"><div class="fund-top"><div><div class="fund-code">AEI</div><div class="fund-name">Katki Emeklilik Yatirim Fonu</div></div><div class="fund-price">0,0919 TL</div></div>
+<div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+1.50</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+0.64</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+8.00</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+28.95</div></div></div></div>
+
+<div class="fund-card"><div class="fund-top"><div><div class="fund-code">AE1</div><div class="fund-name">Birinci Para Piyasasi Fonu</div></div><div class="fund-price">0,3961 TL</div></div>
+<div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.29</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+10.26</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.77</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+48.68</div></div></div></div>
+
+<div class="fund-card"><div class="fund-top"><div><div class="fund-code">AEH</div><div class="fund-name">Hisse Senedi Emeklilik Yatirim Fonu</div></div><div class="fund-price">1,3382 TL</div></div>
+<div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.99</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-2.23</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+11.25</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+31.64</div></div></div></div>
+
+<div class="fund-card"><div class="fund-top"><div><div class="fund-code">GEV</div><div class="fund-name">Altin Katilim Emeklilik Yatirim Fonu</div></div><div class="fund-price">0,0682 TL</div></div>
+<div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-2.77</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-11.20</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-10.59</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+38.07</div></div></div></div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="section-title">En Yakın Alternatifle Karşılaştırma</div>
+      <div class="section-note">1 yıllık getiri · aynı kategori</div>
+    </div>
+    <div class="compare">
+      
+<div class="compare-row"><div class="compare-name">AEH<span>Agesa - Hisse Senedi</span></div><div class="bar-track"><div class="bar-fill" style="width:78%;background:var(--gold);"></div></div><div class="compare-val">+31.64</div></div>
+<div class="compare-row"><div class="compare-name">VEH<span>Turkiye H.E. - Hisse Senedi</span></div><div class="bar-track"><div class="bar-fill" style="width:64%;background:var(--text-muted);"></div></div><div class="compare-val">+26.20</div></div>
+
+    </div>
+  </section>
+
+  <footer>
+    <b>Not:</b> Bu sayfa her hafta içi sabahı GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS/BEFAS ve piyasa verileri kullanılarak). Son güncelleme: 23.07.2026 (ilk kurulum). Yatırım tavsiyesi değildir.
+  </footer>
+</div>
+</body>
+</html>
