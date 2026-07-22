@@ -2,8 +2,9 @@
 BEFAS Sabah Paneli - veri toplayici ve site olusturucu.
 
 Bu betik:
-1) TEFAS'tan (tefas-crawler kutuphanesi ile) secilen BEFAS fonlarinin
-   fiyatlarini bugun ve 1A/3A/6A/1Y once icin ceker, getiri hesaplar.
+1) TEFAS'tan (pytefas kutuphanesi ile - yeni Next.js tabanli TEFAS
+   API'sini kullanir) secilen BEFAS fonlarinin fiyatlarini bugun ve
+   1A/3A/6A/1Y once icin ceker, getiri hesaplar.
 2) yfinance ile USD/TRY, EUR/TRY, ons altin ve BIST100 verisini ceker,
    gram altini yaklasik olarak hesaplar.
 3) template.html icindeki yer tutucularini doldurup index.html uretir.
@@ -16,12 +17,17 @@ import datetime as dt
 import json
 
 import yfinance as yf
-from tefas import Crawler
+from pytefas import Crawler
 
 # --- Ayarlar -----------------------------------------------------------
 
-# Takip edilecek AGESA BEFAS fonlari + karsilastirma icin bir alternatif.
-FUND_CODES = ["AEI", "AE1", "AEH", "GEV"]
+# Takip edilecek AGESA BEFAS fonlari (agesa.com.tr/fonpro/fonlarimiz/bireysel-emeklilik
+# sayfasindaki tum fonlar) + karsilastirma icin bir alternatif.
+FUND_CODES = [
+    "AE1", "AE2", "AEK", "AVO", "KML", "EAE", "TSZ", "ENF", "TVC", "SBA",
+    "MZN", "MZL", "MZP", "AEI", "AVN", "AVD", "AE3", "TVH", "AVG", "AVB",
+    "AVR", "AEH", "AEB", "GFH", "GEV", "EHK", "FYL", "FYN",
+]
 COMPARE_PAIRS = [("AEH", "VEH")]  # (agesa_kodu, alternatif_kod)
 ALL_CODES = list(dict.fromkeys(FUND_CODES + [c for pair in COMPARE_PAIRS for c in pair]))
 
@@ -30,20 +36,19 @@ POLICY_RATE = 37.00
 POLICY_RATE_NOTE = "23 Temmuz 2026 PPK karari"
 
 
-def to_float(s):
-    return float(str(s).replace(".", "").replace(",", "."))
-
-
 def fetch_funds_on(crawler, date, max_back=7):
-    """Verilen tarihe en yakin islem gunu icin tum fonlarin verisini ceker."""
+    """Verilen tarihe en yakin islem gunu icin BEFAS (emeklilik) fonlarinin
+    verisini ceker. pytefas bir pandas DataFrame doner; fund_code -> satir
+    seklinde bir sozluge cevirir."""
     for delta in range(max_back):
         d = date - dt.timedelta(days=delta)
         try:
-            rows = crawler.fetch(date=d.strftime("%Y-%m-%d"))
-        except Exception:
-            rows = []
-        if rows:
-            return {row["FonKodu"]: row for row in rows}
+            df = crawler.fetch(d.strftime("%Y-%m-%d"), columns="info", kind="EMK")
+        except Exception as exc:
+            print(f"[uyari] {d} icin veri cekilemedi: {exc}")
+            df = None
+        if df is not None and not df.empty:
+            return {row.fund_code: row for row in df.itertuples()}
     return {}
 
 
@@ -63,17 +68,18 @@ def collect_fund_data():
     for code in ALL_CODES:
         today_row = snapshots["today"].get(code)
         if not today_row:
+            print(f"[uyari] {code} icin bugune ait veri bulunamadi")
             continue
-        price_today = to_float(today_row["Fiyat"])
+        price_today = float(today_row.price)
         returns = {}
         for label in ["1a", "3a", "6a", "1y"]:
             row = snapshots[label].get(code)
             returns[label] = (
-                round((price_today / to_float(row["Fiyat"]) - 1) * 100, 2)
+                round((price_today / float(row.price) - 1) * 100, 2)
                 if row else None
             )
         funds[code] = {
-            "name": today_row["Fon Adı"],
+            "name": today_row.fund_name,
             "price": price_today,
             "returns": returns,
         }
