@@ -2,315 +2,315 @@
   "funds": {
     "AE1": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ PARA PİYASASI EMEKLİLİK YATIRIM FONU",
-      "price": 0.40106,
+      "price": 0.401452,
       "returns": {
-        "1a": 3.19,
-        "3a": 10.0,
-        "6a": 20.76,
-        "1y": 48.1
+        "1a": 3.13,
+        "3a": 10.11,
+        "6a": 20.74,
+        "1y": 48.02
       }
     },
     "AE2": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
-      "price": 0.349399,
+      "price": 0.349145,
       "returns": {
-        "1a": 0.41,
-        "3a": 3.22,
-        "6a": 7.94,
-        "1y": 29.89
+        "1a": 0.32,
+        "3a": 3.15,
+        "6a": 7.63,
+        "1y": 29.45
       }
     },
     "AEK": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
-      "price": 0.365702,
+      "price": 0.365421,
       "returns": {
-        "1a": 0.69,
-        "3a": 3.82,
-        "6a": 8.76,
-        "1y": 32.14
+        "1a": 0.59,
+        "3a": 3.74,
+        "6a": 8.42,
+        "1y": 31.65
       }
     },
     "AVO": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
-      "price": 0.138728,
+      "price": 0.138874,
       "returns": {
-        "1a": 3.22,
-        "3a": 9.91,
-        "6a": 20.38,
-        "1y": 46.17
+        "1a": 3.17,
+        "3a": 10.02,
+        "6a": 20.39,
+        "1y": 46.12
       }
     },
     "KML": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KIYMETLİ MADENLER EMEKLİLİK YATIRIM FONU",
-      "price": 0.017401,
+      "price": 0.017554,
       "returns": {
-        "1a": -4.02,
-        "3a": -14.02,
-        "6a": -17.06,
-        "1y": 52.36
+        "1a": -5.66,
+        "3a": -13.27,
+        "6a": -17.01,
+        "1y": 52.1
       }
     },
     "EAE": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
-      "price": 0.013454,
+      "price": 0.013631,
       "returns": {
-        "1a": -3.29,
-        "3a": -10.89,
-        "6a": -5.47,
+        "1a": -1.31,
+        "3a": -9.72,
+        "6a": -7.35,
         "1y": null
       }
     },
     "TSZ": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TAŞINMAZ VE İNŞAAT SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.015199,
+      "price": 0.015285,
       "returns": {
-        "1a": -0.67,
-        "3a": 0.32,
-        "6a": 9.72,
-        "1y": 28.98
+        "1a": -0.31,
+        "3a": 0.88,
+        "6a": 10.23,
+        "1y": 27.45
       }
     },
     "ENF": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ENERJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.017231,
+      "price": 0.017401,
       "returns": {
-        "1a": -4.82,
-        "3a": 4.24,
-        "6a": 20.14,
-        "1y": 45.88
+        "1a": -6.38,
+        "3a": 5.27,
+        "6a": 20.66,
+        "1y": 46.4
       }
     },
     "TVC": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.014855,
+      "price": 0.014947,
       "returns": {
-        "1a": 5.46,
-        "3a": 6.44,
-        "6a": 18.77,
-        "1y": 33.73
+        "1a": 6.41,
+        "3a": 7.1,
+        "6a": 19.72,
+        "1y": 34.65
       }
     },
     "SBA": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.013106,
+      "price": 0.013174,
       "returns": {
-        "1a": -7.48,
-        "3a": -8.09,
-        "6a": 3.46,
-        "1y": 14.15
+        "1a": -7.54,
+        "3a": -7.62,
+        "6a": 3.07,
+        "1y": 15.12
       }
     },
     "MZN": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.066664,
+      "price": 0.066915,
       "returns": {
-        "1a": -0.17,
-        "3a": 1.34,
-        "6a": 10.72,
-        "1y": 38.77
+        "1a": 0.2,
+        "3a": 1.72,
+        "6a": 10.08,
+        "1y": 39.1
       }
     },
     "MZL": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. İKİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.074451,
+      "price": 0.074769,
       "returns": {
-        "1a": -1.16,
-        "3a": 0.43,
-        "6a": 10.06,
-        "1y": 37.91
+        "1a": -0.79,
+        "3a": 0.86,
+        "6a": 9.72,
+        "1y": 38.38
       }
     },
     "MZP": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÜÇÜNCÜ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.085368,
+      "price": 0.085803,
       "returns": {
-        "1a": -2.32,
-        "3a": -1.09,
-        "6a": 9.1,
-        "1y": 34.82
+        "1a": -1.84,
+        "3a": -0.58,
+        "6a": 9.09,
+        "1y": 35.52
       }
     },
     "AEI": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
-      "price": 0.091882,
+      "price": 0.092155,
       "returns": {
-        "1a": -3.75,
-        "3a": -2.68,
-        "6a": 4.72,
-        "1y": 25.26
+        "1a": -3.46,
+        "3a": -2.39,
+        "6a": 5.1,
+        "1y": 25.35
       }
     },
     "AVN": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
-      "price": 0.123291,
+      "price": 0.123484,
       "returns": {
-        "1a": 0.27,
-        "3a": 2.29,
-        "6a": 9.94,
-        "1y": 32.74
+        "1a": 0.49,
+        "3a": 2.45,
+        "6a": 10.21,
+        "1y": 32.71
       }
     },
     "AVD": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
-      "price": 0.779186,
+      "price": 0.786057,
       "returns": {
-        "1a": -2.52,
-        "3a": -1.59,
-        "6a": 8.68,
-        "1y": 38.03
+        "1a": -1.38,
+        "3a": -0.72,
+        "6a": 9.15,
+        "1y": 38.99
       }
     },
     "AE3": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.972576,
+      "price": 0.981158,
       "returns": {
-        "1a": -0.77,
-        "3a": -1.7,
-        "6a": 8.76,
-        "1y": 30.59
+        "1a": 0.27,
+        "3a": -0.83,
+        "6a": 10.19,
+        "1y": 31.84
       }
     },
     "TVH": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.016681,
+      "price": 0.016906,
       "returns": {
-        "1a": -0.65,
-        "3a": 13.28,
-        "6a": 28.79,
-        "1y": 48.04
+        "1a": 0.65,
+        "3a": 14.81,
+        "6a": 32.92,
+        "1y": 49.93
       }
     },
     "AVG": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
-      "price": 0.877574,
+      "price": 0.875889,
       "returns": {
-        "1a": 1.69,
-        "3a": 5.08,
-        "6a": 10.39,
-        "1y": 25.7
+        "1a": 1.29,
+        "3a": 4.88,
+        "6a": 9.96,
+        "1y": 25.24
       }
     },
     "AVB": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 5-15 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
-      "price": 0.896171,
+      "price": 0.893756,
       "returns": {
-        "1a": 1.46,
-        "3a": 5.36,
-        "6a": 10.77,
-        "1y": 28.12
+        "1a": 0.98,
+        "3a": 5.07,
+        "6a": 10.21,
+        "1y": 27.51
       }
     },
     "AVR": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ YABANCI DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.538173,
+      "price": 0.538356,
       "returns": {
-        "1a": -6.13,
-        "3a": 23.85,
-        "6a": 39.08,
-        "1y": 59.34
+        "1a": -7.42,
+        "3a": 23.89,
+        "6a": 38.11,
+        "1y": 60.99
       }
     },
     "AEH": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 1.338174,
+      "price": 1.347156,
       "returns": {
-        "1a": -1.99,
-        "3a": -2.23,
-        "6a": 10.39,
-        "1y": 31.64
+        "1a": -1.18,
+        "3a": -1.58,
+        "6a": 11.99,
+        "1y": 32.72
       }
     },
     "AEB": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ GRUP EMEKLİLİK YATIRIM FONU",
-      "price": 1.951565,
+      "price": 1.966618,
       "returns": {
-        "1a": -2.3,
-        "3a": -2.44,
-        "6a": 9.92,
-        "1y": 31.14
+        "1a": -1.44,
+        "3a": -1.69,
+        "6a": 11.41,
+        "1y": 32.33
       }
     },
     "GFH": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.073494,
+      "price": 0.074089,
       "returns": {
-        "1a": -1.87,
-        "3a": -0.48,
-        "6a": 9.87,
-        "1y": 27.75
+        "1a": -0.69,
+        "3a": 0.33,
+        "6a": 11.48,
+        "1y": 29.21
       }
     },
     "GEV": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
-      "price": 0.068153,
+      "price": 0.069058,
       "returns": {
-        "1a": -2.77,
-        "3a": -11.2,
-        "6a": -7.63,
-        "1y": 38.07
+        "1a": -1.25,
+        "3a": -10.02,
+        "6a": -9.4,
+        "1y": 38.71
       }
     },
     "EHK": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.014187,
+      "price": 0.014261,
       "returns": {
-        "1a": 0.95,
-        "3a": 6.11,
-        "6a": 23.41,
+        "1a": 1.54,
+        "3a": 6.66,
+        "6a": 25.24,
         "1y": null
       }
     },
     "FYL": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
-      "price": 0.124009,
+      "price": 0.124171,
       "returns": {
-        "1a": 2.4,
-        "3a": 6.32,
-        "6a": 19.24,
-        "1y": 46.33
+        "1a": 2.71,
+        "3a": 6.46,
+        "6a": 20.23,
+        "1y": 46.38
       }
     },
     "FYN": {
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
-      "price": 0.164599,
+      "price": 0.165093,
       "returns": {
-        "1a": 2.71,
-        "3a": 6.5,
-        "6a": 17.45,
-        "1y": 44.06
+        "1a": 2.97,
+        "3a": 6.82,
+        "6a": 18.03,
+        "1y": 44.35
       }
     },
     "VEH": {
       "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 1.347486,
+      "price": 1.354615,
       "returns": {
-        "1a": -4.17,
-        "3a": -3.39,
-        "6a": 6.36,
-        "1y": 20.6
+        "1a": -3.82,
+        "3a": -2.88,
+        "6a": 6.83,
+        "1y": 21.11
       }
     }
   },
   "market": {
     "usdtry": {
-      "value": 47.19279861450195,
-      "chg": 0.03
+      "value": 47.23189926147461,
+      "chg": 0.07
     },
     "eurtry": {
-      "value": 53.841800689697266,
-      "chg": -0.04
+      "value": 53.99563980102539,
+      "chg": 0.34
     },
     "gold_oz": {
-      "value": 4135.0,
-      "chg": 1.57
+      "value": 4095.39990234375,
+      "chg": -1.24
     },
     "bist100": {
-      "value": 13974.099609375,
-      "chg": -0.69
+      "value": 14189.5400390625,
+      "chg": 0.36
     },
     "gram_altin": {
-      "value": 6273.96,
-      "chg": 1.57
+      "value": 6219.03,
+      "chg": -1.24
     },
     "policy_rate": {
       "value": 37.0,
