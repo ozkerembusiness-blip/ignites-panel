@@ -16,10 +16,12 @@ bu sayiyi elle guncellemen yeterli (satirin yanindaki yorumda belirtildi).
 """
 import datetime as dt
 import json
+import os
 from collections import OrderedDict
 
 import yfinance as yf
 from pytefas import Crawler
+from anthropic import Anthropic
 
 # --- Ayarlar -----------------------------------------------------------
 
@@ -128,6 +130,59 @@ def collect_market_data():
     return market
 
 
+def fetch_news():
+    """Anthropic API'yi (web arama araciyla) kullanarak BES/emeklilik/sigorta/
+    faiz-doviz gundemiyle ilgili 5-6 guncel haberi ceker ve ozetletir.
+    ANTHROPIC_API_KEY tanimli degilse veya bir hata olursa bos liste doner
+    (site o zaman haber bolumunu atlar, geri kalan her sey calismaya devam eder)."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("[uyarı] ANTHROPIC_API_KEY tanımlı değil, haber bölümü atlanıyor")
+        return []
+
+    prompt = (
+        "Türkiye'deki bireysel emeklilik sistemi (BES/BEFAS), emeklilik "
+        "yatırım fonları, hayat sigortası ve emeklilik şirketleri sektörü, "
+        "TCMB faiz kararları/politikası ve döviz-altın piyasası ile ilgili "
+        "BUGÜNE ait en önemli 5-6 haberi bul. Her biri için kısa bir başlık "
+        "(en fazla 12 kelime), 1-2 cümlelik özet ve kaynağın adını ver. "
+        "SADECE geçerli bir JSON dizisi olarak cevap ver, başka hiçbir "
+        "açıklama veya metin ekleme. Format: "
+        '[{"title": "...", "summary": "...", "source": "..."}]'
+    )
+    try:
+        client = Anthropic(api_key=api_key)
+        response = client.messages.create(
+            model="claude-sonnet-5",
+            max_tokens=1500,
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = "".join(b.text for b in response.content if b.type == "text").strip()
+        if text.startswith("```"):
+            text = text.strip("`")
+            if text.startswith("json"):
+                text = text[4:]
+        news = json.loads(text)
+        return news[:6]
+    except Exception as exc:
+        print(f"[uyarı] Haber çekilemedi: {exc}")
+        return []
+
+
+def render_news(news):
+    if not news:
+        return '<div class="hint">Gündem haberleri şu an alınamadı.</div>'
+    cards = []
+    for item in news:
+        cards.append(f'''<div class="news-card">
+          <div class="news-title">{item.get("title", "")}</div>
+          <div class="news-summary">{item.get("summary", "")}</div>
+          <div class="news-source">{item.get("source", "")}</div>
+        </div>''')
+    return "\n".join(cards)
+
+
 def fmt_chg(chg):
     if chg is None:
         return '<span class="chg flat">veri yok</span>'
@@ -203,9 +258,13 @@ def render_categorized_funds(all_funds):
 def main():
     all_funds = collect_all_funds()
     market = collect_market_data()
+    news = fetch_news()
 
     with open("data.json", "w", encoding="utf-8") as f:
-        json.dump({"funds": all_funds, "market": market}, f, ensure_ascii=False, indent=2, default=str)
+        json.dump(
+            {"funds": all_funds, "market": market, "news": news},
+            f, ensure_ascii=False, indent=2, default=str,
+        )
 
     with open("template.html", encoding="utf-8") as f:
         html = f.read()
@@ -218,6 +277,7 @@ def main():
         .replace("{{TICKER_HTML}}", render_ticker(market))
         .replace("{{CATEGORIZED_FUNDS_HTML}}", render_categorized_funds(all_funds))
         .replace("{{CATEGORY_OPTIONS_HTML}}", render_category_options())
+        .replace("{{NEWS_HTML}}", render_news(news))
         .replace("{{GENERATED_AT}}", now.strftime("%d.%m.%Y %H:%M"))
     )
 
