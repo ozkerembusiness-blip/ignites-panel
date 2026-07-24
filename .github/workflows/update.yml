@@ -2,8 +2,9 @@ name: Sabah panelini güncelle
 
 on:
   schedule:
-    # Her hafta içi 05:30 TRT (=02:30 UTC)
-    - cron: "30 2 * * 1-5"
+    # Her hafta içi 07:00 ve 12:00 TRT (=04:00 ve 09:00 UTC)
+    - cron: "0 4 * * 1-5"
+    - cron: "0 9 * * 1-5"
   workflow_dispatch: {}   # elle çalıştırmak istersen "Run workflow" butonu
 
 permissions:
