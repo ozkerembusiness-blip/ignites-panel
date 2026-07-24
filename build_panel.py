@@ -45,7 +45,7 @@ PERIODS = {
     "6a": 182,
     "1y": 365,
     "3y": 365 * 3,
-    "5y": 365 * 5,
+    "5y": 365 * 5 - 20,  # TEFAS "5 yildan eski olamaz" sinirina karsi guvenlik payi
 }
 PERIOD_LABELS = ["1a", "6a", "1y", "3y", "5y"]
 
@@ -54,11 +54,14 @@ POLICY_RATE = 37.00
 POLICY_RATE_NOTE = "23 Temmuz 2026 PPK kararı"
 
 
-def fetch_funds_on(crawler, date, max_back=7):
+def fetch_funds_on(crawler, date, max_back=7, forward=False):
     """Verilen tarihe en yakin islem gunu icin TEFAS'in dondugu tum BEFAS
-    (emeklilik) fonlarinin verisini ceker. fund_code -> satir sozlugu doner."""
+    (emeklilik) fonlarinin verisini ceker. fund_code -> satir sozlugu doner.
+    forward=True ise (gecmis donem hesaplamalarinda kullanilir) veri
+    bulunamadiginca tarihi ILERIYE (bugune dogru) kaydirir - boylece TEFAS'in
+    "5 yildan eski olamaz" gibi sinirlarina geriye giderek yaklasmayiz."""
     for delta in range(max_back):
-        d = date - dt.timedelta(days=delta)
+        d = date + dt.timedelta(days=delta) if forward else date - dt.timedelta(days=delta)
         try:
             df = crawler.fetch(d.strftime("%Y-%m-%d"), columns="info", kind="EMK")
         except Exception as exc:
@@ -74,7 +77,11 @@ def collect_all_funds():
     crawler = Crawler()
     today = dt.date.today()
     snapshots = {
-        label: fetch_funds_on(crawler, today - dt.timedelta(days=days))
+        label: fetch_funds_on(
+            crawler,
+            today - dt.timedelta(days=days),
+            forward=(days > 0),  # bugun haricinde ileri yonde ara
+        )
         for label, days in PERIODS.items()
     }
 
@@ -154,15 +161,21 @@ def fetch_news():
         client = Anthropic(api_key=api_key)
         response = client.messages.create(
             model="claude-sonnet-5",
-            max_tokens=1500,
+            max_tokens=4096,
             tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
             messages=[{"role": "user", "content": prompt}],
         )
         text = "".join(b.text for b in response.content if b.type == "text").strip()
+        if response.stop_reason == "max_tokens":
+            print("[uyarı] Haber yanıtı max_tokens sınırında kesildi, JSON eksik olabilir")
         if text.startswith("```"):
             text = text.strip("`")
             if text.startswith("json"):
                 text = text[4:]
+        # Modelin JSON dizisinden once/sonra fazladan metin eklemesi ihtimaline karsi
+        start, end = text.find("["), text.rfind("]")
+        if start != -1 and end != -1:
+            text = text[start:end + 1]
         news = json.loads(text)
         return news[:6]
     except Exception as exc:
