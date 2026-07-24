@@ -13,28 +13,404 @@
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:980px;margin:0 auto;padding:36px 20px 60px;}
+  .wrap{max-width:1080px;margin:0 auto;padding:36px 20px 60px;}
   .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase;margin-bottom:10px;}
   h1{font-family:'Fraunces',serif;font-weight:600;font-size:34px;line-height:1.25;margin:0 0 6px;}
   .date-line{color:var(--text-muted);font-size:14px;margin-bottom:28px;}
-  .ticker{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:36px;}
+  .ticker{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:36px;}
   .tick{padding:14px 10px;border-right:1px solid var(--line);text-align:center;}
   .tick:last-child{border-right:none;}
   .tick .label{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--text-muted);text-transform:uppercase;margin-bottom:6px;}
   .tick .val{font-family:'IBM Plex Mono',monospace;font-size:16px;font-weight:600;}
-  .tick .chg{font-family:'IBM Plex Mono',monospace;font-size:12px;margin-top:3px;}
+  .tick .chg{font-family:'IBM Plex Mono',monospace;font-size:12px;margin-top:3px;display:block;}
   .up{color:var(--up);} .down{color:var(--down);} .flat{color:var(--text-muted);}
   section{margin-bottom:38px;}
-  .section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:8px;}
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:8px;}
   .section-title{font-family:'Fraunces',serif;font-size:20px;font-weight:600;}
   .section-note{font-size:12px;color:var(--text-muted);}
+  .filter-row{display:flex;justify-content:flex-end;margin-bottom:18px;}
+  #categoryFilter{background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:9px 12px;font-family:'IBM Plex Mono',monospace;font-size:12.5px;}
+  #categoryFilter:focus{outline:1px solid var(--gold);}
+  .category-block{margin-bottom:22px;}
+  .category-title{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;color:var(--gold);text-transform:uppercase;margin-bottom:10px;}
   .fund-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
   .fund-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;}
-  .fund-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;}
+  .fund-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;gap:10px;}
   .fund-code{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--gold);font-weight:600;letter-spacing:.04em;}
-  .fund-name{font-size:13px;color:var(--text-muted);margin-top:3px;max-width:210px;}
-  .fund-price{font-family:'IBM Plex Mono',monospace;font-size:17px;font-weight:600;text-align:right;}
-  .returns{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+  .fund-name{font-size:12.5px;color:var(--text-muted);margin-top:3px;}
+  .fund-price{font-family:'IBM Plex Mono',monospace;font-size:16px;font-weight:600;text-align:right;white-space:nowrap;}
+  .returns-5{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;}
+  .ret{text-align:center;background:var(--panel-2);border-radius:8px;padding:7px 3px;}
+  .ret .p{font-size:9.5px;color:var(--text-muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace;}
+  .ret .v{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;}
+  footer{border-top:1px solid var(--line);padding-top:18px;font-size:12.5px;color:var(--text-muted);line-height:1.6;}
+  footer b{color:var(--text);}
+  @media (max-width:640px){
+    .ticker{grid-template-columns:repeat(3,1fr);}
+    .tick:nth-child(3){border-right:none;}
+    .tick:nth-child(n+4){border-top:1px solid var(--line);}
+    .fund-grid{grid-template-columns:1fr;}
+    .returns-5{grid-template-columns:repeat(5,1fr);}
+    h1{font-size:26px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
+  <h1>Günaydın — piyasalar ve fonların bugün böyle görünüyor.</h1>
+  <div class="date-line">24.07.2026 10:10 · Otomatik güncelleme</div>
+
+  <div class="ticker">
+    <div class="tick">
+          <div class="label">Dolar</div>
+          <div class="val">47.34</div>
+          <span class="chg up">▲ %0.27</span>
+        </div>
+<div class="tick">
+          <div class="label">Euro</div>
+          <div class="val">53.96</div>
+          <span class="chg up">▲ %0.06</span>
+        </div>
+<div class="tick">
+          <div class="label">Gram Altın</div>
+          <div class="val">6.183.28</div>
+          <span class="chg up">▲ %0.39</span>
+        </div>
+<div class="tick">
+          <div class="label">BİST 100</div>
+          <div class="val">13.988.28</div>
+          <span class="chg down">▼ %0.64</span>
+        </div>
+<div class="tick">
+          <div class="label">TCMB Faizi</div>
+          <div class="val">%37.00</div>
+          <div class="chg flat">23 Temmuz 2026 PPK kararı</div>
+        </div>
+  </div>
+
+  <section>
+    <div class="section-head">
+      <div class="section-title">AGESA Emeklilik Fonların</div>
+      <div class="section-note">Son fiyat · 1A / 6A / 1Y / 3Y / 5Y getiri</div>
+    </div>
+    <div class="filter-row">
+      <select id="categoryFilter" onchange="filterCategory()">
+        <option value="all">Tüm Kategoriler</option>
+<option value="Para Piyasası">Para Piyasası</option>
+<option value="Borçlanma Araçları">Borçlanma Araçları</option>
+<option value="Hisse Senedi">Hisse Senedi</option>
+<option value="Altın ve Kıymetli Maden">Altın ve Kıymetli Maden</option>
+<option value="Sektörel / Tematik Değişken">Sektörel / Tematik Değişken</option>
+<option value="Standart / Karma / Katkı">Standart / Karma / Katkı</option>
+<option value="Fon Sepetleri">Fon Sepetleri</option>
+<option value="Katılım (Faizsiz)">Katılım (Faizsiz)</option>
+      </select>
+    </div>
+    <div id="fundBlocks">
+      <div class="category-block" data-category="Para Piyasası">
+          <div class="category-title">Para Piyasası</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AE1</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ PARA PİYASASI EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.4019 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.13</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.74</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+47.97</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+256.77</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Borçlanma Araçları">
+          <div class="category-title">Borçlanma Araçları</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AE2</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.3485 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.35</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+6.82</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+29.02</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+145.60</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AEK</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.3649 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.62</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+7.64</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+31.21</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+168.98</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AVO</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.1390 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.17</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.39</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+46.10</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+242.69</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AVB</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 5-15 YIL VADELİ) EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.8908 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.82</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.33</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+26.33</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+142.22</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AVG</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.8739 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+1.21</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.35</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+24.38</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+126.07</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Hisse Senedi">
+          <div class="category-title">Hisse Senedi</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AEH</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">1.3425 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.15</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.48</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+32.86</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+151.95</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AEB</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ GRUP EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">1.9607 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.03</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.15</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+32.39</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+227.77</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">GFH</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0735 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.33</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.54</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+28.38</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+146.45</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">TVH</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0170 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+1.72</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+29.81</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+50.32</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Altın ve Kıymetli Maden">
+          <div class="category-title">Altın ve Kıymetli Maden</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">KML</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KIYMETLİ MADENLER EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0174 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-5.39</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-16.55</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+49.92</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">EAE</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0136 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.15</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-7.28</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">GEV</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0686 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.05</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-9.49</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+35.91</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+313.10</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Sektörel / Tematik Değişken">
+          <div class="category-title">Sektörel / Tematik Değişken</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">TSZ</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. TAŞINMAZ VE İNŞAAT SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0152 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.60</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+8.68</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+27.55</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">ENF</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. ENERJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0173 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-4.50</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+18.12</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+45.54</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">TVC</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0149 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+6.42</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+17.39</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+33.11</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AVR</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ YABANCI DEĞİŞKEN EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.5383 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-2.80</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+34.57</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+61.37</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+247.44</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">SBA</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0131 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-6.37</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+2.12</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+14.22</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Standart / Karma / Katkı">
+          <div class="category-title">Standart / Karma / Katkı</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AEI</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0918 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-2.87</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+4.21</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+25.04</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+126.44</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AVN</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.1232 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.76</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.31</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+32.27</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+177.03</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AVD</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.7841 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.72</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+8.61</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+38.29</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+176.85</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">AE3</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.9803 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+1.38</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.43</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+31.99</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+193.95</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Fon Sepetleri">
+          <div class="category-title">Fon Sepetleri</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">MZN</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0669 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.86</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.92</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+38.66</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+201.49</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">MZL</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. İKİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0747 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.05</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.29</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+37.84</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+192.28</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">MZP</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. ÜÇÜNCÜ FON SEPETİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0856 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.85</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+8.38</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+35.09</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+185.37</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+<div class="category-block" data-category="Katılım (Faizsiz)">
+          <div class="category-title">Katılım (Faizsiz)</div>
+          <div class="fund-grid"><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">FYL</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.1243 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.31</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+19.07</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+46.70</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+198.63</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">FYN</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.1652 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.39</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+17.42</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+44.58</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">+200.69</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div><div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">EHK</div>
+          <div class="fund-name">AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU</div>
+        </div>
+        <div class="fund-price">0.0142 ₺</div>
+      </div>
+      <div class="returns returns-5"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+2.48</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+22.25</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">3Y</div><div class="v" style="color:var(--up)">—</div></div><div class="ret"><div class="p">5Y</div><div class="v" style="color:var(--up)">—</div></div></div>
+    </div></div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <b>Not:</b> Bu sayfa her hafta içi 07:00 ve 12:00'de GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS ve piyasa verileri kullanılarak). Son güncelleme: 24.07.2026 10:10. Yatırım tavsiyesi değildir.
+  </footer>
+</div>
+
+<script>
+  function filterCategory(){
+    const selected = document.getElementById("categoryFilter").value;
+    document.querySelectorAll(".category-block").forEach(block => {
+      block.style.display = (selected === "all" || block.dataset.category === selected) ? "" : "none";
+    });
+  }
+</script>
+</body>
+</html>  .returns{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
   .ret{text-align:center;background:var(--panel-2);border-radius:8px;padding:8px 4px;}
   .ret .p{font-size:10px;color:var(--text-muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace;}
   .ret .v{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;}
@@ -62,33 +438,33 @@
 <div class="wrap">
   <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
   <h1>Günaydın — piyasalar ve fonların bugün böyle görünüyor.</h1>
-  <div class="date-line">23.07.2026 Thursday · Otomatik guncelleme</div>
+  <div class="date-line">24.07.2026 10:10 · Otomatik güncelleme</div>
 
   <div class="ticker">
     <div class="tick">
           <div class="label">Dolar</div>
-          <div class="val">47.23</div>
-          <span class="chg up">▲ %0.07</span>
+          <div class="val">47.34</div>
+          <span class="chg up">▲ %0.27</span>
         </div>
 <div class="tick">
           <div class="label">Euro</div>
-          <div class="val">54.00</div>
-          <span class="chg up">▲ %0.34</span>
+          <div class="val">53.96</div>
+          <span class="chg up">▲ %0.06</span>
         </div>
 <div class="tick">
           <div class="label">Gram Altın</div>
-          <div class="val">6.219.03</div>
-          <span class="chg down">▼ %1.24</span>
+          <div class="val">6.183.28</div>
+          <span class="chg up">▲ %0.39</span>
         </div>
 <div class="tick">
           <div class="label">BİST 100</div>
-          <div class="val">14.189.54</div>
-          <span class="chg up">▲ %0.36</span>
+          <div class="val">13.988.28</div>
+          <span class="chg down">▼ %0.64</span>
         </div>
 <div class="tick">
           <div class="label">TCMB Faizi</div>
           <div class="val">%37.00</div>
-          <div class="chg flat">23 Temmuz 2026 PPK karari</div>
+          <div class="chg flat">23 Temmuz 2026 PPK kararı</div>
         </div>
   </div>
 
@@ -98,286 +474,7 @@
       <div class="section-note">Son fiyat · 1A / 3A / 6A / 1Y getiri</div>
     </div>
     <div class="fund-grid">
-      <div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AE1</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Bi̇ri̇nci̇ Para Pi̇yasasi Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.4015 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.13</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+10.11</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.74</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+48.02</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AE2</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Borçlanma Araçlari Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.3491 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.32</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+3.15</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+7.63</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+29.45</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AEK</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Borçlanma Araçlari Grup Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.3654 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.59</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+3.74</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+8.42</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+31.65</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AVO</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Özel Sektör Borçlanma Araçlari Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.1389 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+3.17</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+10.02</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.39</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+46.12</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">KML</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Kiymetli̇ Madenler Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0176 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-5.66</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-13.27</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-17.01</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+52.10</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">EAE</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Altin Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0136 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.31</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-9.72</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-7.35</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">—</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">TSZ</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Taşinmaz Ve İnşaat Sektörü Deği̇şken Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0153 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.31</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+0.88</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.23</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+27.45</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">ENF</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Enerji̇ Sektörü Deği̇şken Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0174 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-6.38</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+5.27</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.66</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+46.40</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">TVC</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Tarim Ve Gida Sektörü Deği̇şken Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0149 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+6.41</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+7.10</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+19.72</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+34.65</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">SBA</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Sabanci Topluluğu Şi̇rketleri̇ Endeksi̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0132 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-7.54</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-7.62</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+3.07</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+15.12</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">MZN</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Bi̇ri̇nci̇ Fon Sepeti̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0669 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.20</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+1.72</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.08</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+39.10</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">MZL</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. İki̇nci̇ Fon Sepeti̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0748 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.79</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+0.86</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.72</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+38.38</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">MZP</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Üçüncü Fon Sepeti̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0858 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.84</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-0.58</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.09</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+35.52</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AEI</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Katki Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0922 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-3.46</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-2.39</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+5.10</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+25.35</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AVN</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Standart Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.1235 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.49</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+2.45</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.21</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+32.71</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AVD</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Karma Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.7861 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.38</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-0.72</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.15</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+38.99</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AE3</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Di̇nami̇k Deği̇şken Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.9812 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.27</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-0.83</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.19</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+31.84</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">TVH</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Teknoloji̇ Şi̇rketleri̇ Hi̇sse Senedi̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0169 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.65</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+14.81</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+32.92</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+49.93</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AVG</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Diş Borçlanma Araçlari Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.8759 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+1.29</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+4.88</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+9.96</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+25.24</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AVB</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Kamu Diş Borçlanma Araçlari (Abd Dolari 5-15 Yil Vadeli̇) Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.8938 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+0.98</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+5.07</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+10.21</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+27.51</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AVR</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Teknoloji̇ Sektörü Yabanci Deği̇şken Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.5384 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-7.42</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+23.89</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+38.11</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+60.99</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AEH</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Hi̇sse Senedi̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">1.3472 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.18</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-1.58</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+11.99</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+32.72</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">AEB</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Hi̇sse Senedi̇ Grup Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">1.9666 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.44</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-1.69</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+11.41</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+32.33</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">GFH</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Sürdürülebi̇li̇rli̇k Hi̇sse Senedi̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0741 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-0.69</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+0.33</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+11.48</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+29.21</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">GEV</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Altin Katilim Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0691 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--down)">-1.25</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--down)">-10.02</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--down)">-9.40</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+38.71</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">EHK</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Katilim Hi̇sse Senedi̇ Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.0143 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+1.54</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+6.66</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+25.24</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">—</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">FYL</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Katilim Katki Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.1242 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+2.71</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+6.46</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+20.23</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+46.38</div></div></div>
-        </div>
-<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">FYN</div>
-              <div class="fund-name">Agesa Hayat Ve Emekli̇li̇k A.Ş. Katilim Standart Emekli̇li̇k Yatirim Fonu</div>
-            </div>
-            <div class="fund-price">0.1651 ₺</div>
-          </div>
-          <div class="returns"><div class="ret"><div class="p">1A</div><div class="v" style="color:var(--up)">+2.97</div></div><div class="ret"><div class="p">3A</div><div class="v" style="color:var(--up)">+6.82</div></div><div class="ret"><div class="p">6A</div><div class="v" style="color:var(--up)">+18.03</div></div><div class="ret"><div class="p">1Y</div><div class="v" style="color:var(--up)">+44.35</div></div></div>
-        </div>
+      {{FUNDS_HTML}}
     </div>
   </section>
 
@@ -387,21 +484,12 @@
       <div class="section-note">1 yıllık getiri · aynı kategori</div>
     </div>
     <div class="compare">
-      <div class="compare-row">
-          <div class="compare-name">AEH<span>AGESA</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--gold);"></div></div>
-          <div class="compare-val">+32.72</div>
-        </div>
-        <div class="compare-row">
-          <div class="compare-name">VEH<span>Türki̇ye</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:65%;background:var(--text-muted);"></div></div>
-          <div class="compare-val">+21.11</div>
-        </div>
+      {{COMPARE_HTML}}
     </div>
   </section>
 
   <footer>
-    <b>Not:</b> Bu sayfa her hafta içi sabahı GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS/BEFAS ve piyasa verileri kullanılarak). Son güncelleme: 23.07.2026 10:41. Yatırım tavsiyesi değildir.
+    <b>Not:</b> Bu sayfa her hafta içi sabahı GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS/BEFAS ve piyasa verileri kullanılarak). Son güncelleme: 24.07.2026 10:10. Yatırım tavsiyesi değildir.
   </footer>
 </div>
 </body>

@@ -1,320 +1,4806 @@
 {
   "funds": {
+    "AAJ": {
+      "code": "AAJ",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.105003,
+      "returns": {
+        "1a": 0.47,
+        "6a": 9.76,
+        "1y": 32.88,
+        "3y": 165.77,
+        "5y": null
+      }
+    },
+    "ABE": {
+      "code": "ABE",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş.S&P 500 YABANCI BYF FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.431081,
+      "returns": {
+        "1a": 1.86,
+        "6a": 15.52,
+        "1y": 35.4,
+        "3y": 176.25,
+        "5y": null
+      }
+    },
+    "ACV": {
+      "code": "ACV",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.094241,
+      "returns": {
+        "1a": 3.32,
+        "6a": 20.6,
+        "1y": 47.27,
+        "3y": 243.74,
+        "5y": null
+      }
+    },
     "AE1": {
+      "code": "AE1",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ PARA PİYASASI EMEKLİLİK YATIRIM FONU",
-      "price": 0.401452,
+      "price": 0.401869,
       "returns": {
         "1a": 3.13,
-        "3a": 10.11,
         "6a": 20.74,
-        "1y": 48.02
+        "1y": 47.97,
+        "3y": 256.77,
+        "5y": null
       }
     },
     "AE2": {
+      "code": "AE2",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
-      "price": 0.349145,
+      "price": 0.348547,
       "returns": {
-        "1a": 0.32,
-        "3a": 3.15,
-        "6a": 7.63,
-        "1y": 29.45
-      }
-    },
-    "AEK": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
-      "price": 0.365421,
-      "returns": {
-        "1a": 0.59,
-        "3a": 3.74,
-        "6a": 8.42,
-        "1y": 31.65
-      }
-    },
-    "AVO": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
-      "price": 0.138874,
-      "returns": {
-        "1a": 3.17,
-        "3a": 10.02,
-        "6a": 20.39,
-        "1y": 46.12
-      }
-    },
-    "KML": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KIYMETLİ MADENLER EMEKLİLİK YATIRIM FONU",
-      "price": 0.017554,
-      "returns": {
-        "1a": -5.66,
-        "3a": -13.27,
-        "6a": -17.01,
-        "1y": 52.1
-      }
-    },
-    "EAE": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
-      "price": 0.013631,
-      "returns": {
-        "1a": -1.31,
-        "3a": -9.72,
-        "6a": -7.35,
-        "1y": null
-      }
-    },
-    "TSZ": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TAŞINMAZ VE İNŞAAT SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.015285,
-      "returns": {
-        "1a": -0.31,
-        "3a": 0.88,
-        "6a": 10.23,
-        "1y": 27.45
-      }
-    },
-    "ENF": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ENERJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.017401,
-      "returns": {
-        "1a": -6.38,
-        "3a": 5.27,
-        "6a": 20.66,
-        "1y": 46.4
-      }
-    },
-    "TVC": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.014947,
-      "returns": {
-        "1a": 6.41,
-        "3a": 7.1,
-        "6a": 19.72,
-        "1y": 34.65
-      }
-    },
-    "SBA": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.013174,
-      "returns": {
-        "1a": -7.54,
-        "3a": -7.62,
-        "6a": 3.07,
-        "1y": 15.12
-      }
-    },
-    "MZN": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.066915,
-      "returns": {
-        "1a": 0.2,
-        "3a": 1.72,
-        "6a": 10.08,
-        "1y": 39.1
-      }
-    },
-    "MZL": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. İKİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.074769,
-      "returns": {
-        "1a": -0.79,
-        "3a": 0.86,
-        "6a": 9.72,
-        "1y": 38.38
-      }
-    },
-    "MZP": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÜÇÜNCÜ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.085803,
-      "returns": {
-        "1a": -1.84,
-        "3a": -0.58,
-        "6a": 9.09,
-        "1y": 35.52
-      }
-    },
-    "AEI": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
-      "price": 0.092155,
-      "returns": {
-        "1a": -3.46,
-        "3a": -2.39,
-        "6a": 5.1,
-        "1y": 25.35
-      }
-    },
-    "AVN": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
-      "price": 0.123484,
-      "returns": {
-        "1a": 0.49,
-        "3a": 2.45,
-        "6a": 10.21,
-        "1y": 32.71
-      }
-    },
-    "AVD": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
-      "price": 0.786057,
-      "returns": {
-        "1a": -1.38,
-        "3a": -0.72,
-        "6a": 9.15,
-        "1y": 38.99
+        "1a": 0.35,
+        "6a": 6.82,
+        "1y": 29.02,
+        "3y": 145.6,
+        "5y": null
       }
     },
     "AE3": {
+      "code": "AE3",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.981158,
+      "price": 0.980261,
       "returns": {
-        "1a": 0.27,
-        "3a": -0.83,
-        "6a": 10.19,
-        "1y": 31.84
+        "1a": 1.38,
+        "6a": 9.43,
+        "1y": 31.99,
+        "3y": 193.95,
+        "5y": null
       }
     },
-    "TVH": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.016906,
+    "AEA": {
+      "code": "AEA",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.647854,
       "returns": {
-        "1a": 0.65,
-        "3a": 14.81,
-        "6a": 32.92,
-        "1y": 49.93
-      }
-    },
-    "AVG": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
-      "price": 0.875889,
-      "returns": {
-        "1a": 1.29,
-        "3a": 4.88,
-        "6a": 9.96,
-        "1y": 25.24
-      }
-    },
-    "AVB": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 5-15 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
-      "price": 0.893756,
-      "returns": {
-        "1a": 0.98,
-        "3a": 5.07,
-        "6a": 10.21,
-        "1y": 27.51
-      }
-    },
-    "AVR": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ YABANCI DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.538356,
-      "returns": {
-        "1a": -7.42,
-        "3a": 23.89,
-        "6a": 38.11,
-        "1y": 60.99
-      }
-    },
-    "AEH": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 1.347156,
-      "returns": {
-        "1a": -1.18,
-        "3a": -1.58,
-        "6a": 11.99,
-        "1y": 32.72
+        "1a": 0.34,
+        "6a": -11.72,
+        "1y": 29.93,
+        "3y": 254.04,
+        "5y": null
       }
     },
     "AEB": {
+      "code": "AEB",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ GRUP EMEKLİLİK YATIRIM FONU",
-      "price": 1.966618,
+      "price": 1.960697,
       "returns": {
-        "1a": -1.44,
-        "3a": -1.69,
-        "6a": 11.41,
-        "1y": 32.33
+        "1a": 0.03,
+        "6a": 10.15,
+        "1y": 32.39,
+        "3y": 227.77,
+        "5y": null
       }
     },
-    "GFH": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.074089,
+    "AEC": {
+      "code": "AEC",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. UNİLEVER BİRİNCİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.147931,
+      "returns": {
+        "1a": 2.79,
+        "6a": 18.04,
+        "1y": 41.9,
+        "3y": 184.75,
+        "5y": null
+      }
+    },
+    "AEH": {
+      "code": "AEH",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.34253,
+      "returns": {
+        "1a": 0.15,
+        "6a": 10.48,
+        "1y": 32.86,
+        "3y": 151.95,
+        "5y": null
+      }
+    },
+    "AEI": {
+      "code": "AEI",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.091821,
+      "returns": {
+        "1a": -2.87,
+        "6a": 4.21,
+        "1y": 25.04,
+        "3y": 126.44,
+        "5y": null
+      }
+    },
+    "AEK": {
+      "code": "AEK",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.364852,
+      "returns": {
+        "1a": 0.62,
+        "6a": 7.64,
+        "1y": 31.21,
+        "3y": 168.98,
+        "5y": null
+      }
+    },
+    "AEN": {
+      "code": "AEN",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. İKİNCİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.154046,
+      "returns": {
+        "1a": 2.12,
+        "6a": 16.38,
+        "1y": 41.78,
+        "3y": 204.83,
+        "5y": null
+      }
+    },
+    "AEP": {
+      "code": "AEP",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. UNİLEVER İKİNCİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.377269,
+      "returns": {
+        "1a": -0.4,
+        "6a": 14.32,
+        "1y": 31.05,
+        "3y": 201.28,
+        "5y": null
+      }
+    },
+    "AER": {
+      "code": "AER",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.144044,
+      "returns": {
+        "1a": 1.6,
+        "6a": 18.46,
+        "1y": 43.08,
+        "3y": 145.24,
+        "5y": null
+      }
+    },
+    "AET": {
+      "code": "AET",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.098753,
+      "returns": {
+        "1a": -1.28,
+        "6a": 6.46,
+        "1y": 27.39,
+        "3y": 143.59,
+        "5y": null
+      }
+    },
+    "AEU": {
+      "code": "AEU",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. BIST TEMETTÜ ENDEKSİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.401284,
+      "returns": {
+        "1a": 0.3,
+        "6a": 15.73,
+        "1y": 40.46,
+        "3y": 173.58,
+        "5y": null
+      }
+    },
+    "AEY": {
+      "code": "AEY",
+      "name": "VİENNALİFE EMEKLİLİK VE HAYAT A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.097688,
+      "returns": {
+        "1a": 0.0,
+        "6a": 9.39,
+        "1y": 31.91,
+        "3y": 121.73,
+        "5y": null
+      }
+    },
+    "AEZ": {
+      "code": "AEZ",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. YAPI KREDİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.229978,
+      "returns": {
+        "1a": 0.99,
+        "6a": 7.82,
+        "1y": 33.66,
+        "3y": 174.67,
+        "5y": null
+      }
+    },
+    "AFH": {
+      "code": "AFH",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.109566,
+      "returns": {
+        "1a": 0.76,
+        "6a": 7.72,
+        "1y": 30.16,
+        "3y": 157.38,
+        "5y": null
+      }
+    },
+    "AFJ": {
+      "code": "AFJ",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.104318,
+      "returns": {
+        "1a": 1.46,
+        "6a": 17.71,
+        "1y": 43.78,
+        "3y": 264.63,
+        "5y": null
+      }
+    },
+    "AFP": {
+      "code": "AFP",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.098212,
+      "returns": {
+        "1a": 2.31,
+        "6a": 14.86,
+        "1y": 34.84,
+        "3y": 133.83,
+        "5y": null
+      }
+    },
+    "AG1": {
+      "code": "AG1",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.40846,
+      "returns": {
+        "1a": 1.11,
+        "6a": 8.39,
+        "1y": 32.88,
+        "3y": 155.91,
+        "5y": null
+      }
+    },
+    "AG2": {
+      "code": "AG2",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.682634,
+      "returns": {
+        "1a": 1.57,
+        "6a": 10.93,
+        "1y": 28.39,
+        "3y": 145.22,
+        "5y": null
+      }
+    },
+    "AG3": {
+      "code": "AG3",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. HİSSE SENEDİ GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 2.340325,
+      "returns": {
+        "1a": -1.9,
+        "6a": 7.68,
+        "1y": 21.79,
+        "3y": 153.42,
+        "5y": null
+      }
+    },
+    "AG4": {
+      "code": "AG4",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. TEMKİNLİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.555981,
+      "returns": {
+        "1a": 1.94,
+        "6a": 13.59,
+        "1y": 36.68,
+        "3y": 238.59,
+        "5y": null
+      }
+    },
+    "AGA": {
+      "code": "AGA",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.779069,
+      "returns": {
+        "1a": -0.49,
+        "6a": -10.81,
+        "1y": 38.08,
+        "3y": 312.05,
+        "5y": null
+      }
+    },
+    "AGB": {
+      "code": "AGB",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. BÜYÜME KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.270411,
+      "returns": {
+        "1a": 0.72,
+        "6a": 9.89,
+        "1y": 31.48,
+        "3y": 140.81,
+        "5y": null
+      }
+    },
+    "AGD": {
+      "code": "AGD",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.1352,
+      "returns": {
+        "1a": 2.73,
+        "6a": 18.54,
+        "1y": 42.19,
+        "3y": 139.68,
+        "5y": null
+      }
+    },
+    "AGE": {
+      "code": "AGE",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.182224,
+      "returns": {
+        "1a": 0.86,
+        "6a": 15.52,
+        "1y": 36.79,
+        "3y": 141.49,
+        "5y": null
+      }
+    },
+    "AGG": {
+      "code": "AGG",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. KATILIM DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.211795,
+      "returns": {
+        "1a": 2.61,
+        "6a": 17.97,
+        "1y": 43.31,
+        "3y": 168.37,
+        "5y": null
+      }
+    },
+    "AGH": {
+      "code": "AGH",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.839132,
+      "returns": {
+        "1a": 0.49,
+        "6a": 14.7,
+        "1y": 38.0,
+        "3y": 172.22,
+        "5y": null
+      }
+    },
+    "AGM": {
+      "code": "AGM",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. MUHAFAZAKAR KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.18237,
+      "returns": {
+        "1a": 2.66,
+        "6a": 17.6,
+        "1y": 39.37,
+        "3y": 178.16,
+        "5y": null
+      }
+    },
+    "AGT": {
+      "code": "AGT",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.112049,
+      "returns": {
+        "1a": 3.37,
+        "6a": 19.51,
+        "1y": 41.87,
+        "3y": 107.33,
+        "5y": null
+      }
+    },
+    "AH1": {
+      "code": "AH1",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.355658,
+      "returns": {
+        "1a": 1.0,
+        "6a": 7.1,
+        "1y": 29.57,
+        "3y": 138.01,
+        "5y": null
+      }
+    },
+    "AH2": {
+      "code": "AH2",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.398403,
+      "returns": {
+        "1a": 3.15,
+        "6a": 20.79,
+        "1y": 47.94,
+        "3y": 259.61,
+        "5y": null
+      }
+    },
+    "AH3": {
+      "code": "AH3",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BİRİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 1.002962,
+      "returns": {
+        "1a": 0.98,
+        "6a": 9.66,
+        "1y": 27.31,
+        "3y": 129.64,
+        "5y": null
+      }
+    },
+    "AH4": {
+      "code": "AH4",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.710079,
+      "returns": {
+        "1a": 1.12,
+        "6a": 7.31,
+        "1y": 21.15,
+        "3y": 123.46,
+        "5y": null
+      }
+    },
+    "AH5": {
+      "code": "AH5",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 2.852149,
+      "returns": {
+        "1a": -3.79,
+        "6a": 2.04,
+        "1y": 17.68,
+        "3y": 177.38,
+        "5y": null
+      }
+    },
+    "AH6": {
+      "code": "AH6",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BİRİNCİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 1.194726,
+      "returns": {
+        "1a": 0.59,
+        "6a": 12.54,
+        "1y": 31.38,
+        "3y": 158.52,
+        "5y": null
+      }
+    },
+    "AH8": {
+      "code": "AH8",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.450516,
+      "returns": {
+        "1a": 1.9,
+        "6a": 13.78,
+        "1y": 34.95,
+        "3y": 212.51,
+        "5y": null
+      }
+    },
+    "AH9": {
+      "code": "AH9",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 1.011617,
+      "returns": {
+        "1a": 0.0,
+        "6a": 6.51,
+        "1y": 24.99,
+        "3y": 198.09,
+        "5y": null
+      }
+    },
+    "AHB": {
+      "code": "AHB",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.327875,
+      "returns": {
+        "1a": -2.0,
+        "6a": 6.94,
+        "1y": 20.31,
+        "3y": 144.3,
+        "5y": null
+      }
+    },
+    "AHC": {
+      "code": "AHC",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.140776,
+      "returns": {
+        "1a": 3.04,
+        "6a": 18.54,
+        "1y": 43.4,
+        "3y": 209.28,
+        "5y": null
+      }
+    },
+    "AHJ": {
+      "code": "AHJ",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.108727,
+      "returns": {
+        "1a": 3.23,
+        "6a": 21.24,
+        "1y": 50.08,
+        "3y": 268.08,
+        "5y": null
+      }
+    },
+    "AHL": {
+      "code": "AHL",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.483984,
+      "returns": {
+        "1a": -2.75,
+        "6a": 5.36,
+        "1y": 22.71,
+        "3y": 197.53,
+        "5y": null
+      }
+    },
+    "AIE": {
+      "code": "AIE",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS BÜYÜME KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.214761,
+      "returns": {
+        "1a": 3.12,
+        "6a": 16.33,
+        "1y": 46.24,
+        "3y": 217.5,
+        "5y": null
+      }
+    },
+    "AIP": {
+      "code": "AIP",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.271763,
+      "returns": {
+        "1a": 2.89,
+        "6a": 15.83,
+        "1y": 49.56,
+        "3y": 218.88,
+        "5y": null
+      }
+    },
+    "AJA": {
+      "code": "AJA",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.328092,
+      "returns": {
+        "1a": -2.99,
+        "6a": 6.89,
+        "1y": 25.87,
+        "3y": 216.36,
+        "5y": null
+      }
+    },
+    "AJB": {
+      "code": "AJB",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.310778,
+      "returns": {
+        "1a": -2.82,
+        "6a": 7.73,
+        "1y": 27.22,
+        "3y": 229.78,
+        "5y": null
+      }
+    },
+    "AJC": {
+      "code": "AJC",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.221374,
+      "returns": {
+        "1a": -2.52,
+        "6a": 6.57,
+        "1y": 26.67,
+        "3y": 236.27,
+        "5y": null
+      }
+    },
+    "AJF": {
+      "code": "AJF",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.122678,
+      "returns": {
+        "1a": 2.28,
+        "6a": 15.29,
+        "1y": 40.25,
+        "3y": 274.41,
+        "5y": null
+      }
+    },
+    "AJG": {
+      "code": "AJG",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.314074,
+      "returns": {
+        "1a": 0.4,
+        "6a": 17.71,
+        "1y": 43.5,
+        "3y": 221.74,
+        "5y": null
+      }
+    },
+    "AJH": {
+      "code": "AJH",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.246541,
+      "returns": {
+        "1a": 0.39,
+        "6a": 15.06,
+        "1y": 40.34,
+        "3y": 208.81,
+        "5y": null
+      }
+    },
+    "AJP": {
+      "code": "AJP",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.175133,
+      "returns": {
+        "1a": 1.59,
+        "6a": 10.66,
+        "1y": 34.29,
+        "3y": 208.48,
+        "5y": null
+      }
+    },
+    "AJR": {
+      "code": "AJR",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.374758,
+      "returns": {
+        "1a": -3.14,
+        "6a": 5.9,
+        "1y": 24.0,
+        "3y": 237.94,
+        "5y": null
+      }
+    },
+    "AJT": {
+      "code": "AJT",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.07795,
+      "returns": {
+        "1a": 1.09,
+        "6a": 15.06,
+        "1y": 39.87,
+        "3y": 219.26,
+        "5y": null
+      }
+    },
+    "AJV": {
+      "code": "AJV",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.143356,
+      "returns": {
+        "1a": 1.66,
+        "6a": 10.92,
+        "1y": 37.48,
+        "3y": 231.83,
+        "5y": null
+      }
+    },
+    "AJY": {
+      "code": "AJY",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.267289,
+      "returns": {
+        "1a": 0.97,
+        "6a": 19.39,
+        "1y": 46.93,
+        "3y": 247.67,
+        "5y": null
+      }
+    },
+    "AJZ": {
+      "code": "AJZ",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.333259,
+      "returns": {
+        "1a": 0.12,
+        "6a": 13.95,
+        "1y": 37.59,
+        "3y": 227.16,
+        "5y": null
+      }
+    },
+    "ALI": {
+      "code": "ALI",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KOÇ İŞTİRAK ENDEKSİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.562279,
+      "returns": {
+        "1a": 1.4,
+        "6a": 0.65,
+        "1y": 16.91,
+        "3y": 76.8,
+        "5y": null
+      }
+    },
+    "ALJ": {
+      "code": "ALJ",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.253358,
+      "returns": {
+        "1a": 0.02,
+        "6a": 8.98,
+        "1y": 33.97,
+        "3y": 217.89,
+        "5y": null
+      }
+    },
+    "ALR": {
+      "code": "ALR",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 2.122733,
+      "returns": {
+        "1a": 0.32,
+        "6a": 14.44,
+        "1y": 34.81,
+        "3y": 184.14,
+        "5y": null
+      }
+    },
+    "ALS": {
+      "code": "ALS",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 1.018668,
+      "returns": {
+        "1a": -0.35,
+        "6a": 7.68,
+        "1y": 26.54,
+        "3y": 154.79,
+        "5y": null
+      }
+    },
+    "ALU": {
+      "code": "ALU",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.338754,
+      "returns": {
+        "1a": 2.87,
+        "6a": 12.7,
+        "1y": 33.2,
+        "3y": 167.21,
+        "5y": null
+      }
+    },
+    "ALZ": {
+      "code": "ALZ",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.107834,
+      "returns": {
+        "1a": 3.22,
+        "6a": 21.15,
+        "1y": 49.08,
+        "3y": 269.12,
+        "5y": null
+      }
+    },
+    "AMF": {
+      "code": "AMF",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.09754,
+      "returns": {
+        "1a": -0.95,
+        "6a": 7.07,
+        "1y": 28.95,
+        "3y": 152.2,
+        "5y": null
+      }
+    },
+    "AMG": {
+      "code": "AMG",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. BİRİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 1.157141,
+      "returns": {
+        "1a": 1.21,
+        "6a": 9.67,
+        "1y": 26.93,
+        "3y": 134.95,
+        "5y": null
+      }
+    },
+    "AMR": {
+      "code": "AMR",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 0-5 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
+      "price": 0.536608,
+      "returns": {
+        "1a": 1.77,
+        "6a": 9.91,
+        "1y": 25.47,
+        "3y": 125.27,
+        "5y": null
+      }
+    },
+    "AMY": {
+      "code": "AMY",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KARMA GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 1.630873,
+      "returns": {
+        "1a": 0.39,
+        "6a": 14.28,
+        "1y": 35.94,
+        "3y": 198.11,
+        "5y": null
+      }
+    },
+    "AMZ": {
+      "code": "AMZ",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.644901,
+      "returns": {
+        "1a": 0.19,
+        "6a": -10.01,
+        "1y": 36.32,
+        "3y": 250.16,
+        "5y": null
+      }
+    },
+    "ANE": {
+      "code": "ANE",
+      "name": "VİENNALİFE EMEKLİLİK VE HAYAT A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.599008,
+      "returns": {
+        "1a": 0.28,
+        "6a": 13.83,
+        "1y": 36.38,
+        "3y": 152.78,
+        "5y": null
+      }
+    },
+    "ANG": {
+      "code": "ANG",
+      "name": "VİENNALİFE EMEKLİLİK VE HAYAT A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.318812,
+      "returns": {
+        "1a": 0.47,
+        "6a": 8.37,
+        "1y": 28.09,
+        "3y": 109.32,
+        "5y": null
+      }
+    },
+    "ANJ": {
+      "code": "ANJ",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.159395,
+      "returns": {
+        "1a": 2.24,
+        "6a": 10.71,
+        "1y": 37.91,
+        "3y": 228.68,
+        "5y": null
+      }
+    },
+    "ANK": {
+      "code": "ANK",
+      "name": "VİENNALİFE EMEKLİLİK VE HAYAT A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.364448,
+      "returns": {
+        "1a": 3.22,
+        "6a": 21.12,
+        "1y": 48.51,
+        "3y": 264.28,
+        "5y": null
+      }
+    },
+    "ANP": {
+      "code": "ANP",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.176008,
+      "returns": {
+        "1a": 1.74,
+        "6a": 10.94,
+        "1y": 35.53,
+        "3y": 213.59,
+        "5y": null
+      }
+    },
+    "ANS": {
+      "code": "ANS",
+      "name": "VİENNALİFE EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.888133,
+      "returns": {
+        "1a": -1.75,
+        "6a": 8.65,
+        "1y": 23.37,
+        "3y": 139.81,
+        "5y": null
+      }
+    },
+    "AO1": {
+      "code": "AO1",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.104114,
+      "returns": {
+        "1a": 3.19,
+        "6a": 20.76,
+        "1y": 48.1,
+        "3y": 260.56,
+        "5y": null
+      }
+    },
+    "AO2": {
+      "code": "AO2",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.091429,
+      "returns": {
+        "1a": 3.27,
+        "6a": 20.79,
+        "1y": 47.17,
+        "3y": 237.84,
+        "5y": null
+      }
+    },
+    "APG": {
+      "code": "APG",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.275677,
+      "returns": {
+        "1a": -0.59,
+        "6a": 11.5,
+        "1y": 31.4,
+        "3y": 143.89,
+        "5y": null
+      }
+    },
+    "ATE": {
+      "code": "ATE",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İŞ BANKASI İŞTİRAK ENDEKSİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.848172,
+      "returns": {
+        "1a": -5.77,
+        "6a": 0.81,
+        "1y": 8.57,
+        "3y": 122.28,
+        "5y": null
+      }
+    },
+    "ATK": {
+      "code": "ATK",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.232002,
+      "returns": {
+        "1a": 0.2,
+        "6a": 6.73,
+        "1y": 27.87,
+        "3y": 160.43,
+        "5y": null
+      }
+    },
+    "AUA": {
+      "code": "AUA",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.166191,
+      "returns": {
+        "1a": 1.1,
+        "6a": 5.36,
+        "1y": 22.48,
+        "3y": 133.9,
+        "5y": null
+      }
+    },
+    "AUG": {
+      "code": "AUG",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. İKİNCİ KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.638698,
+      "returns": {
+        "1a": 0.46,
+        "6a": 5.76,
+        "1y": 20.26,
+        "3y": 121.14,
+        "5y": null
+      }
+    },
+    "AVB": {
+      "code": "AVB",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 5-15 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
+      "price": 0.890845,
+      "returns": {
+        "1a": 0.82,
+        "6a": 9.33,
+        "1y": 26.33,
+        "3y": 142.22,
+        "5y": null
+      }
+    },
+    "AVD": {
+      "code": "AVD",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.784137,
+      "returns": {
+        "1a": -0.72,
+        "6a": 8.61,
+        "1y": 38.29,
+        "3y": 176.85,
+        "5y": null
+      }
+    },
+    "AVG": {
+      "code": "AVG",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.873942,
+      "returns": {
+        "1a": 1.21,
+        "6a": 9.35,
+        "1y": 24.38,
+        "3y": 126.07,
+        "5y": null
+      }
+    },
+    "AVJ": {
+      "code": "AVJ",
+      "name": "AGESA EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.095907,
+      "returns": {
+        "1a": 3.36,
+        "6a": 20.62,
+        "1y": 47.24,
+        "3y": 243.63,
+        "5y": null
+      }
+    },
+    "AVN": {
+      "code": "AVN",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.123175,
+      "returns": {
+        "1a": 0.76,
+        "6a": 9.31,
+        "1y": 32.27,
+        "3y": 177.03,
+        "5y": null
+      }
+    },
+    "AVO": {
+      "code": "AVO",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.13902,
+      "returns": {
+        "1a": 3.17,
+        "6a": 20.39,
+        "1y": 46.1,
+        "3y": 242.69,
+        "5y": null
+      }
+    },
+    "AVR": {
+      "code": "AVR",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ YABANCI DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.538309,
+      "returns": {
+        "1a": -2.8,
+        "6a": 34.57,
+        "1y": 61.37,
+        "3y": 247.44,
+        "5y": null
+      }
+    },
+    "AYJ": {
+      "code": "AYJ",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.100677,
+      "returns": {
+        "1a": 2.74,
+        "6a": 14.52,
+        "1y": 37.99,
+        "3y": 132.9,
+        "5y": null
+      }
+    },
+    "AZA": {
+      "code": "AZA",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.264445,
+      "returns": {
+        "1a": 1.94,
+        "6a": 12.23,
+        "1y": 36.74,
+        "3y": 179.59,
+        "5y": null
+      }
+    },
+    "AZD": {
+      "code": "AZD",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 1.049366,
+      "returns": {
+        "1a": 0.88,
+        "6a": -0.14,
+        "1y": 15.6,
+        "3y": 113.67,
+        "5y": null
+      }
+    },
+    "AZH": {
+      "code": "AZH",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 2.560575,
+      "returns": {
+        "1a": -1.97,
+        "6a": 7.27,
+        "1y": 21.5,
+        "3y": 147.11,
+        "5y": null
+      }
+    },
+    "AZK": {
+      "code": "AZK",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.379811,
+      "returns": {
+        "1a": 1.15,
+        "6a": 9.42,
+        "1y": 34.43,
+        "3y": 169.64,
+        "5y": null
+      }
+    },
+    "AZL": {
+      "code": "AZL",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.401307,
+      "returns": {
+        "1a": 3.2,
+        "6a": 20.78,
+        "1y": 48.17,
+        "3y": 256.89,
+        "5y": null
+      }
+    },
+    "AZS": {
+      "code": "AZS",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.126977,
+      "returns": {
+        "1a": 0.75,
+        "6a": 9.14,
+        "1y": 32.57,
+        "3y": 179.19,
+        "5y": null
+      }
+    },
+    "AZY": {
+      "code": "AZY",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.302127,
+      "returns": {
+        "1a": 8.1,
+        "6a": 17.85,
+        "1y": 40.92,
+        "3y": 129.86,
+        "5y": null
+      }
+    },
+    "BBD": {
+      "code": "BBD",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BIST30 DIŞI ŞİRKETLER HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.010347,
+      "returns": {
+        "1a": 3.12,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "BBH": {
+      "code": "BBH",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 1.082763,
+      "returns": {
+        "1a": -1.77,
+        "6a": 17.73,
+        "1y": 54.09,
+        "3y": 176.23,
+        "5y": null
+      }
+    },
+    "BEE": {
+      "code": "BEE",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 1.119848,
+      "returns": {
+        "1a": 7.63,
+        "6a": 27.78,
+        "1y": 62.57,
+        "3y": 224.68,
+        "5y": null
+      }
+    },
+    "BEF": {
+      "code": "BEF",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. OKS DİNAMİK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.18405,
+      "returns": {
+        "1a": -0.01,
+        "6a": 13.89,
+        "1y": 33.11,
+        "3y": 166.46,
+        "5y": null
+      }
+    },
+    "BEH": {
+      "code": "BEH",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.471751,
+      "returns": {
+        "1a": -0.44,
+        "6a": 11.85,
+        "1y": 24.05,
+        "3y": 137.88,
+        "5y": null
+      }
+    },
+    "BEI": {
+      "code": "BEI",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.10219,
+      "returns": {
+        "1a": 1.24,
+        "6a": 14.47,
+        "1y": 34.87,
+        "3y": 124.9,
+        "5y": null
+      }
+    },
+    "BEK": {
+      "code": "BEK",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. FİBA PORTFÖY BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.302269,
+      "returns": {
+        "1a": 0.47,
+        "6a": 7.01,
+        "1y": 29.41,
+        "3y": 143.23,
+        "5y": null
+      }
+    },
+    "BEO": {
+      "code": "BEO",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.216678,
+      "returns": {
+        "1a": -0.65,
+        "6a": 12.39,
+        "1y": 30.88,
+        "3y": 156.88,
+        "5y": null
+      }
+    },
+    "BGE": {
+      "code": "BGE",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. DENGELİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.460896,
+      "returns": {
+        "1a": 1.96,
+        "6a": 37.72,
+        "1y": 73.13,
+        "3y": 326.0,
+        "5y": null
+      }
+    },
+    "BGK": {
+      "code": "BGK",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.114018,
+      "returns": {
+        "1a": 0.31,
+        "6a": 4.48,
+        "1y": 29.3,
+        "3y": 111.84,
+        "5y": null
+      }
+    },
+    "BGL": {
+      "code": "BGL",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.058442,
+      "returns": {
+        "1a": 0.38,
+        "6a": -11.74,
+        "1y": 33.74,
+        "3y": 241.07,
+        "5y": null
+      }
+    },
+    "BHK": {
+      "code": "BHK",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.016774,
+      "returns": {
+        "1a": 3.04,
+        "6a": 20.11,
+        "1y": 44.95,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "BHS": {
+      "code": "BHS",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK  HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.124823,
+      "returns": {
+        "1a": -1.68,
+        "6a": 10.05,
+        "1y": 30.98,
+        "3y": 156.48,
+        "5y": null
+      }
+    },
+    "BHT": {
+      "code": "BHT",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.136135,
+      "returns": {
+        "1a": -0.68,
+        "6a": 36.27,
+        "1y": 58.34,
+        "3y": 252.54,
+        "5y": null
+      }
+    },
+    "BKB": {
+      "code": "BKB",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.590834,
+      "returns": {
+        "1a": 0.84,
+        "6a": 8.22,
+        "1y": 22.24,
+        "3y": 127.41,
+        "5y": null
+      }
+    },
+    "BNA": {
+      "code": "BNA",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.688006,
+      "returns": {
+        "1a": 0.14,
+        "6a": -9.15,
+        "1y": 38.97,
+        "3y": 265.58,
+        "5y": null
+      }
+    },
+    "BNB": {
+      "code": "BNB",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.133446,
+      "returns": {
+        "1a": 2.98,
+        "6a": 20.14,
+        "1y": 47.85,
+        "3y": 220.01,
+        "5y": null
+      }
+    },
+    "BNK": {
+      "code": "BNK",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.106645,
+      "returns": {
+        "1a": -1.18,
+        "6a": 7.9,
+        "1y": 29.68,
+        "3y": 136.85,
+        "5y": null
+      }
+    },
+    "BNL": {
+      "code": "BNL",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.097538,
+      "returns": {
+        "1a": 0.24,
+        "6a": 8.42,
+        "1y": 26.38,
+        "3y": 146.44,
+        "5y": null
+      }
+    },
+    "BNO": {
+      "code": "BNO",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.050042,
+      "returns": {
+        "1a": 2.03,
+        "6a": 13.06,
+        "1y": 32.86,
+        "3y": 165.87,
+        "5y": null
+      }
+    },
+    "BNS": {
+      "code": "BNS",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.122358,
+      "returns": {
+        "1a": -0.26,
+        "6a": 7.82,
+        "1y": 28.72,
+        "3y": 162.7,
+        "5y": null
+      }
+    },
+    "BNZ": {
+      "code": "BNZ",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.095325,
+      "returns": {
+        "1a": 1.88,
+        "6a": 13.84,
+        "1y": 35.88,
+        "3y": 124.46,
+        "5y": null
+      }
+    },
+    "BPC": {
+      "code": "BPC",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.08717,
+      "returns": {
+        "1a": 1.87,
+        "6a": 19.08,
+        "1y": 45.63,
+        "3y": 144.61,
+        "5y": null
+      }
+    },
+    "BPE": {
+      "code": "BPE",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.774364,
+      "returns": {
+        "1a": -0.08,
+        "6a": 8.07,
+        "1y": 31.64,
+        "3y": 161.87,
+        "5y": null
+      }
+    },
+    "BPF": {
+      "code": "BPF",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.156998,
+      "returns": {
+        "1a": 0.96,
+        "6a": 9.97,
+        "1y": 31.85,
+        "3y": 149.56,
+        "5y": null
+      }
+    },
+    "BPG": {
+      "code": "BPG",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş.BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.251503,
+      "returns": {
+        "1a": 0.73,
+        "6a": 7.99,
+        "1y": 30.75,
+        "3y": 121.25,
+        "5y": null
+      }
+    },
+    "BPH": {
+      "code": "BPH",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.7936,
+      "returns": {
+        "1a": -2.24,
+        "6a": 2.99,
+        "1y": 20.39,
+        "3y": 156.44,
+        "5y": null
+      }
+    },
+    "BPI": {
+      "code": "BPI",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.348569,
+      "returns": {
+        "1a": -0.44,
+        "6a": 4.57,
+        "1y": 33.55,
+        "3y": 238.68,
+        "5y": null
+      }
+    },
+    "BPJ": {
+      "code": "BPJ",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.165154,
+      "returns": {
+        "1a": 0.22,
+        "6a": 13.72,
+        "1y": 40.32,
+        "3y": 210.94,
+        "5y": null
+      }
+    },
+    "BPK": {
+      "code": "BPK",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. İKİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 0-5 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
+      "price": 0.739693,
+      "returns": {
+        "1a": 1.27,
+        "6a": 9.94,
+        "1y": 24.03,
+        "3y": 124.21,
+        "5y": null
+      }
+    },
+    "BPL": {
+      "code": "BPL",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BİRİNCİ PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.404025,
+      "returns": {
+        "1a": 3.21,
+        "6a": 21.04,
+        "1y": 49.13,
+        "3y": 260.58,
+        "5y": null
+      }
+    },
+    "BPN": {
+      "code": "BPN",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.205181,
+      "returns": {
+        "1a": -0.42,
+        "6a": 11.07,
+        "1y": 41.33,
+        "3y": 218.2,
+        "5y": null
+      }
+    },
+    "BPO": {
+      "code": "BPO",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS DİNAMİK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.264542,
       "returns": {
         "1a": -0.69,
-        "3a": 0.33,
-        "6a": 11.48,
-        "1y": 29.21
+        "6a": 14.32,
+        "1y": 52.81,
+        "3y": 224.88,
+        "5y": null
       }
     },
-    "GEV": {
-      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
-      "price": 0.069058,
+    "BPR": {
+      "code": "BPR",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS MUHAFAZAKAR DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.108732,
       "returns": {
-        "1a": -1.25,
-        "3a": -10.02,
-        "6a": -9.4,
-        "1y": 38.71
+        "1a": 2.13,
+        "6a": 21.06,
+        "1y": 50.42,
+        "3y": 298.13,
+        "5y": null
+      }
+    },
+    "BPS": {
+      "code": "BPS",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.398466,
+      "returns": {
+        "1a": -1.23,
+        "6a": 13.3,
+        "1y": 51.58,
+        "3y": 211.05,
+        "5y": null
+      }
+    },
+    "BPU": {
+      "code": "BPU",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BİRİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.728198,
+      "returns": {
+        "1a": 0.34,
+        "6a": 8.53,
+        "1y": 24.58,
+        "3y": 129.46,
+        "5y": null
+      }
+    },
+    "BSR": {
+      "code": "BSR",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.014148,
+      "returns": {
+        "1a": -0.48,
+        "6a": 9.22,
+        "1y": 26.97,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "BZY": {
+      "code": "BZY",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.082969,
+      "returns": {
+        "1a": -2.75,
+        "6a": 38.65,
+        "1y": 69.34,
+        "3y": 278.09,
+        "5y": null
+      }
+    },
+    "CFA": {
+      "code": "CFA",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.264655,
+      "returns": {
+        "1a": 0.48,
+        "6a": -6.79,
+        "1y": 44.58,
+        "3y": 321.3,
+        "5y": null
+      }
+    },
+    "CFB": {
+      "code": "CFB",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.098734,
+      "returns": {
+        "1a": 3.26,
+        "6a": 20.53,
+        "1y": 48.62,
+        "3y": 253.97,
+        "5y": null
+      }
+    },
+    "CFC": {
+      "code": "CFC",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. ORTA VADELİ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.056089,
+      "returns": {
+        "1a": -0.24,
+        "6a": 8.86,
+        "1y": 33.88,
+        "3y": 176.59,
+        "5y": null
+      }
+    },
+    "CFD": {
+      "code": "CFD",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.117422,
+      "returns": {
+        "1a": 0.55,
+        "6a": 7.74,
+        "1y": 26.25,
+        "3y": 135.36,
+        "5y": null
+      }
+    },
+    "CFE": {
+      "code": "CFE",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.120373,
+      "returns": {
+        "1a": 3.24,
+        "6a": 16.78,
+        "1y": 39.98,
+        "3y": 150.18,
+        "5y": null
+      }
+    },
+    "CFK": {
+      "code": "CFK",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.080498,
+      "returns": {
+        "1a": 3.03,
+        "6a": 19.38,
+        "1y": 52.0,
+        "3y": 195.6,
+        "5y": null
+      }
+    },
+    "CFY": {
+      "code": "CFY",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.089796,
+      "returns": {
+        "1a": 3.25,
+        "6a": 20.97,
+        "1y": 47.81,
+        "3y": 237.82,
+        "5y": null
+      }
+    },
+    "CGE": {
+      "code": "CGE",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. DENGELİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.370789,
+      "returns": {
+        "1a": 0.71,
+        "6a": 3.72,
+        "1y": 27.9,
+        "3y": 244.13,
+        "5y": null
+      }
+    },
+    "CGG": {
+      "code": "CGG",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.102786,
+      "returns": {
+        "1a": 0.17,
+        "6a": 9.53,
+        "1y": 35.03,
+        "3y": 164.12,
+        "5y": null
+      }
+    },
+    "CHA": {
+      "code": "CHA",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.295456,
+      "returns": {
+        "1a": 0.82,
+        "6a": 6.51,
+        "1y": 36.4,
+        "3y": 258.12,
+        "5y": null
+      }
+    },
+    "CHC": {
+      "code": "CHC",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS MUHAFAZAKAR DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.124568,
+      "returns": {
+        "1a": 2.03,
+        "6a": 16.71,
+        "1y": 45.14,
+        "3y": 315.19,
+        "5y": null
+      }
+    },
+    "CHD": {
+      "code": "CHD",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.420914,
+      "returns": {
+        "1a": 4.33,
+        "6a": 19.51,
+        "1y": 48.14,
+        "3y": 202.32,
+        "5y": null
+      }
+    },
+    "CHG": {
+      "code": "CHG",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.486558,
+      "returns": {
+        "1a": -0.73,
+        "6a": 2.44,
+        "1y": 22.76,
+        "3y": 182.0,
+        "5y": null
+      }
+    },
+    "CHH": {
+      "code": "CHH",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. BİRİNCİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.674756,
+      "returns": {
+        "1a": -0.68,
+        "6a": 9.56,
+        "1y": 30.57,
+        "3y": 164.49,
+        "5y": null
+      }
+    },
+    "CHI": {
+      "code": "CHI",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS DİNAMİK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.286351,
+      "returns": {
+        "1a": 3.15,
+        "6a": 16.04,
+        "1y": 49.92,
+        "3y": 233.42,
+        "5y": null
+      }
+    },
+    "CHK": {
+      "code": "CHK",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.148904,
+      "returns": {
+        "1a": -0.39,
+        "6a": 8.19,
+        "1y": 31.98,
+        "3y": 158.12,
+        "5y": null
+      }
+    },
+    "CHL": {
+      "code": "CHL",
+      "name": "QNB SAĞLIK HAYAT  SİGORTA VE EMEKLİLİK A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.182036,
+      "returns": {
+        "1a": 3.26,
+        "6a": 20.96,
+        "1y": 49.49,
+        "3y": 260.15,
+        "5y": null
+      }
+    },
+    "CHM": {
+      "code": "CHM",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.704144,
+      "returns": {
+        "1a": 0.89,
+        "6a": 10.64,
+        "1y": 41.94,
+        "3y": 236.5,
+        "5y": null
+      }
+    },
+    "CHN": {
+      "code": "CHN",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.377233,
+      "returns": {
+        "1a": -0.35,
+        "6a": 3.53,
+        "1y": 26.78,
+        "3y": 171.5,
+        "5y": null
+      }
+    },
+    "CHO": {
+      "code": "CHO",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.375408,
+      "returns": {
+        "1a": -0.69,
+        "6a": 4.8,
+        "1y": 23.02,
+        "3y": 225.46,
+        "5y": null
+      }
+    },
+    "CHS": {
+      "code": "CHS",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.148239,
+      "returns": {
+        "1a": 0.47,
+        "6a": 9.45,
+        "1y": 34.35,
+        "3y": 179.35,
+        "5y": null
+      }
+    },
+    "CHT": {
+      "code": "CHT",
+      "name": "QNB SAĞLIK HAYAT  SİGORTA VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.119459,
+      "returns": {
+        "1a": -0.34,
+        "6a": 6.55,
+        "1y": 31.34,
+        "3y": 161.23,
+        "5y": null
+      }
+    },
+    "CHU": {
+      "code": "CHU",
+      "name": "QNB SAĞLIK HAYAT SİGORTA VE EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.11358,
+      "returns": {
+        "1a": 1.47,
+        "6a": 10.51,
+        "1y": 32.64,
+        "3y": 149.57,
+        "5y": null
+      }
+    },
+    "EAE": {
+      "code": "EAE",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.013569,
+      "returns": {
+        "1a": 0.15,
+        "6a": -7.28,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "EHG": {
+      "code": "EHG",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OYAK PORTFÖY DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.375493,
+      "returns": {
+        "1a": 1.31,
+        "6a": 11.26,
+        "1y": 38.78,
+        "3y": 166.22,
+        "5y": null
       }
     },
     "EHK": {
+      "code": "EHK",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.014261,
+      "price": 0.014229,
       "returns": {
-        "1a": 1.54,
-        "3a": 6.66,
-        "6a": 25.24,
-        "1y": null
+        "1a": 2.48,
+        "6a": 22.25,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "EIE": {
+      "code": "EIE",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.700808,
+      "returns": {
+        "1a": -1.94,
+        "6a": 9.94,
+        "1y": 26.94,
+        "3y": 149.37,
+        "5y": null
+      }
+    },
+    "EIF": {
+      "code": "EIF",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OYAK PORTFÖY KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.396342,
+      "returns": {
+        "1a": 1.0,
+        "6a": 6.41,
+        "1y": 19.15,
+        "3y": 116.6,
+        "5y": null
+      }
+    },
+    "EIG": {
+      "code": "EIG",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.147044,
+      "returns": {
+        "1a": 0.04,
+        "6a": 5.79,
+        "1y": 28.6,
+        "3y": 149.39,
+        "5y": null
+      }
+    },
+    "EIH": {
+      "code": "EIH",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OYAK PORTFÖY HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 1.235648,
+      "returns": {
+        "1a": -1.61,
+        "6a": 7.71,
+        "1y": 28.23,
+        "3y": 161.44,
+        "5y": null
+      }
+    },
+    "EIK": {
+      "code": "EIK",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.594877,
+      "returns": {
+        "1a": 0.44,
+        "6a": 8.14,
+        "1y": 22.63,
+        "3y": 123.45,
+        "5y": null
+      }
+    },
+    "EMI": {
+      "code": "EMI",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. EMLAK SEKTÖRÜ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.00974,
+      "returns": {
+        "1a": -2.78,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "EMY": {
+      "code": "EMY",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.010014,
+      "returns": {
+        "1a": 0.38,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "ENF": {
+      "code": "ENF",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ENERJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.017326,
+      "returns": {
+        "1a": -4.5,
+        "6a": 18.12,
+        "1y": 45.54,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "EST": {
+      "code": "EST",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OYAK PORTFÖY STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.093017,
+      "returns": {
+        "1a": 0.34,
+        "6a": 7.15,
+        "1y": 29.0,
+        "3y": 115.5,
+        "5y": null
+      }
+    },
+    "FEA": {
+      "code": "FEA",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. ATLAS PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.131504,
+      "returns": {
+        "1a": 2.87,
+        "6a": 18.59,
+        "1y": 43.12,
+        "3y": 231.3,
+        "5y": null
+      }
+    },
+    "FEF": {
+      "code": "FEF",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. TACİRLER PORTFÖY DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.325344,
+      "returns": {
+        "1a": 0.79,
+        "6a": 14.76,
+        "1y": 39.54,
+        "3y": 157.38,
+        "5y": null
+      }
+    },
+    "FEI": {
+      "code": "FEI",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.090521,
+      "returns": {
+        "1a": -1.98,
+        "6a": 6.73,
+        "1y": 23.71,
+        "3y": 113.76,
+        "5y": null
+      }
+    },
+    "FEN": {
+      "code": "FEN",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.066935,
+      "returns": {
+        "1a": -0.77,
+        "6a": 5.57,
+        "1y": 25.16,
+        "3y": 84.91,
+        "5y": null
+      }
+    },
+    "FEO": {
+      "code": "FEO",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. İSTANBUL PORTFÖY DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.253448,
+      "returns": {
+        "1a": -1.6,
+        "6a": 13.21,
+        "1y": 29.8,
+        "3y": 205.8,
+        "5y": null
+      }
+    },
+    "FER": {
+      "code": "FER",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.400195,
+      "returns": {
+        "1a": -0.43,
+        "6a": 13.51,
+        "1y": 39.09,
+        "3y": 229.45,
+        "5y": null
+      }
+    },
+    "FES": {
+      "code": "FES",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.117753,
+      "returns": {
+        "1a": 1.23,
+        "6a": 12.6,
+        "1y": 35.74,
+        "3y": 195.42,
+        "5y": null
+      }
+    },
+    "FET": {
+      "code": "FET",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.126116,
+      "returns": {
+        "1a": 3.2,
+        "6a": 20.97,
+        "1y": 47.35,
+        "3y": 242.95,
+        "5y": null
+      }
+    },
+    "FFC": {
+      "code": "FFC",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. TEKNOLOJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.098326,
+      "returns": {
+        "1a": -4.7,
+        "6a": 22.2,
+        "1y": 59.75,
+        "3y": 328.6,
+        "5y": null
+      }
+    },
+    "FFZ": {
+      "code": "FFZ",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. INVEO PORTFÖY FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.086201,
+      "returns": {
+        "1a": -2.16,
+        "6a": 6.43,
+        "1y": 30.93,
+        "3y": 310.32,
+        "5y": null
+      }
+    },
+    "FGF": {
+      "code": "FGF",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.076847,
+      "returns": {
+        "1a": 1.65,
+        "6a": 8.97,
+        "1y": 27.99,
+        "3y": 128.85,
+        "5y": null
+      }
+    },
+    "FGH": {
+      "code": "FGH",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.104519,
+      "returns": {
+        "1a": 1.94,
+        "6a": 13.78,
+        "1y": 32.38,
+        "3y": 119.05,
+        "5y": null
+      }
+    },
+    "FIC": {
+      "code": "FIC",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.240492,
+      "returns": {
+        "1a": 0.28,
+        "6a": 6.42,
+        "1y": 25.26,
+        "3y": 183.66,
+        "5y": null
+      }
+    },
+    "FIE": {
+      "code": "FIE",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.092388,
+      "returns": {
+        "1a": 3.17,
+        "6a": 20.69,
+        "1y": 47.14,
+        "3y": 233.98,
+        "5y": null
+      }
+    },
+    "FIF": {
+      "code": "FIF",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. İSTANBUL PORTFÖY DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.240521,
+      "returns": {
+        "1a": -0.46,
+        "6a": 15.29,
+        "1y": 22.2,
+        "3y": 282.08,
+        "5y": null
+      }
+    },
+    "FIG": {
+      "code": "FIG",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.166405,
+      "returns": {
+        "1a": 0.17,
+        "6a": 15.03,
+        "1y": 44.44,
+        "3y": 208.2,
+        "5y": null
+      }
+    },
+    "FIH": {
+      "code": "FIH",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.154072,
+      "returns": {
+        "1a": 1.16,
+        "6a": 10.32,
+        "1y": 36.57,
+        "3y": 246.89,
+        "5y": null
+      }
+    },
+    "FII": {
+      "code": "FII",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.107921,
+      "returns": {
+        "1a": 2.45,
+        "6a": 21.61,
+        "1y": 44.59,
+        "3y": 141.77,
+        "5y": null
+      }
+    },
+    "FIK": {
+      "code": "FIK",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.198532,
+      "returns": {
+        "1a": 4.92,
+        "6a": 16.87,
+        "1y": 38.61,
+        "3y": 210.38,
+        "5y": null
+      }
+    },
+    "FIM": {
+      "code": "FIM",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.165824,
+      "returns": {
+        "1a": 1.8,
+        "6a": 14.68,
+        "1y": 37.89,
+        "3y": 176.83,
+        "5y": null
+      }
+    },
+    "FIR": {
+      "code": "FIR",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OSMANLI PORTFÖY DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.271004,
+      "returns": {
+        "1a": 0.49,
+        "6a": 3.34,
+        "1y": 39.78,
+        "3y": 212.18,
+        "5y": null
+      }
+    },
+    "FIS": {
+      "code": "FIS",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.104637,
+      "returns": {
+        "1a": 2.24,
+        "6a": 15.34,
+        "1y": 34.37,
+        "3y": 126.75,
+        "5y": null
+      }
+    },
+    "FIU": {
+      "code": "FIU",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.235222,
+      "returns": {
+        "1a": 2.3,
+        "6a": 22.19,
+        "1y": 45.31,
+        "3y": 192.39,
+        "5y": null
+      }
+    },
+    "FIV": {
+      "code": "FIV",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.187436,
+      "returns": {
+        "1a": 2.63,
+        "6a": 21.84,
+        "1y": 45.78,
+        "3y": 183.99,
+        "5y": null
+      }
+    },
+    "FIY": {
+      "code": "FIY",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.095741,
+      "returns": {
+        "1a": 3.27,
+        "6a": 20.46,
+        "1y": 46.21,
+        "3y": 241.68,
+        "5y": null
+      }
+    },
+    "FIZ": {
+      "code": "FIZ",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. OKS MUHAFAZAKAR DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.096655,
+      "returns": {
+        "1a": 2.57,
+        "6a": 16.66,
+        "1y": 42.31,
+        "3y": 276.25,
+        "5y": null
+      }
+    },
+    "FJG": {
+      "code": "FJG",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş.  RE-PIE PORTFÖY DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.168398,
+      "returns": {
+        "1a": 5.12,
+        "6a": 17.9,
+        "1y": 49.98,
+        "3y": 315.9,
+        "5y": null
+      }
+    },
+    "FOA": {
+      "code": "FOA",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. AZİMUT FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.01534,
+      "returns": {
+        "1a": 1.43,
+        "6a": 16.98,
+        "1y": 44.55,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "FVI": {
+      "code": "FVI",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.029313,
+      "returns": {
+        "1a": -0.34,
+        "6a": 15.43,
+        "1y": 33.25,
+        "3y": 109.75,
+        "5y": null
       }
     },
     "FYL": {
+      "code": "FYL",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
-      "price": 0.124171,
+      "price": 0.12429,
       "returns": {
-        "1a": 2.71,
-        "3a": 6.46,
-        "6a": 20.23,
-        "1y": 46.38
+        "1a": 3.31,
+        "6a": 19.07,
+        "1y": 46.7,
+        "3y": 198.63,
+        "5y": null
       }
     },
     "FYN": {
+      "code": "FYN",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
-      "price": 0.165093,
+      "price": 0.165216,
       "returns": {
-        "1a": 2.97,
-        "3a": 6.82,
-        "6a": 18.03,
-        "1y": 44.35
+        "1a": 3.39,
+        "6a": 17.42,
+        "1y": 44.58,
+        "3y": 200.69,
+        "5y": null
+      }
+    },
+    "FYU": {
+      "code": "FYU",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.139824,
+      "returns": {
+        "1a": 3.43,
+        "6a": 17.84,
+        "1y": 41.96,
+        "3y": 182.51,
+        "5y": null
+      }
+    },
+    "FYY": {
+      "code": "FYY",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.108945,
+      "returns": {
+        "1a": 2.02,
+        "6a": 18.75,
+        "1y": 45.32,
+        "3y": 159.88,
+        "5y": null
+      }
+    },
+    "GCK": {
+      "code": "GCK",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.111001,
+      "returns": {
+        "1a": 2.03,
+        "6a": 14.13,
+        "1y": 37.55,
+        "3y": 147.6,
+        "5y": null
+      }
+    },
+    "GCN": {
+      "code": "GCN",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. YENİ TEKNOLOJİLER HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.070014,
+      "returns": {
+        "1a": 0.31,
+        "6a": 32.21,
+        "1y": 59.24,
+        "3y": 277.07,
+        "5y": null
+      }
+    },
+    "GCS": {
+      "code": "GCS",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.110842,
+      "returns": {
+        "1a": 0.67,
+        "6a": 8.6,
+        "1y": 32.22,
+        "3y": 153.79,
+        "5y": null
+      }
+    },
+    "GCT": {
+      "code": "GCT",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.07558,
+      "returns": {
+        "1a": 2.93,
+        "6a": 20.0,
+        "1y": 46.16,
+        "3y": 247.45,
+        "5y": null
+      }
+    },
+    "GCV": {
+      "code": "GCV",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.106832,
+      "returns": {
+        "1a": 3.19,
+        "6a": 21.26,
+        "1y": 49.29,
+        "3y": 262.88,
+        "5y": null
+      }
+    },
+    "GCY": {
+      "code": "GCY",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.053035,
+      "returns": {
+        "1a": 1.33,
+        "6a": 6.9,
+        "1y": 31.54,
+        "3y": 173.22,
+        "5y": null
+      }
+    },
+    "GDV": {
+      "code": "GDV",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.093628,
+      "returns": {
+        "1a": 3.3,
+        "6a": 20.81,
+        "1y": 47.23,
+        "3y": 240.18,
+        "5y": null
+      }
+    },
+    "GEA": {
+      "code": "GEA",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.32469,
+      "returns": {
+        "1a": 1.03,
+        "6a": 18.0,
+        "1y": 48.62,
+        "3y": 162.15,
+        "5y": null
+      }
+    },
+    "GED": {
+      "code": "GED",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.21857,
+      "returns": {
+        "1a": -0.23,
+        "6a": 12.0,
+        "1y": 40.31,
+        "3y": 163.84,
+        "5y": null
+      }
+    },
+    "GEF": {
+      "code": "GEF",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. DİNAMİK DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 1.03664,
+      "returns": {
+        "1a": 0.64,
+        "6a": 11.95,
+        "1y": 34.91,
+        "3y": 193.63,
+        "5y": null
+      }
+    },
+    "GEG": {
+      "code": "GEG",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.720391,
+      "returns": {
+        "1a": -1.51,
+        "6a": 9.53,
+        "1y": 30.22,
+        "3y": 178.2,
+        "5y": null
+      }
+    },
+    "GEH": {
+      "code": "GEH",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 2.822049,
+      "returns": {
+        "1a": -1.57,
+        "6a": 8.45,
+        "1y": 28.36,
+        "3y": 166.09,
+        "5y": null
+      }
+    },
+    "GEK": {
+      "code": "GEK",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.422794,
+      "returns": {
+        "1a": -0.05,
+        "6a": 5.61,
+        "1y": 29.25,
+        "3y": 159.52,
+        "5y": null
+      }
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.430688,
+      "returns": {
+        "1a": 3.19,
+        "6a": 20.83,
+        "1y": 48.53,
+        "3y": 258.31,
+        "5y": null
+      }
+    },
+    "GES": {
+      "code": "GES",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.159976,
+      "returns": {
+        "1a": 1.87,
+        "6a": 15.09,
+        "1y": 39.6,
+        "3y": 157.5,
+        "5y": null
+      }
+    },
+    "GEU": {
+      "code": "GEU",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.55237,
+      "returns": {
+        "1a": 2.19,
+        "6a": 13.57,
+        "1y": 28.4,
+        "3y": 133.61,
+        "5y": null
+      }
+    },
+    "GEV": {
+      "code": "GEV",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.068641,
+      "returns": {
+        "1a": 0.05,
+        "6a": -9.49,
+        "1y": 35.91,
+        "3y": 313.1,
+        "5y": null
+      }
+    },
+    "GFH": {
+      "code": "GFH",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.07352,
+      "returns": {
+        "1a": -0.33,
+        "6a": 9.54,
+        "1y": 28.38,
+        "3y": 146.45,
+        "5y": null
+      }
+    },
+    "GGJ": {
+      "code": "GGJ",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. GÜMÜŞ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.012414,
+      "returns": {
+        "1a": -6.75,
+        "6a": -31.87,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "GHA": {
+      "code": "GHA",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.71813,
+      "returns": {
+        "1a": -0.38,
+        "6a": -11.27,
+        "1y": 31.57,
+        "3y": 250.84,
+        "5y": null
+      }
+    },
+    "GHD": {
+      "code": "GHD",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.144149,
+      "returns": {
+        "1a": 0.61,
+        "6a": 8.57,
+        "1y": 32.85,
+        "3y": 160.69,
+        "5y": null
+      }
+    },
+    "GHE": {
+      "code": "GHE",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 1.142899,
+      "returns": {
+        "1a": 0.95,
+        "6a": 12.62,
+        "1y": 33.62,
+        "3y": 180.81,
+        "5y": null
+      }
+    },
+    "GHF": {
+      "code": "GHF",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.29477,
+      "returns": {
+        "1a": 0.22,
+        "6a": 6.12,
+        "1y": 30.36,
+        "3y": 165.06,
+        "5y": null
+      }
+    },
+    "GHG": {
+      "code": "GHG",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 1.179138,
+      "returns": {
+        "1a": 0.97,
+        "6a": 9.5,
+        "1y": 24.41,
+        "3y": 130.98,
+        "5y": null
+      }
+    },
+    "GHH": {
+      "code": "GHH",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.396098,
+      "returns": {
+        "1a": 0.65,
+        "6a": 15.73,
+        "1y": 40.86,
+        "3y": 184.59,
+        "5y": null
+      }
+    },
+    "GHI": {
+      "code": "GHI",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.109828,
+      "returns": {
+        "1a": -0.96,
+        "6a": 6.83,
+        "1y": 28.7,
+        "3y": 148.43,
+        "5y": null
+      }
+    },
+    "GHJ": {
+      "code": "GHJ",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.268815,
+      "returns": {
+        "1a": 0.18,
+        "6a": 13.35,
+        "1y": 37.49,
+        "3y": 201.86,
+        "5y": null
+      }
+    },
+    "GHK": {
+      "code": "GHK",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. DIŞ BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.825365,
+      "returns": {
+        "1a": 1.0,
+        "6a": 9.75,
+        "1y": 24.85,
+        "3y": 132.09,
+        "5y": null
+      }
+    },
+    "GHL": {
+      "code": "GHL",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.160615,
+      "returns": {
+        "1a": 2.35,
+        "6a": 19.28,
+        "1y": 44.78,
+        "3y": 152.41,
+        "5y": null
+      }
+    },
+    "GHM": {
+      "code": "GHM",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.231173,
+      "returns": {
+        "1a": 1.12,
+        "6a": 14.46,
+        "1y": 38.27,
+        "3y": 213.11,
+        "5y": null
+      }
+    },
+    "GHN": {
+      "code": "GHN",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.208013,
+      "returns": {
+        "1a": 2.21,
+        "6a": 15.4,
+        "1y": 43.59,
+        "3y": 259.85,
+        "5y": null
+      }
+    },
+    "GHO": {
+      "code": "GHO",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. ÜÇÜNCÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.364598,
+      "returns": {
+        "1a": 0.56,
+        "6a": 14.96,
+        "1y": 42.07,
+        "3y": 212.44,
+        "5y": null
+      }
+    },
+    "GHP": {
+      "code": "GHP",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.136563,
+      "returns": {
+        "1a": 2.92,
+        "6a": 18.01,
+        "1y": 44.76,
+        "3y": 322.77,
+        "5y": null
+      }
+    },
+    "GHT": {
+      "code": "GHT",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.129362,
+      "returns": {
+        "1a": -0.41,
+        "6a": 8.15,
+        "1y": 20.94,
+        "3y": 170.53,
+        "5y": null
+      }
+    },
+    "GHU": {
+      "code": "GHU",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.327169,
+      "returns": {
+        "1a": 1.07,
+        "6a": 24.38,
+        "1y": 55.74,
+        "3y": 228.79,
+        "5y": null
+      }
+    },
+    "GHV": {
+      "code": "GHV",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS DENGELİ KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.088193,
+      "returns": {
+        "1a": 3.02,
+        "6a": 19.28,
+        "1y": 44.08,
+        "3y": 175.67,
+        "5y": null
+      }
+    },
+    "GHY": {
+      "code": "GHY",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS DİNAMİK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.261978,
+      "returns": {
+        "1a": 1.38,
+        "6a": 21.56,
+        "1y": 49.81,
+        "3y": 222.51,
+        "5y": null
+      }
+    },
+    "GHZ": {
+      "code": "GHZ",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. OKS TEMKİNLİ KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.074803,
+      "returns": {
+        "1a": 3.05,
+        "6a": 19.28,
+        "1y": 43.6,
+        "3y": 195.51,
+        "5y": null
+      }
+    },
+    "GKB": {
+      "code": "GKB",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.188735,
+      "returns": {
+        "1a": 2.18,
+        "6a": 13.62,
+        "1y": 34.06,
+        "3y": 184.26,
+        "5y": null
+      }
+    },
+    "GMF": {
+      "code": "GMF",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. GÜMÜŞ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.020603,
+      "returns": {
+        "1a": -4.35,
+        "6a": -29.11,
+        "1y": 64.76,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "GRA": {
+      "code": "GRA",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.682251,
+      "returns": {
+        "1a": -0.44,
+        "6a": -10.57,
+        "1y": 33.98,
+        "3y": 245.89,
+        "5y": null
+      }
+    },
+    "HEA": {
+      "code": "HEA",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.595584,
+      "returns": {
+        "1a": 0.25,
+        "6a": -10.1,
+        "1y": 32.45,
+        "3y": 245.56,
+        "5y": null
+      }
+    },
+    "HEB": {
+      "code": "HEB",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.16758,
+      "returns": {
+        "1a": -0.1,
+        "6a": 10.71,
+        "1y": 37.67,
+        "3y": 151.69,
+        "5y": null
+      }
+    },
+    "HEC": {
+      "code": "HEC",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.099646,
+      "returns": {
+        "1a": 0.25,
+        "6a": 9.63,
+        "1y": 32.59,
+        "3y": 170.56,
+        "5y": null
+      }
+    },
+    "HED": {
+      "code": "HED",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.345409,
+      "returns": {
+        "1a": 1.3,
+        "6a": 9.32,
+        "1y": 25.14,
+        "3y": 138.03,
+        "5y": null
+      }
+    },
+    "HEE": {
+      "code": "HEE",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.145867,
+      "returns": {
+        "1a": 1.1,
+        "6a": 15.53,
+        "1y": 38.25,
+        "3y": 130.61,
+        "5y": null
+      }
+    },
+    "HEG": {
+      "code": "HEG",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.090281,
+      "returns": {
+        "1a": 3.23,
+        "6a": 20.56,
+        "1y": 46.82,
+        "3y": 236.79,
+        "5y": null
+      }
+    },
+    "HEI": {
+      "code": "HEI",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.10123,
+      "returns": {
+        "1a": 2.85,
+        "6a": 14.95,
+        "1y": 39.19,
+        "3y": 136.25,
+        "5y": null
+      }
+    },
+    "HEK": {
+      "code": "HEK",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.131029,
+      "returns": {
+        "1a": 1.08,
+        "6a": 9.77,
+        "1y": 33.66,
+        "3y": 169.21,
+        "5y": null
+      }
+    },
+    "HEL": {
+      "code": "HEL",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.10214,
+      "returns": {
+        "1a": 3.25,
+        "6a": 20.99,
+        "1y": 47.85,
+        "3y": 260.33,
+        "5y": null
+      }
+    },
+    "HEP": {
+      "code": "HEP",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.144208,
+      "returns": {
+        "1a": 3.12,
+        "6a": 20.29,
+        "1y": 47.33,
+        "3y": 257.28,
+        "5y": null
+      }
+    },
+    "HER": {
+      "code": "HER",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.159865,
+      "returns": {
+        "1a": 1.42,
+        "6a": 16.84,
+        "1y": 39.58,
+        "3y": 149.81,
+        "5y": null
+      }
+    },
+    "HES": {
+      "code": "HES",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.739753,
+      "returns": {
+        "1a": -3.65,
+        "6a": 2.72,
+        "1y": 20.84,
+        "3y": 209.05,
+        "5y": null
+      }
+    },
+    "HET": {
+      "code": "HET",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.101708,
+      "returns": {
+        "1a": -2.29,
+        "6a": 5.81,
+        "1y": 27.99,
+        "3y": 142.15,
+        "5y": null
+      }
+    },
+    "HFS": {
+      "code": "HFS",
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. HSBC FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.013581,
+      "returns": {
+        "1a": -0.85,
+        "6a": 14.13,
+        "1y": 35.54,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "HHB": {
+      "code": "HHB",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. BIST-30 DIŞI ŞİRKETLER HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.278837,
+      "returns": {
+        "1a": -0.39,
+        "6a": 0.31,
+        "1y": 21.36,
+        "3y": 116.13,
+        "5y": null
+      }
+    },
+    "HHM": {
+      "code": "HHM",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.437653,
+      "returns": {
+        "1a": -0.96,
+        "6a": 17.81,
+        "1y": 40.78,
+        "3y": 163.06,
+        "5y": null
+      }
+    },
+    "HHY": {
+      "code": "HHY",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.130211,
+      "returns": {
+        "1a": 0.85,
+        "6a": 1.15,
+        "1y": 33.4,
+        "3y": 170.56,
+        "5y": null
+      }
+    },
+    "HS1": {
+      "code": "HS1",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.250938,
+      "returns": {
+        "1a": 1.19,
+        "6a": 9.11,
+        "1y": 31.19,
+        "3y": 151.09,
+        "5y": null
+      }
+    },
+    "HSR": {
+      "code": "HSR",
+      "name": "ALLİANZ YAŞAM VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.012283,
+      "returns": {
+        "1a": -3.46,
+        "6a": 3.05,
+        "1y": 23.43,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "IEA": {
+      "code": "IEA",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.524706,
+      "returns": {
+        "1a": 1.23,
+        "6a": 9.79,
+        "1y": 24.68,
+        "3y": 125.75,
+        "5y": null
+      }
+    },
+    "IEB": {
+      "code": "IEB",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.31466,
+      "returns": {
+        "1a": -0.31,
+        "6a": 7.56,
+        "1y": 28.33,
+        "3y": 161.96,
+        "5y": null
+      }
+    },
+    "IEE": {
+      "code": "IEE",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.785078,
+      "returns": {
+        "1a": -0.09,
+        "6a": 6.62,
+        "1y": 28.46,
+        "3y": 156.62,
+        "5y": null
+      }
+    },
+    "IEF": {
+      "code": "IEF",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.529115,
+      "returns": {
+        "1a": -0.84,
+        "6a": 5.91,
+        "1y": 29.53,
+        "3y": 149.93,
+        "5y": null
+      }
+    },
+    "IEG": {
+      "code": "IEG",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.298252,
+      "returns": {
+        "1a": 0.62,
+        "6a": 6.85,
+        "1y": 27.49,
+        "3y": 134.47,
+        "5y": null
+      }
+    },
+    "IEH": {
+      "code": "IEH",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 2.363938,
+      "returns": {
+        "1a": -2.22,
+        "6a": 2.37,
+        "1y": 19.39,
+        "3y": 153.44,
+        "5y": null
+      }
+    },
+    "IEK": {
+      "code": "IEK",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.938173,
+      "returns": {
+        "1a": 0.61,
+        "6a": 12.0,
+        "1y": 36.18,
+        "3y": 138.83,
+        "5y": null
+      }
+    },
+    "IER": {
+      "code": "IER",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.409085,
+      "returns": {
+        "1a": 3.19,
+        "6a": 20.85,
+        "1y": 48.79,
+        "3y": 257.9,
+        "5y": null
+      }
+    },
+    "IGE": {
+      "code": "IGE",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.112464,
+      "returns": {
+        "1a": -1.18,
+        "6a": 7.17,
+        "1y": 28.28,
+        "3y": 131.94,
+        "5y": null
+      }
+    },
+    "KEA": {
+      "code": "KEA",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.122505,
+      "returns": {
+        "1a": 2.67,
+        "6a": 21.72,
+        "1y": 49.08,
+        "3y": 142.73,
+        "5y": null
+      }
+    },
+    "KEB": {
+      "code": "KEB",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.149941,
+      "returns": {
+        "1a": 3.04,
+        "6a": 18.49,
+        "1y": 43.13,
+        "3y": 161.86,
+        "5y": null
+      }
+    },
+    "KED": {
+      "code": "KED",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. GENÇLERE YÖNELIK ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.175362,
+      "returns": {
+        "1a": 3.18,
+        "6a": 17.72,
+        "1y": 46.69,
+        "3y": 201.12,
+        "5y": null
+      }
+    },
+    "KEF": {
+      "code": "KEF",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.671992,
+      "returns": {
+        "1a": 0.03,
+        "6a": -10.1,
+        "1y": 36.64,
+        "3y": 256.14,
+        "5y": null
+      }
+    },
+    "KEG": {
+      "code": "KEG",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. DENGELİ KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.269168,
+      "returns": {
+        "1a": -0.08,
+        "6a": 10.01,
+        "1y": 30.81,
+        "3y": 150.28,
+        "5y": null
+      }
+    },
+    "KEH": {
+      "code": "KEH",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.572517,
+      "returns": {
+        "1a": 0.93,
+        "6a": 23.04,
+        "1y": 53.65,
+        "3y": 179.48,
+        "5y": null
+      }
+    },
+    "KEK": {
+      "code": "KEK",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KATILIM DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.305146,
+      "returns": {
+        "1a": 2.19,
+        "6a": 10.53,
+        "1y": 41.78,
+        "3y": 226.61,
+        "5y": null
+      }
+    },
+    "KES": {
+      "code": "KES",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. AGRESİF KATILIM DEĞİŞKEN (DÖVİZ) EMEKLİLİK YATIRIM FONU",
+      "price": 0.206833,
+      "returns": {
+        "1a": 1.62,
+        "6a": 9.2,
+        "1y": 20.92,
+        "3y": 107.04,
+        "5y": null
+      }
+    },
+    "KET": {
+      "code": "KET",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.293102,
+      "returns": {
+        "1a": 3.16,
+        "6a": 20.82,
+        "1y": 51.15,
+        "3y": 252.54,
+        "5y": null
+      }
+    },
+    "KEY": {
+      "code": "KEY",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.095732,
+      "returns": {
+        "1a": 3.33,
+        "6a": 20.62,
+        "1y": 46.59,
+        "3y": 235.42,
+        "5y": null
+      }
+    },
+    "KEZ": {
+      "code": "KEZ",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.525015,
+      "returns": {
+        "1a": 1.16,
+        "6a": 26.15,
+        "1y": 59.78,
+        "3y": 263.53,
+        "5y": null
+      }
+    },
+    "KFE": {
+      "code": "KFE",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KUVEYT TÜRK KATILIM FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.016298,
+      "returns": {
+        "1a": 1.02,
+        "6a": 14.19,
+        "1y": 41.62,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KGC": {
+      "code": "KGC",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. GÜMÜŞ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.0147,
+      "returns": {
+        "1a": -4.11,
+        "6a": -26.47,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KHL": {
+      "code": "KHL",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.011196,
+      "returns": {
+        "1a": -0.56,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KJM": {
+      "code": "KJM",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KIYMETLİ MADENLER KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.118024,
+      "returns": {
+        "1a": -1.75,
+        "6a": -18.39,
+        "1y": 53.95,
+        "3y": 271.52,
+        "5y": null
+      }
+    },
+    "KKS": {
+      "code": "KKS",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.055705,
+      "returns": {
+        "1a": 3.12,
+        "6a": 20.53,
+        "1y": 43.97,
+        "3y": 122.18,
+        "5y": null
+      }
+    },
+    "KKV": {
+      "code": "KKV",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KISA VADELİ KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.023787,
+      "returns": {
+        "1a": 3.0,
+        "6a": 18.38,
+        "1y": 42.87,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KLT": {
+      "code": "KLT",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. TEMETTÜ ÖDEYEN ŞİRKETLER KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.034992,
+      "returns": {
+        "1a": 3.16,
+        "6a": 25.13,
+        "1y": 43.39,
+        "3y": 177.63,
+        "5y": null
+      }
+    },
+    "KML": {
+      "code": "KML",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. KIYMETLİ MADENLER EMEKLİLİK YATIRIM FONU",
+      "price": 0.017446,
+      "returns": {
+        "1a": -5.39,
+        "6a": -16.55,
+        "1y": 49.92,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KMP": {
+      "code": "KMP",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. KIYMETLİ MADENLER EMEKLİLİK YATIRIM FONU",
+      "price": 0.008716,
+      "returns": {
+        "1a": -2.84,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KOA": {
+      "code": "KOA",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.105087,
+      "returns": {
+        "1a": 0.46,
+        "6a": 9.93,
+        "1y": 32.75,
+        "3y": 166.34,
+        "5y": null
+      }
+    },
+    "KOE": {
+      "code": "KOE",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. KOÇ HOLDİNG EMEKLİ VAKFI BİRİNCİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.092306,
+      "returns": {
+        "1a": 2.21,
+        "6a": 16.53,
+        "1y": 40.64,
+        "3y": 185.61,
+        "5y": null
+      }
+    },
+    "KOS": {
+      "code": "KOS",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.099158,
+      "returns": {
+        "1a": 2.84,
+        "6a": 14.59,
+        "1y": 37.51,
+        "3y": 135.13,
+        "5y": null
+      }
+    },
+    "KRM": {
+      "code": "KRM",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATILIM KARMA EMEKLİLİK YATIRIM FONU",
+      "price": 0.021881,
+      "returns": {
+        "1a": 2.31,
+        "6a": 24.32,
+        "1y": 47.31,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KRU": {
+      "code": "KRU",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.011267,
+      "returns": {
+        "1a": 3.3,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KSH": {
+      "code": "KSH",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. TEKNOLOJİ SEKTÖRÜ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.017386,
+      "returns": {
+        "1a": 3.67,
+        "6a": 33.47,
+        "1y": 58.98,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KSU": {
+      "code": "KSU",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. SÜRDÜRÜLEBİLİRLİK KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.01931,
+      "returns": {
+        "1a": 0.74,
+        "6a": 20.2,
+        "1y": 45.67,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "KTZ": {
+      "code": "KTZ",
+      "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.099643,
+      "returns": {
+        "1a": 1.63,
+        "6a": 13.82,
+        "1y": 34.14,
+        "3y": 119.39,
+        "5y": null
+      }
+    },
+    "MDD": {
+      "code": "MDD",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş.MERKEZİ ALACAĞIN DEVRİ DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.01894,
+      "returns": {
+        "1a": -2.12,
+        "6a": 7.42,
+        "1y": 26.6,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "MDE": {
+      "code": "MDE",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. MERKEZİ ALACAĞIN DEVRİ TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.016533,
+      "returns": {
+        "1a": 1.19,
+        "6a": 12.5,
+        "1y": 37.75,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "MDK": {
+      "code": "MDK",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. MERKEZİ ALACAĞIN DEVRİ MUHAFAZAKAR KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.017177,
+      "returns": {
+        "1a": 2.99,
+        "6a": 19.78,
+        "1y": 44.6,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "MEA": {
+      "code": "MEA",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.213713,
+      "returns": {
+        "1a": 0.25,
+        "6a": -8.15,
+        "1y": 38.88,
+        "3y": 272.52,
+        "5y": null
+      }
+    },
+    "MEB": {
+      "code": "MEB",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.011975,
+      "returns": {
+        "1a": 1.61,
+        "6a": 9.79,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "MEV": {
+      "code": "MEV",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş.TEKNOLOJİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.032151,
+      "returns": {
+        "1a": -0.26,
+        "6a": 32.38,
+        "1y": 57.85,
+        "3y": 219.08,
+        "5y": null
+      }
+    },
+    "MEY": {
+      "code": "MEY",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.02585,
+      "returns": {
+        "1a": 1.22,
+        "6a": 12.92,
+        "1y": 32.18,
+        "3y": 155.86,
+        "5y": null
+      }
+    },
+    "MHA": {
+      "code": "MHA",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.1286,
+      "returns": {
+        "1a": 1.46,
+        "6a": 18.46,
+        "1y": 41.39,
+        "3y": 152.25,
+        "5y": null
+      }
+    },
+    "MHB": {
+      "code": "MHB",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.099165,
+      "returns": {
+        "1a": 3.3,
+        "6a": 21.26,
+        "1y": 48.87,
+        "3y": 248.08,
+        "5y": null
+      }
+    },
+    "MHC": {
+      "code": "MHC",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.087652,
+      "returns": {
+        "1a": 3.29,
+        "6a": 20.72,
+        "1y": 47.16,
+        "3y": 236.1,
+        "5y": null
+      }
+    },
+    "MHD": {
+      "code": "MHD",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 0-5 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
+      "price": 0.409806,
+      "returns": {
+        "1a": 2.16,
+        "6a": 10.2,
+        "1y": 21.76,
+        "3y": 109.8,
+        "5y": null
+      }
+    },
+    "MHE": {
+      "code": "MHE",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.217264,
+      "returns": {
+        "1a": 2.32,
+        "6a": 12.04,
+        "1y": 25.3,
+        "3y": 148.51,
+        "5y": null
+      }
+    },
+    "MHG": {
+      "code": "MHG",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.118459,
+      "returns": {
+        "1a": 0.53,
+        "6a": 7.51,
+        "1y": 31.62,
+        "3y": 192.46,
+        "5y": null
+      }
+    },
+    "MHH": {
+      "code": "MHH",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.544704,
+      "returns": {
+        "1a": -1.89,
+        "6a": 4.74,
+        "1y": 23.75,
+        "3y": 158.92,
+        "5y": null
+      }
+    },
+    "MHI": {
+      "code": "MHI",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.088902,
+      "returns": {
+        "1a": 1.93,
+        "6a": 14.52,
+        "1y": 38.66,
+        "3y": 141.92,
+        "5y": null
+      }
+    },
+    "MHK": {
+      "code": "MHK",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.112251,
+      "returns": {
+        "1a": -0.06,
+        "6a": 5.65,
+        "1y": 26.96,
+        "3y": 110.94,
+        "5y": null
+      }
+    },
+    "MHL": {
+      "code": "MHL",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.165544,
+      "returns": {
+        "1a": 3.25,
+        "6a": 21.23,
+        "1y": 48.91,
+        "3y": 263.45,
+        "5y": null
+      }
+    },
+    "MHM": {
+      "code": "MHM",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.145154,
+      "returns": {
+        "1a": 3.12,
+        "6a": 19.76,
+        "1y": 46.19,
+        "3y": 428.6,
+        "5y": null
+      }
+    },
+    "MHN": {
+      "code": "MHN",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.143776,
+      "returns": {
+        "1a": 1.21,
+        "6a": 15.13,
+        "1y": 38.95,
+        "3y": 213.31,
+        "5y": null
+      }
+    },
+    "MHO": {
+      "code": "MHO",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.173623,
+      "returns": {
+        "1a": 1.03,
+        "6a": 12.57,
+        "1y": 35.32,
+        "3y": 262.48,
+        "5y": null
+      }
+    },
+    "MHR": {
+      "code": "MHR",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.202048,
+      "returns": {
+        "1a": 0.37,
+        "6a": 8.95,
+        "1y": 28.34,
+        "3y": 208.03,
+        "5y": null
+      }
+    },
+    "MHS": {
+      "code": "MHS",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.14967,
+      "returns": {
+        "1a": 2.09,
+        "6a": 16.94,
+        "1y": 39.88,
+        "3y": 172.45,
+        "5y": null
+      }
+    },
+    "MHT": {
+      "code": "MHT",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.099331,
+      "returns": {
+        "1a": -1.44,
+        "6a": 4.68,
+        "1y": 25.69,
+        "3y": 121.05,
+        "5y": null
+      }
+    },
+    "MHU": {
+      "code": "MHU",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.178941,
+      "returns": {
+        "1a": 1.42,
+        "6a": 16.86,
+        "1y": 40.83,
+        "3y": 235.1,
+        "5y": null
+      }
+    },
+    "MHV": {
+      "code": "MHV",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.209179,
+      "returns": {
+        "1a": 1.35,
+        "6a": 16.87,
+        "1y": 41.89,
+        "3y": 231.65,
+        "5y": null
+      }
+    },
+    "MHY": {
+      "code": "MHY",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. DENGELİ DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.294569,
+      "returns": {
+        "1a": -0.53,
+        "6a": 7.65,
+        "1y": 32.65,
+        "3y": 197.87,
+        "5y": null
+      }
+    },
+    "MHZ": {
+      "code": "MHZ",
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.095424,
+      "returns": {
+        "1a": 0.34,
+        "6a": 6.33,
+        "1y": 26.53,
+        "3y": 145.84,
+        "5y": null
+      }
+    },
+    "MZL": {
+      "code": "MZL",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. İKİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.074656,
+      "returns": {
+        "1a": 0.05,
+        "6a": 9.29,
+        "1y": 37.84,
+        "3y": 192.28,
+        "5y": null
+      }
+    },
+    "MZN": {
+      "code": "MZN",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.066858,
+      "returns": {
+        "1a": 0.86,
+        "6a": 9.92,
+        "1y": 38.66,
+        "3y": 201.49,
+        "5y": null
+      }
+    },
+    "MZP": {
+      "code": "MZP",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÜÇÜNCÜ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.085585,
+      "returns": {
+        "1a": -0.85,
+        "6a": 8.38,
+        "1y": 35.09,
+        "3y": 185.37,
+        "5y": null
+      }
+    },
+    "NHA": {
+      "code": "NHA",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.418416,
+      "returns": {
+        "1a": -0.03,
+        "6a": -9.18,
+        "1y": 37.45,
+        "3y": 257.19,
+        "5y": null
+      }
+    },
+    "NHM": {
+      "code": "NHM",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.107798,
+      "returns": {
+        "1a": 1.82,
+        "6a": 20.28,
+        "1y": 41.37,
+        "3y": 215.95,
+        "5y": null
+      }
+    },
+    "NHN": {
+      "code": "NHN",
+      "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. İKİNCİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.360957,
+      "returns": {
+        "1a": -0.13,
+        "6a": 6.61,
+        "1y": 45.25,
+        "3y": 285.77,
+        "5y": null
+      }
+    },
+    "NZA": {
+      "code": "NZA",
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.009466,
+      "returns": {
+        "1a": 0.13,
+        "6a": -5.05,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "PRC": {
+      "code": "PRC",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.089117,
+      "returns": {
+        "1a": 3.19,
+        "6a": 20.25,
+        "1y": 46.41,
+        "3y": 238.74,
+        "5y": null
+      }
+    },
+    "PRS": {
+      "code": "PRS",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.09995,
+      "returns": {
+        "1a": 3.2,
+        "6a": 21.11,
+        "1y": 49.99,
+        "3y": 253.18,
+        "5y": null
+      }
+    },
+    "RZM": {
+      "code": "RZM",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.045783,
+      "returns": {
+        "1a": 3.65,
+        "6a": 18.63,
+        "1y": 43.71,
+        "3y": 184.74,
+        "5y": null
+      }
+    },
+    "RZN": {
+      "code": "RZN",
+      "name": "AXA HAYAT VE EMEKLİLİK A.Ş. FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.053341,
+      "returns": {
+        "1a": 2.5,
+        "6a": 12.77,
+        "1y": 37.89,
+        "3y": 202.08,
+        "5y": null
+      }
+    },
+    "SBA": {
+      "code": "SBA",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.013089,
+      "returns": {
+        "1a": -6.37,
+        "6a": 2.12,
+        "1y": 14.22,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "SSH": {
+      "code": "SSH",
+      "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. SANAYİ ŞİRKETLERİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.010298,
+      "returns": {
+        "1a": 4.53,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TBJ": {
+      "code": "TBJ",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.075824,
+      "returns": {
+        "1a": 0.56,
+        "6a": 20.56,
+        "1y": 34.55,
+        "3y": 207.78,
+        "5y": null
+      }
+    },
+    "THE": {
+      "code": "THE",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.013678,
+      "returns": {
+        "1a": 7.17,
+        "6a": 15.58,
+        "1y": 28.78,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "THK": {
+      "code": "THK",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.016161,
+      "returns": {
+        "1a": 3.07,
+        "6a": 20.96,
+        "1y": 46.65,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TJY": {
+      "code": "TJY",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. ÜÇÜNCÜ YAŞAM DÖNGÜSÜ EMEKLİLİK YATIRIM FONU",
+      "price": 0.052731,
+      "returns": {
+        "1a": 2.4,
+        "6a": 15.1,
+        "1y": 40.63,
+        "3y": 287.93,
+        "5y": null
+      }
+    },
+    "TKV": {
+      "code": "TKV",
+      "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.094925,
+      "returns": {
+        "1a": 3.22,
+        "6a": 20.95,
+        "1y": 47.84,
+        "3y": 242.84,
+        "5y": null
+      }
+    },
+    "TML": {
+      "code": "TML",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ YAŞAM DÖNGÜSÜ EMEKLİLİK YATIRIM FONU",
+      "price": 0.048964,
+      "returns": {
+        "1a": 0.44,
+        "6a": 6.11,
+        "1y": 30.99,
+        "3y": 223.05,
+        "5y": null
+      }
+    },
+    "TMN": {
+      "code": "TMN",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. MERKEZİ ALACAĞIN DEVRİ DENGELİ KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.021159,
+      "returns": {
+        "1a": 0.66,
+        "6a": 12.73,
+        "1y": 36.17,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TNE": {
+      "code": "TNE",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. TEMİZ ENERJİ SEKTÖRÜ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.009702,
+      "returns": {
+        "1a": -2.49,
+        "6a": null,
+        "1y": null,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TSZ": {
+      "code": "TSZ",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TAŞINMAZ VE İNŞAAT SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.015189,
+      "returns": {
+        "1a": -0.6,
+        "6a": 8.68,
+        "1y": 27.55,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TVC": {
+      "code": "TVC",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.014916,
+      "returns": {
+        "1a": 6.42,
+        "6a": 17.39,
+        "1y": 33.11,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TVG": {
+      "code": "TVG",
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ  EMEKLİLİK YATIRIM FONU",
+      "price": 0.015595,
+      "returns": {
+        "1a": 7.83,
+        "6a": 20.29,
+        "1y": 35.22,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TVH": {
+      "code": "TVH",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.017,
+      "returns": {
+        "1a": 1.72,
+        "6a": 29.81,
+        "1y": 50.32,
+        "3y": null,
+        "5y": null
+      }
+    },
+    "TYJ": {
+      "code": "TYJ",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. İKİNCİ YAŞAM DÖNGÜSÜ EMEKLİLİK YATIRIM FONU",
+      "price": 0.050906,
+      "returns": {
+        "1a": 0.74,
+        "6a": 9.83,
+        "1y": 35.81,
+        "3y": 259.25,
+        "5y": null
+      }
+    },
+    "VEB": {
+      "code": "VEB",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATILIM DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.233735,
+      "returns": {
+        "1a": 2.53,
+        "6a": 16.15,
+        "1y": 44.44,
+        "3y": 181.43,
+        "5y": null
+      }
+    },
+    "VED": {
+      "code": "VED",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS MUHAFAZAKAR KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.089172,
+      "returns": {
+        "1a": 2.91,
+        "6a": 18.86,
+        "1y": 44.57,
+        "3y": 224.37,
+        "5y": null
+      }
+    },
+    "VEG": {
+      "code": "VEG",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.323254,
+      "returns": {
+        "1a": 1.52,
+        "6a": 8.51,
+        "1y": 25.34,
+        "3y": 124.78,
+        "5y": null
       }
     },
     "VEH": {
+      "code": "VEH",
       "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
-      "price": 1.354615,
+      "price": 1.342165,
       "returns": {
-        "1a": -3.82,
-        "3a": -2.88,
-        "6a": 6.83,
-        "1y": 21.11
+        "1a": -3.05,
+        "6a": 4.91,
+        "1y": 20.8,
+        "3y": 138.43,
+        "5y": null
+      }
+    },
+    "VEI": {
+      "code": "VEI",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.095992,
+      "returns": {
+        "1a": -4.01,
+        "6a": 1.85,
+        "1y": 22.41,
+        "3y": 133.99,
+        "5y": null
+      }
+    },
+    "VEK": {
+      "code": "VEK",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.332329,
+      "returns": {
+        "1a": 1.22,
+        "6a": 6.1,
+        "1y": 26.95,
+        "3y": 130.42,
+        "5y": null
+      }
+    },
+    "VEL": {
+      "code": "VEL",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. PARA PİYASASI EMEKLİLİK YATIRIM FONU",
+      "price": 0.381712,
+      "returns": {
+        "1a": 3.18,
+        "6a": 21.02,
+        "1y": 48.16,
+        "3y": 255.57,
+        "5y": null
+      }
+    },
+    "VEO": {
+      "code": "VEO",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.225553,
+      "returns": {
+        "1a": 2.45,
+        "6a": 14.1,
+        "1y": 34.33,
+        "3y": 175.08,
+        "5y": null
+      }
+    },
+    "VEP": {
+      "code": "VEP",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.109494,
+      "returns": {
+        "1a": 3.05,
+        "6a": 18.33,
+        "1y": 43.69,
+        "3y": 292.73,
+        "5y": null
+      }
+    },
+    "VER": {
+      "code": "VER",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATILIM KATKI EMEKLİLİK YATIRIM FONU",
+      "price": 0.144325,
+      "returns": {
+        "1a": 3.19,
+        "6a": 19.75,
+        "1y": 41.76,
+        "3y": 119.26,
+        "5y": null
+      }
+    },
+    "VES": {
+      "code": "VES",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.146816,
+      "returns": {
+        "1a": 2.33,
+        "6a": 16.38,
+        "1y": 41.09,
+        "3y": 229.38,
+        "5y": null
+      }
+    },
+    "VET": {
+      "code": "VET",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.765114,
+      "returns": {
+        "1a": 0.76,
+        "6a": 7.87,
+        "1y": 21.21,
+        "3y": 118.92,
+        "5y": null
+      }
+    },
+    "VEU": {
+      "code": "VEU",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.153108,
+      "returns": {
+        "1a": 2.6,
+        "6a": 9.92,
+        "1y": 35.94,
+        "3y": 192.77,
+        "5y": null
+      }
+    },
+    "VEV": {
+      "code": "VEV",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.183774,
+      "returns": {
+        "1a": 2.4,
+        "6a": 18.17,
+        "1y": 46.3,
+        "3y": 198.15,
+        "5y": null
+      }
+    },
+    "VEY": {
+      "code": "VEY",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. PARA PİYASASI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.417733,
+      "returns": {
+        "1a": 3.21,
+        "6a": 20.42,
+        "1y": 46.44,
+        "3y": 202.81,
+        "5y": null
+      }
+    },
+    "VGA": {
+      "code": "VGA",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.7102,
+      "returns": {
+        "1a": -0.22,
+        "6a": -11.4,
+        "1y": 34.09,
+        "3y": 265.99,
+        "5y": null
+      }
+    },
+    "VGB": {
+      "code": "VGB",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.164784,
+      "returns": {
+        "1a": 1.54,
+        "6a": 15.92,
+        "1y": 41.61,
+        "3y": 125.13,
+        "5y": null
+      }
+    },
+    "VGC": {
+      "code": "VGC",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.193011,
+      "returns": {
+        "1a": -3.27,
+        "6a": 7.24,
+        "1y": 32.49,
+        "3y": 154.49,
+        "5y": null
+      }
+    },
+    "VGD": {
+      "code": "VGD",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KIYMETLİ MADENLER KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.381535,
+      "returns": {
+        "1a": -0.8,
+        "6a": -12.1,
+        "1y": 43.61,
+        "3y": 276.87,
+        "5y": null
+      }
+    },
+    "VGE": {
+      "code": "VGE",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. GÜMÜŞ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.424552,
+      "returns": {
+        "1a": -4.04,
+        "6a": -11.75,
+        "1y": 4.49,
+        "3y": 100.98,
+        "5y": null
+      }
+    },
+    "VGF": {
+      "code": "VGF",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.190939,
+      "returns": {
+        "1a": 0.08,
+        "6a": 13.57,
+        "1y": 29.18,
+        "3y": 161.31,
+        "5y": null
+      }
+    },
+    "VGG": {
+      "code": "VGG",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS DENGELİ KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.128896,
+      "returns": {
+        "1a": 2.98,
+        "6a": 18.67,
+        "1y": 48.21,
+        "3y": 190.46,
+        "5y": null
+      }
+    },
+    "VGH": {
+      "code": "VGH",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.185982,
+      "returns": {
+        "1a": 2.89,
+        "6a": 14.05,
+        "1y": 40.14,
+        "3y": 198.11,
+        "5y": null
+      }
+    },
+    "VGK": {
+      "code": "VGK",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.0928,
+      "returns": {
+        "1a": 1.7,
+        "6a": 13.32,
+        "1y": 36.95,
+        "3y": 125.25,
+        "5y": null
+      }
+    },
+    "VGP": {
+      "code": "VGP",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. TURKCELL GRUBU ÇALIŞANLARINA YÖNELİK PERA 1 DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.149223,
+      "returns": {
+        "1a": -2.81,
+        "6a": 0.94,
+        "1y": 15.12,
+        "3y": 149.83,
+        "5y": null
+      }
+    },
+    "VGT": {
+      "code": "VGT",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. PERA 2 DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.199836,
+      "returns": {
+        "1a": 1.13,
+        "6a": 11.39,
+        "1y": 43.6,
+        "3y": 222.25,
+        "5y": null
+      }
+    },
+    "VGY": {
+      "code": "VGY",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. PERA 3 DEĞİŞKEN GRUP EMEKLİLİK YATIRIM FONU",
+      "price": 0.179898,
+      "returns": {
+        "1a": 0.49,
+        "6a": 15.96,
+        "1y": 30.41,
+        "3y": 160.05,
+        "5y": null
+      }
+    },
+    "VGZ": {
+      "code": "VGZ",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "price": 0.095433,
+      "returns": {
+        "1a": 1.49,
+        "6a": 5.84,
+        "1y": 29.24,
+        "3y": 137.2,
+        "5y": null
+      }
+    },
+    "VKE": {
+      "code": "VKE",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.097759,
+      "returns": {
+        "1a": 3.22,
+        "6a": 21.97,
+        "1y": 49.91,
+        "3y": 248.53,
+        "5y": null
+      }
+    },
+    "VKJ": {
+      "code": "VKJ",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. BAŞLANGIÇ EMEKLİLİK YATIRIM FONU",
+      "price": 0.10305,
+      "returns": {
+        "1a": 3.21,
+        "6a": 21.1,
+        "1y": 48.1,
+        "3y": 259.5,
+        "5y": null
+      }
+    },
+    "VVA": {
+      "code": "VVA",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.255768,
+      "returns": {
+        "1a": -0.1,
+        "6a": 8.7,
+        "1y": 32.51,
+        "3y": 212.14,
+        "5y": null
+      }
+    },
+    "VVD": {
+      "code": "VVD",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS DİNAMİK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.188341,
+      "returns": {
+        "1a": 1.71,
+        "6a": 10.97,
+        "1y": 35.29,
+        "3y": 215.37,
+        "5y": null
+      }
+    },
+    "VVE": {
+      "code": "VVE",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.17345,
+      "returns": {
+        "1a": 2.23,
+        "6a": 10.53,
+        "1y": 38.1,
+        "3y": 229.43,
+        "5y": null
+      }
+    },
+    "VVM": {
+      "code": "VVM",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS MUHAFAZAKAR DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.105829,
+      "returns": {
+        "1a": 1.57,
+        "6a": 18.17,
+        "1y": 44.04,
+        "3y": 263.12,
+        "5y": null
+      }
+    },
+    "VVU": {
+      "code": "VVU",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS DİNAMİK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.231135,
+      "returns": {
+        "1a": 3.12,
+        "6a": 15.75,
+        "1y": 46.43,
+        "3y": 215.86,
+        "5y": null
+      }
+    },
+    "VVZ": {
+      "code": "VVZ",
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.326549,
+      "returns": {
+        "1a": 2.91,
+        "6a": 15.57,
+        "1y": 49.16,
+        "3y": 218.9,
+        "5y": null
+      }
+    },
+    "VYB": {
+      "code": "VYB",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.276622,
+      "returns": {
+        "1a": 3.26,
+        "6a": 16.29,
+        "1y": 34.91,
+        "3y": 132.47,
+        "5y": null
+      }
+    },
+    "YZD": {
+      "code": "YZD",
+      "name": "ALLİANZ YAŞAM VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.065942,
+      "returns": {
+        "1a": 0.93,
+        "6a": 32.28,
+        "1y": 58.66,
+        "3y": 254.68,
+        "5y": null
+      }
+    },
+    "ZHB": {
+      "code": "ZHB",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "price": 0.340712,
+      "returns": {
+        "1a": 0.07,
+        "6a": 10.81,
+        "1y": 29.45,
+        "3y": 156.66,
+        "5y": null
+      }
+    },
+    "ZHD": {
+      "code": "ZHD",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KAMU DIŞ KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "price": 0.389314,
+      "returns": {
+        "1a": 1.45,
+        "6a": 8.95,
+        "1y": 20.91,
+        "3y": 107.33,
+        "5y": null
+      }
+    },
+    "ZHE": {
+      "code": "ZHE",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.211277,
+      "returns": {
+        "1a": -4.04,
+        "6a": 2.41,
+        "1y": 20.28,
+        "3y": 141.21,
+        "5y": null
+      }
+    },
+    "ZHF": {
+      "code": "ZHF",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KATILIM TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "price": 0.139047,
+      "returns": {
+        "1a": 2.26,
+        "6a": 15.66,
+        "1y": 40.5,
+        "3y": 176.4,
+        "5y": null
+      }
+    },
+    "ZHG": {
+      "code": "ZHG",
+      "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KAMU BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "price": 0.066852,
+      "returns": {
+        "1a": 1.63,
+        "6a": 7.84,
+        "1y": 29.23,
+        "3y": 94.42,
+        "5y": null
       }
     }
   },
   "market": {
     "usdtry": {
-      "value": 47.23189926147461,
-      "chg": 0.07
+      "value": 47.34189987182617,
+      "chg": 0.27
     },
     "eurtry": {
-      "value": 53.99563980102539,
-      "chg": 0.34
+      "value": 53.955299377441406,
+      "chg": 0.06
     },
     "gold_oz": {
-      "value": 4095.39990234375,
-      "chg": -1.24
+      "value": 4062.39990234375,
+      "chg": 0.39
     },
     "bist100": {
-      "value": 14189.5400390625,
-      "chg": 0.36
+      "value": 13988.2802734375,
+      "chg": -0.64
     },
     "gram_altin": {
-      "value": 6219.03,
-      "chg": -1.24
+      "value": 6183.28,
+      "chg": 0.39
     },
     "policy_rate": {
       "value": 37.0,
-      "note": "23 Temmuz 2026 PPK karari"
+      "note": "23 Temmuz 2026 PPK kararı"
     }
   }
 }
