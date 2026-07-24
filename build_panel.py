@@ -2,12 +2,13 @@
 BEFAS Sabah Paneli - veri toplayici ve site olusturucu.
 
 Bu betik:
-1) TEFAS'tan (pytefas kutuphanesi ile - yeni Next.js tabanli TEFAS
-   API'sini kullanir) secilen BEFAS fonlarinin fiyatlarini bugun ve
-   1A/3A/6A/1Y once icin ceker, getiri hesaplar.
+1) TEFAS'tan (pytefas kutuphanesi ile) AGESA'nin BEFAS fonlarinin
+   fiyatlarini bugun ve 1A/6A/1Y/3Y/5Y once icin ceker, getiri hesaplar.
 2) yfinance ile USD/TRY, EUR/TRY, ons altin ve BIST100 verisini ceker,
    gram altini yaklasik olarak hesaplar.
 3) template.html icindeki yer tutucularini doldurup index.html uretir.
+   Fon kartlari kategoriye gore gruplanir; sayfada bir kategori
+   filtresi (dropdown) ile istenen kategori tek basina goruntulenebilir.
 
 Not: TCMB politika faizi PPK toplantilarinda (yilda ~8 kez) degistigi
 icin asagida POLICY_RATE sabiti olarak tutuluyor - PPK karari sonrasi
@@ -15,75 +16,88 @@ bu sayiyi elle guncellemen yeterli (satirin yanindaki yorumda belirtildi).
 """
 import datetime as dt
 import json
+from collections import OrderedDict
 
 import yfinance as yf
 from pytefas import Crawler
 
 # --- Ayarlar -----------------------------------------------------------
 
-# Takip edilecek AGESA BEFAS fonlari (agesa.com.tr/fonpro/fonlarimiz/bireysel-emeklilik
-# sayfasindaki tum fonlar) + karsilastirma icin bir alternatif.
-FUND_CODES = [
-    "AE1", "AE2", "AEK", "AVO", "KML", "EAE", "TSZ", "ENF", "TVC", "SBA",
-    "MZN", "MZL", "MZP", "AEI", "AVN", "AVD", "AE3", "TVH", "AVG", "AVB",
-    "AVR", "AEH", "AEB", "GFH", "GEV", "EHK", "FYL", "FYN",
-]
-COMPARE_PAIRS = [("AEH", "VEH")]  # (agesa_kodu, alternatif_kod)
-ALL_CODES = list(dict.fromkeys(FUND_CODES + [c for pair in COMPARE_PAIRS for c in pair]))
+# AGESA'nin kendi BEFAS fonlari, kategorilere ayrilmis (kart gorunumu icin).
+# Karsilastirma araci bunlarla sinirli degil - TEFAS'taki TUM fonlar secilebilir.
+CATEGORIES = OrderedDict([
+    ("Para Piyasası", ["AE1"]),
+    ("Borçlanma Araçları", ["AE2", "AEK", "AVO", "AVB", "AVG"]),
+    ("Hisse Senedi", ["AEH", "AEB", "GFH", "TVH"]),
+    ("Altın ve Kıymetli Maden", ["KML", "EAE", "GEV"]),
+    ("Sektörel / Tematik Değişken", ["TSZ", "ENF", "TVC", "AVR", "SBA"]),
+    ("Standart / Karma / Katkı", ["AEI", "AVN", "AVD", "AE3"]),
+    ("Fon Sepetleri", ["MZN", "MZL", "MZP"]),
+    ("Katılım (Faizsiz)", ["FYL", "FYN", "EHK"]),
+])
+AGESA_CODES = [c for codes in CATEGORIES.values() for c in codes]
+
+PERIODS = {
+    "today": 0,
+    "1a": 30,
+    "6a": 182,
+    "1y": 365,
+    "3y": 365 * 3,
+    "5y": 365 * 5,
+}
+PERIOD_LABELS = ["1a", "6a", "1y", "3y", "5y"]
 
 # TCMB bir hafta vadeli repo faizi (PPK karari sonrasi elle guncelle).
 POLICY_RATE = 37.00
-POLICY_RATE_NOTE = "23 Temmuz 2026 PPK karari"
+POLICY_RATE_NOTE = "23 Temmuz 2026 PPK kararı"
 
 
 def fetch_funds_on(crawler, date, max_back=7):
-    """Verilen tarihe en yakin islem gunu icin BEFAS (emeklilik) fonlarinin
-    verisini ceker. pytefas bir pandas DataFrame doner; fund_code -> satir
-    seklinde bir sozluge cevirir."""
+    """Verilen tarihe en yakin islem gunu icin TEFAS'in dondugu tum BEFAS
+    (emeklilik) fonlarinin verisini ceker. fund_code -> satir sozlugu doner."""
     for delta in range(max_back):
         d = date - dt.timedelta(days=delta)
         try:
             df = crawler.fetch(d.strftime("%Y-%m-%d"), columns="info", kind="EMK")
         except Exception as exc:
-            print(f"[uyari] {d} icin veri cekilemedi: {exc}")
+            print(f"[uyarı] {d} için veri çekilemedi: {exc}")
             df = None
         if df is not None and not df.empty:
             return {row.fund_code: row for row in df.itertuples()}
+    print(f"[uyarı] {date} civarinda hic veri bulunamadi ({max_back} gun tarandi)")
     return {}
 
 
-def collect_fund_data():
+def collect_all_funds():
     crawler = Crawler()
     today = dt.date.today()
-    periods = {
-        "today": today,
-        "1a": today - dt.timedelta(days=30),
-        "3a": today - dt.timedelta(days=91),
-        "6a": today - dt.timedelta(days=182),
-        "1y": today - dt.timedelta(days=365),
+    snapshots = {
+        label: fetch_funds_on(crawler, today - dt.timedelta(days=days))
+        for label, days in PERIODS.items()
     }
-    snapshots = {k: fetch_funds_on(crawler, d) for k, d in periods.items()}
 
-    funds = {}
-    for code in ALL_CODES:
-        today_row = snapshots["today"].get(code)
-        if not today_row:
-            print(f"[uyari] {code} icin bugune ait veri bulunamadi")
-            continue
+    all_funds = {}
+    for code, today_row in snapshots["today"].items():
         price_today = float(today_row.price)
         returns = {}
-        for label in ["1a", "3a", "6a", "1y"]:
+        for label in PERIOD_LABELS:
             row = snapshots[label].get(code)
             returns[label] = (
                 round((price_today / float(row.price) - 1) * 100, 2)
                 if row else None
             )
-        funds[code] = {
-            "name": today_row.fund_name,
+        all_funds[code] = {
+            "code": code,
+            "name": today_row.fund_name.strip(),
             "price": price_today,
             "returns": returns,
         }
-    return funds
+
+    missing = [c for c in AGESA_CODES if c not in all_funds]
+    if missing:
+        print(f"[uyarı] Şu AGESA fonları bugün TEFAS'ta bulunamadı: {missing}")
+
+    return all_funds
 
 
 def collect_market_data():
@@ -100,7 +114,8 @@ def collect_market_data():
             last = float(hist["Close"].iloc[-1])
             prev = float(hist["Close"].iloc[-2])
             market[key] = {"value": last, "chg": round((last / prev - 1) * 100, 2)}
-        except Exception:
+        except Exception as exc:
+            print(f"[uyarı] {sym} çekilemedi: {exc}")
             market[key] = {"value": None, "chg": None}
 
     if market["gold_oz"]["value"] and market["usdtry"]["value"]:
@@ -122,15 +137,15 @@ def fmt_chg(chg):
 
 
 def render_ticker(market):
-    def tick(label, val, chg_html, unit=""):
-        val_str = f"{val:,.2f}{unit}".replace(",", ".") if val is not None else "—"
+    def tick(label, val, chg_html):
+        val_str = f"{val:,.2f}".replace(",", ".") if val is not None else "—"
         return f'''<div class="tick">
           <div class="label">{label}</div>
           <div class="val">{val_str}</div>
           {chg_html}
         </div>'''
 
-    parts = [
+    return "\n".join([
         tick("Dolar", market["usdtry"]["value"], fmt_chg(market["usdtry"]["chg"])),
         tick("Euro", market["eurtry"]["value"], fmt_chg(market["eurtry"]["chg"])),
         tick("Gram Altın", market["gram_altin"]["value"], fmt_chg(market["gram_altin"]["chg"])),
@@ -140,76 +155,69 @@ def render_ticker(market):
           <div class="val">%{market["policy_rate"]["value"]:.2f}</div>
           <div class="chg flat">{market["policy_rate"]["note"]}</div>
         </div>''',
-    ]
-    return "\n".join(parts)
+    ])
 
 
-def render_funds(funds):
-    cards = []
-    for code in FUND_CODES:
-        f = funds.get(code)
-        if not f:
-            continue
-        ret_cells = []
-        for label in ["1a", "3a", "6a", "1y"]:
-            v = f["returns"][label]
-            color = "var(--up)" if (v or 0) >= 0 else "var(--down)"
-            v_str = f"{v:+.2f}" if v is not None else "—"
-            ret_cells.append(
-                f'<div class="ret"><div class="p">{label.upper()}</div>'
-                f'<div class="v" style="color:{color}">{v_str}</div></div>'
-            )
-        cards.append(f'''<div class="fund-card">
-          <div class="fund-top">
-            <div>
-              <div class="fund-code">{code}</div>
-              <div class="fund-name">{f["name"].title()}</div>
-            </div>
-            <div class="fund-price">{f["price"]:.4f} ₺</div>
-          </div>
-          <div class="returns">{''.join(ret_cells)}</div>
-        </div>''')
-    return "\n".join(cards)
-
-
-def render_compare(funds):
-    rows = []
-    for base, alt in COMPARE_PAIRS:
-        fb, fa = funds.get(base), funds.get(alt)
-        if not fb or not fa:
-            continue
-        rb, ra = fb["returns"]["1y"] or 0, fa["returns"]["1y"] or 0
-        top = max(rb, ra, 1)
-        rows.append(f'''<div class="compare-row">
-          <div class="compare-name">{base}<span>AGESA</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:{rb/top*100:.0f}%;background:var(--gold);"></div></div>
-          <div class="compare-val">{rb:+.2f}</div>
+def render_fund_card(f):
+    ret_cells = []
+    for label in PERIOD_LABELS:
+        v = f["returns"][label]
+        color = "var(--up)" if (v or 0) >= 0 else "var(--down)"
+        v_str = f"{v:+.2f}" if v is not None else "—"
+        ret_cells.append(
+            f'<div class="ret"><div class="p">{label.upper()}</div>'
+            f'<div class="v" style="color:{color}">{v_str}</div></div>'
+        )
+    return f'''<div class="fund-card">
+      <div class="fund-top">
+        <div>
+          <div class="fund-code">{f["code"]}</div>
+          <div class="fund-name">{f["name"]}</div>
         </div>
-        <div class="compare-row">
-          <div class="compare-name">{alt}<span>{fa["name"].split(" ")[0].title()}</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:{ra/top*100:.0f}%;background:var(--text-muted);"></div></div>
-          <div class="compare-val">{ra:+.2f}</div>
+        <div class="fund-price">{f["price"]:.4f} ₺</div>
+      </div>
+      <div class="returns returns-5">{''.join(ret_cells)}</div>
+    </div>'''
+
+
+def render_category_options():
+    opts = ['<option value="all">Tüm Kategoriler</option>']
+    for category in CATEGORIES:
+        opts.append(f'<option value="{category}">{category}</option>')
+    return "\n".join(opts)
+
+
+def render_categorized_funds(all_funds):
+    blocks = []
+    for category, codes in CATEGORIES.items():
+        cards = [render_fund_card(all_funds[c]) for c in codes if c in all_funds]
+        if not cards:
+            continue
+        blocks.append(f'''<div class="category-block" data-category="{category}">
+          <div class="category-title">{category}</div>
+          <div class="fund-grid">{''.join(cards)}</div>
         </div>''')
-    return "\n".join(rows)
+    return "\n".join(blocks)
 
 
 def main():
-    funds = collect_fund_data()
+    all_funds = collect_all_funds()
     market = collect_market_data()
 
     with open("data.json", "w", encoding="utf-8") as f:
-        json.dump({"funds": funds, "market": market}, f, ensure_ascii=False, indent=2, default=str)
+        json.dump({"funds": all_funds, "market": market}, f, ensure_ascii=False, indent=2, default=str)
 
     with open("template.html", encoding="utf-8") as f:
         html = f.read()
 
     now = dt.datetime.now()
-    date_line = now.strftime("%d.%m.%Y %A · Otomatik guncelleme")
+    date_line = now.strftime("%d.%m.%Y %H:%M") + " · Otomatik güncelleme"
+
     html = (
         html.replace("{{DATE_LINE}}", date_line)
         .replace("{{TICKER_HTML}}", render_ticker(market))
-        .replace("{{FUNDS_HTML}}", render_funds(funds))
-        .replace("{{COMPARE_HTML}}", render_compare(funds))
+        .replace("{{CATEGORIZED_FUNDS_HTML}}", render_categorized_funds(all_funds))
+        .replace("{{CATEGORY_OPTIONS_HTML}}", render_category_options())
         .replace("{{GENERATED_AT}}", now.strftime("%d.%m.%Y %H:%M"))
     )
 
