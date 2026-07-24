@@ -43,6 +43,13 @@
   .ret{text-align:center;background:var(--panel-2);border-radius:8px;padding:7px 3px;}
   .ret .p{font-size:9.5px;color:var(--text-muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace;}
   .ret .v{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;}
+
+  .news-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+  .news-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;}
+  .news-title{font-family:'Fraunces',serif;font-size:15px;font-weight:600;margin-bottom:8px;line-height:1.35;}
+  .news-summary{font-size:12.5px;color:var(--text-muted);line-height:1.5;margin-bottom:10px;}
+  .news-source{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;}
+  .hint{font-size:12px;color:var(--text-muted);}
   footer{border-top:1px solid var(--line);padding-top:18px;font-size:12.5px;color:var(--text-muted);line-height:1.6;}
   footer b{color:var(--text);}
   @media (max-width:640px){
@@ -50,6 +57,7 @@
     .tick:nth-child(3){border-right:none;}
     .tick:nth-child(n+4){border-top:1px solid var(--line);}
     .fund-grid{grid-template-columns:1fr;}
+    .news-grid{grid-template-columns:1fr;}
     .returns-5{grid-template-columns:repeat(5,1fr);}
     h1{font-size:26px;}
   }
@@ -60,7 +68,7 @@
 
   <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
   <h1>Günaydın — piyasalar ve fonların bugün böyle görünüyor.</h1>
-  <div class="date-line">24.07.2026 10:10 · Otomatik güncelleme</div>
+  <div class="date-line">24.07.2026 11:11 · Otomatik güncelleme</div>
 
   <div class="ticker">
     <div class="tick">
@@ -70,18 +78,18 @@
         </div>
 <div class="tick">
           <div class="label">Euro</div>
-          <div class="val">53.96</div>
-          <span class="chg up">▲ %0.06</span>
+          <div class="val">53.94</div>
+          <span class="chg up">▲ %0.03</span>
         </div>
 <div class="tick">
           <div class="label">Gram Altın</div>
-          <div class="val">6.183.28</div>
-          <span class="chg up">▲ %0.39</span>
+          <div class="val">6.181.41</div>
+          <span class="chg up">▲ %0.36</span>
         </div>
 <div class="tick">
           <div class="label">BİST 100</div>
-          <div class="val">13.988.28</div>
-          <span class="chg down">▼ %0.64</span>
+          <div class="val">13.976.24</div>
+          <span class="chg down">▼ %0.72</span>
         </div>
 <div class="tick">
           <div class="label">TCMB Faizi</div>
@@ -396,8 +404,18 @@
     </div>
   </section>
 
+  <section>
+    <div class="section-head">
+      <div class="section-title">Gündem</div>
+      <div class="section-note">BES · emeklilik · sigorta · faiz-döviz ile ilgili güncel haberler</div>
+    </div>
+    <div class="news-grid">
+      <div class="hint">Gündem haberleri şu an alınamadı.</div>
+    </div>
+  </section>
+
   <footer>
-    <b>Not:</b> Bu sayfa her hafta içi 07:00 ve 12:00'de GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS ve piyasa verileri kullanılarak). Son güncelleme: 24.07.2026 10:10. Yatırım tavsiyesi değildir.
+    <b>Not:</b> Bu sayfa her hafta içi 07:00 ve 12:00'de GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS ve piyasa verileri kullanılarak). Son güncelleme: 24.07.2026 11:11. Yatırım tavsiyesi değildir.
   </footer>
 </div>
 
@@ -409,88 +427,5 @@
     });
   }
 </script>
-</body>
-</html>  .returns{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
-  .ret{text-align:center;background:var(--panel-2);border-radius:8px;padding:8px 4px;}
-  .ret .p{font-size:10px;color:var(--text-muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace;}
-  .ret .v{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;}
-  .compare{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;}
-  .compare-row{display:grid;grid-template-columns:110px 1fr 70px;align-items:center;gap:14px;margin-bottom:14px;}
-  .compare-row:last-child{margin-bottom:0;}
-  .compare-name{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;}
-  .compare-name span{display:block;font-family:'Inter',sans-serif;font-weight:400;color:var(--text-muted);font-size:11px;margin-top:2px;}
-  .bar-track{background:var(--panel-2);border-radius:6px;height:10px;overflow:hidden;}
-  .bar-fill{height:100%;border-radius:6px;}
-  .compare-val{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;text-align:right;}
-  footer{border-top:1px solid var(--line);padding-top:18px;font-size:12.5px;color:var(--text-muted);line-height:1.6;}
-  footer b{color:var(--text);}
-  @media (max-width:640px){
-    .ticker{grid-template-columns:repeat(3,1fr);}
-    .tick:nth-child(3){border-right:none;}
-    .tick:nth-child(n+4){border-top:1px solid var(--line);}
-    .fund-grid{grid-template-columns:1fr;}
-    .compare-row{grid-template-columns:90px 1fr 60px;}
-    h1{font-size:26px;}
-  }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
-  <h1>Günaydın — piyasalar ve fonların bugün böyle görünüyor.</h1>
-  <div class="date-line">24.07.2026 10:10 · Otomatik güncelleme</div>
-
-  <div class="ticker">
-    <div class="tick">
-          <div class="label">Dolar</div>
-          <div class="val">47.34</div>
-          <span class="chg up">▲ %0.27</span>
-        </div>
-<div class="tick">
-          <div class="label">Euro</div>
-          <div class="val">53.96</div>
-          <span class="chg up">▲ %0.06</span>
-        </div>
-<div class="tick">
-          <div class="label">Gram Altın</div>
-          <div class="val">6.183.28</div>
-          <span class="chg up">▲ %0.39</span>
-        </div>
-<div class="tick">
-          <div class="label">BİST 100</div>
-          <div class="val">13.988.28</div>
-          <span class="chg down">▼ %0.64</span>
-        </div>
-<div class="tick">
-          <div class="label">TCMB Faizi</div>
-          <div class="val">%37.00</div>
-          <div class="chg flat">23 Temmuz 2026 PPK kararı</div>
-        </div>
-  </div>
-
-  <section>
-    <div class="section-head">
-      <div class="section-title">AGESA Emeklilik Fonların</div>
-      <div class="section-note">Son fiyat · 1A / 3A / 6A / 1Y getiri</div>
-    </div>
-    <div class="fund-grid">
-      {{FUNDS_HTML}}
-    </div>
-  </section>
-
-  <section>
-    <div class="section-head">
-      <div class="section-title">En Yakın Alternatifle Karşılaştırma</div>
-      <div class="section-note">1 yıllık getiri · aynı kategori</div>
-    </div>
-    <div class="compare">
-      {{COMPARE_HTML}}
-    </div>
-  </section>
-
-  <footer>
-    <b>Not:</b> Bu sayfa her hafta içi sabahı GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS/BEFAS ve piyasa verileri kullanılarak). Son güncelleme: 24.07.2026 10:10. Yatırım tavsiyesi değildir.
-  </footer>
-</div>
 </body>
 </html>
