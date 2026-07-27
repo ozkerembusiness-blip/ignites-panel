@@ -4791,24 +4791,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.340999603271484,
-      "chg": 0.05
+      "value": 47.34590148925781,
+      "chg": 0.06
     },
     "eurtry": {
-      "value": 53.906639099121094,
-      "chg": 0.33
+      "value": 53.91305923461914,
+      "chg": 0.34
     },
     "gold_oz": {
-      "value": 4083.199951171875,
-      "chg": 0.38
+      "value": 4091.0,
+      "chg": 0.58
     },
     "bist100": {
-      "value": 13829.6904296875,
-      "chg": -0.82
+      "value": 13774.76953125,
+      "chg": -1.21
     },
     "gram_altin": {
-      "value": 6214.82,
-      "chg": 0.38
+      "value": 6227.34,
+      "chg": 0.58
     },
     "policy_rate": {
       "value": 37.0,
@@ -4818,33 +4818,33 @@
   "news": [
     {
       "title": "TCMB politika faizini yüzde 37'de sabit tuttu",
-      "summary": "<cite index=\"13-1,13-2\">TCMB PPK toplantısının faiz kararı 23 Temmuz 2026 Perşembe günü saat 14.00'te açıklandı ve ekonomistlerin ağırlıklı görüşü politika faizinde değişikliğe gidilmeyeceği yönünde şekillenmişti.</cite> <cite index=\"16-3\">Enflasyonun ana eğilimi haziran ayında sınırlı bir miktar gerilerken, öncü veriler temmuzda geçici bir yükseliş olacağını işaret ediyor.</cite>",
-      "source": "CNN Türk / Ahaber"
+      "summary": "<cite index=\"15-1,15-3\">TCMB Başkanı Fatih Karahan başkanlığında toplanan Kurul, politika faizinin yüzde 37'de sabit kalmasına karar verdi ve enflasyonun ana eğiliminin haziran ayında sınırlı bir miktar gerilediği belirtildi.</cite> <cite index=\"15-4\">Öncü veriler ana eğilimin temmuz ayında geçici olarak yükseleceğini ima etmektedir.</cite>",
+      "source": "ahaber.com.tr"
     },
     {
-      "title": "BES'te altından çıkış: 1 ayda 18,7 milyar TL rotasyon",
-      "summary": "<cite index=\"5-6,5-7\">Bireysel emeklilik sistemi fonlarında da benzer bir eğilim gözlemlenirken, 24 Temmuz Cuma günü itibarıyla son 1 aylık dönemde altın ve gümüşü kapsayan kıymetli maden fonlarından 18 milyar 678 milyon liralık para çıkışı gerçekleşti.</cite> <cite index=\"5-2,5-3\">Altın fiyatlarındaki zayıf görünümle tasarruf sahipleri yatırımlarını başka enstrümanlara kaydırıyor; bu eğilim TCMB'nin hane halkı anketinde de belirginleşti.</cite>",
-      "source": "Türkiye Gazetesi - Tasarruf Ortağım"
+      "title": "Altın fiyatları haftaya yükselişle başladı, ons 4.100 dolara yaklaştı",
+      "summary": "<cite index=\"20-1,20-5\">27 Temmuz 2026 Pazartesi günü ons altın 4.112-4.113 dolar seviyesinde işlem görürken gram altın 6 bin 267 TL seviyesine yükseldi ve çeyrek altının satış fiyatı 10 bin 247 TL'yi aştı.</cite> <cite index=\"20-6,20-7\">Altın fiyatları, ABD ve İran'ın hafta sonu askeri eylemlere ara vermesiyle sert gerileyen petrol fiyatlarının ve güçlenen diplomatik çözüm umutlarının etkisiyle yükseldi.</cite>",
+      "source": "BirGün"
     },
     {
-      "title": "BES ve OKS toplam büyüklüğü 2,42 trilyon TL'ye ulaştı",
-      "summary": "<cite index=\"6-3,6-4\">Türkiye'de 18,1 milyon yatırımcıyı ilgilendiren Bireysel Emeklilik Sistemindeki birikimler 9 Temmuz 2026 itibarıyla 2,42 trilyon TL'ye ulaşırken, BES yatırımcıları ağırlıklı olarak kıymetli maden, hisse senedi ve kamu borçlanma araçlarında yoğunlaşmaya devam ediyor.</cite>",
-      "source": "Türkiye Gazetesi"
+      "title": "Dolar/TL 47,36 seviyesinden işlem görüyor",
+      "summary": "<cite index=\"21-1\">27 Temmuz 2026 Pazartesi günü Dolar/TL saat 07:15 itibarıyla 47,3566 (alış) 47,3648'den (satış) işlem görürken Euro ise aynı saat itibarıyla 54,0755 TL seviyelerinde seyretti.</cite>",
+      "source": "Ekonomim.com"
     },
     {
-      "title": "Türkiye Sigorta ve Türkiye Hayat Emeklilik'ten rekor kârlılık",
-      "summary": "<cite index=\"30-1\">Türkiye Sigorta net kârını yüzde 44 artışla 13 milyar 450 milyon TL'ye, Türkiye Hayat Emeklilik ise yüzde 52 artışla 11 milyar 8 milyon TL'ye yükseltti.</cite> <cite index=\"30-6\">Türkiye Hayat Emeklilik, BES ve OKS fon büyüklüğünü yüzde 49 artışla 525 milyar TL'ye, katılımcı sayısını da yaklaşık 5 milyona yükseltti.</cite>",
-      "source": "Sabah Ekonomi"
+      "title": "Türkiye Sigorta ve Türkiye Hayat Emeklilik'ten rekor yarıyıl kârı",
+      "summary": "<cite index=\"29-1,29-4\">Türkiye Sigorta ve Türkiye Hayat Emeklilik, ilk 6 ayda toplamda 24,5 milyar TL rekor net kârlılığa imza attı; Türkiye Sigorta net kârını yüzde 44 artışla 13 milyar 450 milyon TL'ye, Türkiye Hayat Emeklilik ise yüzde 52 artışla 11 milyar 8 milyon TL'ye yükseltti.</cite> <cite index=\"27-3\">Şirketin devlet katkısı dahil toplam BES ve OKS fon büyüklüğü yüzde 49 artışla 525 milyar TL'ye ulaştı.</cite>",
+      "source": "Sigortacı Gazetesi / Sigorta Medya"
     },
     {
-      "title": "Altın fiyatları haftaya güvenli liman talebiyle yükselişle başladı",
-      "summary": "<cite index=\"19-1,19-2\">Altının ons fiyatı sabah 08:00 itibarıyla cuma günü kapanışına göre yüzde 0,9 yükselişle 4090 dolar seviyesinde işlem görürken, gram altın yüzde 0,9 yükselişle 6227 TL seviyesinde alıcı buldu.</cite> <cite index=\"20-6,20-7\">Fed toplantısı öncesinde yatırımcıların temkinli hareket etmesi nedeniyle ons altında dalgalı ancak yukarı yönlü görünüm dikkat çekerken, bu hafta açıklanacak Fed faiz kararı altın piyasasında kritik öneme sahip.</cite>",
-      "source": "BigPara Hürriyet / GZT"
+      "title": "BES'te devlet katkısı yüzde 30'dan yüzde 20'ye düşürüldü",
+      "summary": "<cite index=\"6-3,6-4\">BES'te devlet katkısının yüzde 30'dan yüzde 20'ye indirilmesi gönüllü sistemde yeni katılımları yavaşlatsa da yüksek fon getirileri sistemi yatırımcı için hâlâ güçlü bir alternatif olarak öne çıkarıyor; katılımcılar adına Türk lirası cinsinden yapılan ödemeler için devlet katkısı oranı yüzde 20 olarak tespit edildi.</cite>",
+      "source": "Posta.com.tr"
     },
     {
-      "title": "Dolar/TL 47,36, Euro 54 TL sınırında seyrediyor",
-      "summary": "<cite index=\"21-1\">27 Temmuz 2026 Pazartesi günü Dolar/TL saat 07:15 itibarıyla 47,3566 (alış) 47,3648'den (satış) işlem görürken Euro ise aynı saat itibarıyla 54,0755 TL seviyelerinde seyretti.</cite> <cite index=\"23-2,23-3\">Saat 09.50 itibarıyla dolar önceki kapanışa göre yüzde 0,1 artışla 47,3630 seviyesinde, sterlin/TL ise yüzde 0,3 primle 63,3150'den işlem gördü.</cite>",
-      "source": "Ekonomim.com / Capital"
+      "title": "Hayat ve emeklilik şirketlerinde yüzde 44 kâr artışı bekleniyor",
+      "summary": "<cite index=\"32-1\">Hayat ve emeklilik şirketleri için öngörülen yüzde 44'lük yıllık net kâr artışı, finansal sektörün ikinci çeyrek görünümünde belirgin bir ayrışmaya işaret ediyor.</cite> <cite index=\"32-3\">Gedik Yatırım'ın raporunda Anadolu Hayat Emeklilik'in hayat ve emeklilik segmentlerinden olumlu katkı sağlaması bekleniyor.</cite>",
+      "source": "Endeks24.com (Gedik Yatırım Araştırma)"
     }
   ]
 }
