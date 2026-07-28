@@ -4791,24 +4791,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.3760986328125,
+      "value": 47.37540054321289,
       "chg": 0.05
     },
     "eurtry": {
-      "value": 53.877498626708984,
-      "chg": -0.2
+      "value": 54.05390167236328,
+      "chg": 0.13
     },
     "gold_oz": {
-      "value": 4026.60009765625,
-      "chg": -1.18
+      "value": 4043.199951171875,
+      "chg": -0.77
     },
     "bist100": {
-      "value": 13794.9599609375,
-      "chg": 0.15
+      "value": 13687.8603515625,
+      "chg": -0.63
     },
     "gram_altin": {
-      "value": 6133.22,
-      "chg": -1.18
+      "value": 6158.41,
+      "chg": -0.77
     },
     "policy_rate": {
       "value": 37.0,
@@ -4817,34 +4817,34 @@
   },
   "news": [
     {
+      "title": "BES fon büyüklüğü 2,42 trilyon TL'ye ulaştı, getiri tartışması sürüyor",
+      "summary": "Bireysel Emeklilik Sistemi'nin büyüklüğü 9 Temmuz 2026'da 2,42 trilyon liraya çıktı ve haftalardır yatay seyrediyor; havuzun son bir yıllık toplam getirisi yüzde 39,6 olarak açıklandı. Katılımcılar ağırlıklı olarak kıymetli madenler, hisseler ve kamu borçlanma araçlarında toplanıyor; ilk üç aracın toplam değeri yaklaşık 1,65 trilyon lirayı bularak havuzun yüzde 68,7'sini oluştururken altın ve gümüşü içeren kıymetli madenler yüzde 38,71'lik payla listenin lideri konumunda.",
+      "source": "Eskişehir Haber Ajansı"
+    },
+    {
       "title": "TCMB politika faizini yüzde 37'de sabit tuttu",
-      "summary": "<cite index=\"9-3,9-4\">Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, piyasaların yakından izlediği toplantıda politika faizini değiştirmedi; bir hafta vadeli repo ihale faiz oranı yüzde 37 seviyesinde sabit tutuldu.</cite> <cite index=\"9-5\">Merkez Bankası, sıkı para politikası duruşunun fiyat istikrarı sağlanana kadar sürdürüleceğini vurguladı.</cite>",
-      "source": "Birgün"
+      "summary": "Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, piyasaların yakından izlediği toplantıda politika faizini değiştirmedi; bir hafta vadeli repo ihale faiz oranı yüzde 37 seviyesinde sabit tutulurken karar metninde enflasyon, iç talep, enerji fiyatları ve jeopolitik risklere ilişkin önemli mesajlar verildi. TCMB, enflasyonun ana eğiliminde haziran ayında sınırlı bir gerileme yaşandığını, ancak öncü göstergelerin temmuz ayında ana eğilimde geçici bir yükselişe işaret ettiğini bildirdi.",
+      "source": "BirGün"
     },
     {
-      "title": "Altın, güçlü dolar ve Fed beklentisiyle geriledi",
-      "summary": "<cite index=\"20-4,20-6\">Altın fiyatları, güçlü seyreden ABD Doları'nın etkisiyle haftanın ikinci işlem gününde geriledi ve spot altının ons fiyatı yüzde 0,7 düşüşle 4.044,81 dolara düştü.</cite> <cite index=\"20-5\">Yatırımcıların odağı ABD Merkez Bankası'nın (Fed) çarşamba günü açıklayacağı faiz kararına çevrildi.</cite>",
-      "source": "Cumhuriyet"
+      "title": "Ekonomistler yıl sonunda faizin yüzde 35'e inmesini bekliyor",
+      "summary": "Ekonomistlerin yıl sonuna ilişkin ortak öngörüsü politika faizinin yüzde 35 seviyelerine gerileyebileceği yönünde. Merkez Bankası'nın 2026 Para Politikası Kurulu takvimine göre ağustos ayında faiz toplantısı bulunmadığından, temmuz kararının eylül toplantısına kadar piyasaların yönü üzerinde etkili olması bekleniyor.",
+      "source": "Uzmanpara/Milliyet"
     },
     {
-      "title": "Dolar/TL 47,38 seviyesinde işlem görüyor",
-      "summary": "<cite index=\"19-1,19-2\">28 Temmuz 2026 tarihi itibarıyla doların fiyatı 47,38 TL olarak belirlendi; bu değer saat 09:00'da kaydedildi.</cite> <cite index=\"19-7\">Doların yükselmesi, yerel para biriminin değer kaybı ile ilgili endişeleri artırdı.</cite>",
-      "source": "Mynet Finans"
+      "title": "Altın, Fed faiz kararı öncesi 4.040 dolar seviyesine geri çekildi",
+      "summary": "Spot altın, yeni günde yüzde 0,8'e varan bir düşüş kaydederek ons başına 4.040 dolar seviyelerine çekildi; altın fiyatları, ABD Merkez Bankası'nın açıklayacağı kritik faiz kararı öncesinde gerilemeye başladı. Faiz artışı beklentilerinin güçlenmesi doların değer kazanmasına yol açarken bu durum altın üzerinde baskı oluşturuyor; analistler ons altında 4 bin dolar seviyesinin kritik destek noktası olduğunu belirtiyor.",
+      "source": "Doğru Haber / Hürriyet"
     },
     {
-      "title": "Anadolu Hayat Emeklilik'te BES fon büyüklüğü 407 milyar TL'ye ulaştı",
-      "summary": "<cite index=\"28-1\">Anadolu Hayat Emeklilik, 2026'nın ikinci çeyreğinde aktif büyüklüğünü yüzde 49 artırarak 481 milyar TL'ye, BES fon büyüklüğünü ise 407 milyar TL'ye çıkardı.</cite> <cite index=\"28-6\">Şirketin öz kaynakları 13 milyar TL, net dönem kârı ise 3,5 milyar TL olarak gerçekleşti.</cite>",
-      "source": "Kapsül Haber Ajansı"
+      "title": "Dolar/TL 47 TL bandının üzerinde, euro 54 TL'ye yaklaştı",
+      "summary": "Dolar ve Euro 28 Temmuz sabahına yükselişle başladı; dolar bugün 47,00 TL bandının üzerinde hareket ederken spot piyasada dolar/TL alış fiyatı 47,37 lira, satış fiyatı 47,38 lira seviyesinden işlem görüyor. ABD'de para politikasına ilişkin belirsizlikler ve Orta Doğu'daki gelişmeler döviz piyasalarında dalgalanma riskini artırırken güçlü dolar görünümü korunuyor.",
+      "source": "Doğru Haber"
     },
     {
-      "title": "Türkiye Sigorta ve Türkiye Hayat Emeklilik'ten 24,5 milyar TL rekor kâr",
-      "summary": "<cite index=\"24-4\">Türkiye Sigorta net kârını yüzde 44 artışla 13 milyar 450 milyon TL'ye, Türkiye Hayat Emeklilik ise yüzde 52 artışla 11 milyar 8 milyon TL'ye yükseltti.</cite> <cite index=\"24-7\">Türkiye Hayat Emeklilik ayrıca BES ve OKS fon büyüklüğünü yüzde 49 artışla 525 milyar TL'ye, katılımcı sayısını da yaklaşık 5 milyona yükseltti.</cite>",
-      "source": "A Haber"
-    },
-    {
-      "title": "Garanti BBVA Emeklilik'ten BES katılımcılarına özel çekiliş kampanyası",
-      "summary": "<cite index=\"30-7\">31 Temmuz'a kadar Garanti BBVA Emeklilik'ten BES veya Çocuklara BES başlatan veya mevcut sözleşmelerindeki katkı payını artıran müşteriler, çekilişle MacBook Pro ve iPhone 17 kazanma şansı yakalıyor.</cite>",
-      "source": "Sigorta Gazetesi"
+      "title": "BES'te devlet katkısı yüzde 30'dan yüzde 20'ye düşürüldü",
+      "summary": "Bireysel Emeklilik Sistemi'nde (BES) devlet katkısı oranını yüzde 30'dan yüzde 20'ye indiren karar Resmi Gazete'de yayımlandı. BES ve Otomatik Katılım Sistemi'ndeki devlet katkısı ile katılımcı fon tutarlarının toplam büyüklüğü 2025 sonu itibarıyla 2 trilyon 163 milyar 164,7 milyon liraya ulaşırken toplam katılımcı sayısı 17 milyon 935 bin 495 oldu.",
+      "source": "Milliyet"
     }
   ]
 }
