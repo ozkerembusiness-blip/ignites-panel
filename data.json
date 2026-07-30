@@ -3291,13 +3291,13 @@
     "IGE": {
       "code": "IGE",
       "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. KATKI EMEKLİLİK YATIRIM FONU",
-      "price": 0.110903,
+      "price": 0.110912,
       "returns": {
         "1a": -1.81,
-        "6a": 3.02,
-        "1y": 27.74,
-        "3y": 119.05,
-        "5y": 417.92
+        "6a": 3.03,
+        "1y": 27.75,
+        "3y": 119.07,
+        "5y": 417.97
       }
     },
     "KEA": {
@@ -4791,24 +4791,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.411598205566406,
+      "value": 47.40999984741211,
       "chg": 0.06
     },
     "eurtry": {
-      "value": 54.48662185668945,
-      "chg": 1.0
+      "value": 54.73395919799805,
+      "chg": 1.46
     },
     "gold_oz": {
-      "value": 4135.60009765625,
-      "chg": 2.5
+      "value": 4166.10009765625,
+      "chg": 3.26
     },
     "bist100": {
-      "value": 13388.919921875,
-      "chg": -0.83
+      "value": 13292.9296875,
+      "chg": -1.55
     },
     "gram_altin": {
-      "value": 6303.97,
-      "chg": 2.5
+      "value": 6350.24,
+      "chg": 3.26
     },
     "policy_rate": {
       "value": 37.0,
@@ -4817,34 +4817,34 @@
   },
   "news": [
     {
-      "title": "TCMB bugün PPK toplantı özetini açıklayacak",
-      "summary": "Türkiye Cumhuriyet Merkez Bankası, bugün Para Politikası Kurulu toplantı özeti ile haftalık para ve banka istatistiklerini yayımlayacak; TÜİK de haziran işgücü ve ÜFE verilerini duyuracak. Bu açıklamalar, TCMB'nin 23 Temmuz'da politika faizini yüzde 37'de sabit tuttuğu kararın arka planındaki değerlendirmeleri netleştirecek.",
-      "source": "Bloomberg HT"
+      "title": "TCMB, politika faizini yüzde 37'de sabit tuttu, PPK özeti açıklandı",
+      "summary": "Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, bir hafta vadeli repo faizini yüzde 37'de sabit tutarken 30 Temmuz'da yayımlanan PPK özetinde sıkı duruşun fiyat istikrarı sağlanana kadar süreceği vurgulandı. Kurul, enerji fiyatlarındaki yükseliş eğilimi ve jeopolitik risklere karşı ihtiyatlı bir yaklaşımın korunacağını bildirdi.",
+      "source": "Birgün / TCMB"
     },
     {
-      "title": "Altın fiyatlarında Fed etkisi sürüyor, ons 4.000 dolar üzerinde",
-      "summary": "30 Temmuz 2026 sabahı gram altın 6.180-6.200 TL bandında, ons altın ise 4.035-4.066 dolar seviyesinde seyretti; Fed'in faizi sabit tutması altındaki satış baskısını hafifletirken, Fed Başkanı Warsh'ın 'gerekirse faiz artırılabilir' açıklaması yükselişi sınırladı. Gram altın son bir yılda yaklaşık yüzde 44 değer kazandı.",
+      "title": "Altın fiyatlarında Fed etkisi: gram altın 6.150-6.180 TL bandında",
+      "summary": "30 Temmuz 2026'da ons altın günü yaklaşık 4.035-4.059 dolar seviyesinden açarken, gram altın 6.150-6.190 TL bandında işlem gördü. Fed'in faizi sabit tutması altındaki satış baskısını hafifletirken, Fed Başkanı'nın faiz artışı sinyali yükselişi sınırladı.",
       "source": "Bloomberg HT / Ekonomim"
     },
     {
-      "title": "Dolar/TL 47,40 TL, Euro 54,45 TL seviyesinde işlem gördü",
-      "summary": "30 Temmuz 2026 sabahı Dolar/TL 47,4053-47,4220 aralığında, Euro ise 54,4571 TL civarında seyretti; yatırımcılar Fed ve TCMB kararları sonrası döviz kurundaki hareketleri yakından takip ediyor.",
+      "title": "Dolar/TL 47,40 seviyesinde, Euro 54,45 TL'yi gördü",
+      "summary": "30 Temmuz 2026 sabahı Dolar/TL 47,40 TL alış - 47,42 TL satış seviyesinde işlem görürken Euro 54,45 TL civarında seyretti. Döviz kurundaki hareketlilik yatırımcılar tarafından yakından takip ediliyor.",
       "source": "Ekonomim"
     },
     {
-      "title": "Fed faizi sabit tuttu, üç üye artış yönünde oy kullandı",
-      "summary": "ABD Merkez Bankası (Fed) politika faizini yüzde 3,5-3,75 aralığında sabit bırakırken, üç üyenin faizde çeyrek puan artış yönünde oy kullanması 2016'dan sonraki en yüksek görüş ayrılığına işaret etti. Bu gelişme küresel piyasalarda altın ve dövizdeki fiyatlamaları doğrudan etkiledi.",
-      "source": "Yeni Şafak / Malatya Cadde"
+      "title": "BES'te devlet katkısı yüzde 20'ye düşürüldü, gözler TES'e çevrildi",
+      "summary": "Bireysel Emeklilik Sistemi'nde katılımcılar adına yatırılan katkı payları için devlet katkısı oranı Türk lirası ödemelerde yüzde 20 olarak belirlendi; bu değişiklik gönüllü sistemde yeni katılımları yavaşlatsa da yüksek fon getirileri sistemi cazip kılmaya devam ediyor. Milyonları ilgilendiren Tamamlayıcı Emeklilik Sistemi'nin (TES) 2026'da devreye girmesi bekleniyor.",
+      "source": "Posta / Milliyet"
     },
     {
-      "title": "BES fon havuzunda kıymetli madenler açık ara lider oldu",
-      "summary": "Türkiye'de 18,1 milyon kişiyi ilgilendiren Bireysel Emeklilik Sistemi'nin toplam büyüklüğü Temmuz ayı itibarıyla 2,42 trilyon liraya ulaşırken, sistemde Altın ve gümüşü içeren kıymetli madenler, yüzde 38,71'lik payla listenin açık ara lideri konumunda ve bu pay yaklaşık 929 milyar liralık bir değere denk düşüyor.",
-      "source": "Eskişehir Haber Ajansı"
+      "title": "Sigorta sektörü aktif büyüklüğü 2,2 trilyon TL'yi aştı",
+      "summary": "Türkiye Sigorta Birliği Başkanı Uğur Gülen, sigorta sektörünün aktif büyüklüğünün 2,2 trilyon TL'yi aştığını belirterek özsermaye yapısının güçlendirilmeye devam edildiğini açıkladı. Sektörün istikrarlı büyüme ve finansal dayanıklılık hedefiyle ilerlediği vurgulandı.",
+      "source": "Milliyet"
     },
     {
-      "title": "Emeklilik ve yatırım fonlarında haftalık getiri karşılaştırması açıklandı",
-      "summary": "20-24 Temmuz haftasında BES fonları arasında en yüksek getiriyi Katılım Emeklilik'in teknoloji sektörü fonu sağlarken, Anadolu Hayat Emeklilik'in İş Bankası iştirak endeksi fonu en çok kaybeden emeklilik fonu oldu; hisse senedi yoğun serbest fonlarda ise yüzde 20'nin üzerinde haftalık getiriler görüldü.",
-      "source": "CNBC-e"
+      "title": "BES ve OKS'de toplam fon büyüklüğü 1,4 trilyon TL'ye yaklaştı",
+      "summary": "Bireysel emeklilik sistemi (BES) ve otomatik katılım sistemindeki (OKS) devlet katkısı dahil toplam fon büyüklüğü ilk çeyrekte 1,4 trilyon liraya yaklaşırken, 18 yaş altı katılımcı sayısının 1,4 milyonu aştığı bildirildi. Sistem, devlet katkısının sağladığı avantajlarla bireysel tasarrufta ön planda kalmayı sürdürüyor.",
+      "source": "Milliyet"
     }
   ]
 }
