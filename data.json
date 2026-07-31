@@ -4791,24 +4791,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.52399826049805,
-      "chg": 0.33
+      "value": 47.51190185546875,
+      "chg": 0.3
     },
     "eurtry": {
-      "value": 54.62242126464844,
-      "chg": 0.42
+      "value": 54.746578216552734,
+      "chg": 0.65
     },
     "gold_oz": {
-      "value": 4109.7001953125,
-      "chg": 0.23
+      "value": 4098.5,
+      "chg": -0.04
     },
     "bist100": {
-      "value": 13249.740234375,
-      "chg": -0.32
+      "value": 13458.099609375,
+      "chg": 1.24
     },
     "gram_altin": {
-      "value": 6279.34,
-      "chg": 0.23
+      "value": 6260.63,
+      "chg": -0.04
     },
     "policy_rate": {
       "value": 37.0,
@@ -4817,33 +4817,33 @@
   },
   "news": [
     {
-      "title": "TCMB politika faizini %37'de sabit tuttu",
-      "summary": "<cite index=\"12-1,12-2\">Türkiye Cumhuriyet Merkez Bankası (TCMB) Para Politikası Kurulu (PPK) yılın 5. faiz kararını açıkladı ve politika faizini beklentiler dahilinde yüzde 37'de sabit bıraktı.</cite> <cite index=\"9-5\">Merkez Bankası, sıkı para politikası duruşunun fiyat istikrarı sağlanana kadar sürdürüleceğini vurguladı.</cite>",
-      "source": "Bigpara / Hürriyet"
+      "title": "TCMB politika faizini yüzde 37'de sabit tuttu",
+      "summary": "Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, yılın 5. faiz kararında bir hafta vadeli repo faizini yüzde 37'de sabit bıraktı; enflasyonun ana eğiliminin haziranda gerilediği ancak temmuzda geçici yükseleceği belirtildi.",
+      "source": "Bigpara (Hürriyet)"
     },
     {
-      "title": "Dolar ve euro bugün yükselişte, altın 6.160 TL seviyesinde",
-      "summary": "<cite index=\"18-1,18-2\">31 Temmuz 2026 sabahı serbest piyasada dolar 47,42 TL, euro 54,13 TL, sterlin 63,41 TL seviyelerinde işlem görürken gram altın 6.160 lira seviyesinden işlem görüyor.</cite> <cite index=\"20-8,20-9\">TCMB, doların dünkü efektif kurunu alışta 47,29 lira, satışta 47,48 lira olarak açıklarken bir önceki efektif kuru alışta 47,27, satışta 47,45 lira olarak belirlemişti.</cite>",
-      "source": "Bursa TV / Ulusal Haber"
+      "title": "Altın haftanın son gününde değer kaybediyor",
+      "summary": "Gram altın güne 6.228 TL, ons altın ise 4.074 dolar seviyesinden başlarken, güçlenen doların baskısıyla kâr satışları görüldü; buna rağmen ons altın temmuz ayını beş aydan sonra ilk kez yükselişle kapatmaya hazırlanıyor.",
+      "source": "Ulusal.com.tr / Mynet Finans"
     },
     {
-      "title": "BES havuzundaki birikim 2,4 trilyon lirayı aştı",
-      "summary": "<cite index=\"8-3,8-4\">Emeklilik Gözetim Merkezi verilerine göre yılın ilk yarısı itibarıyla BES'teki katılımcı sayısı 10 milyon 304 bin 546'ya ulaşırken, katılımcıların fon tutarı ile devlet katkısı fon tutarının toplam büyüklüğü 2 trilyon 248 milyar 252,7 milyon lira oldu.</cite> Sistem, 27 Ekim 2003'teki başlangıcından bu yana 23. yılını doldurmak üzere büyümeye devam ediyor.",
-      "source": "BloombergHT"
+      "title": "Dolar/TL 47,50 seviyesinde yükselişini sürdürüyor",
+      "summary": "Dolar/TL 31 Temmuz sabahı 47,4994-47,5302 TL aralığında işlem görürken, Euro 54,78 TL seviyelerinde seyretti; kapalıçarşıda dolar gece yarısı yüzde 0,43 sert yükselişle 47,51 TL'ye kadar çıktı.",
+      "source": "Ekonomim / Yeniçağ Gazetesi"
     },
     {
-      "title": "Türkiye Sigorta ve Türkiye Hayat Emeklilik'ten rekor kârlılık",
-      "summary": "<cite index=\"30-4,30-5\">Türkiye Sigorta, 2026'nın ilk 6 ayında net kârını yüzde 44 artışla 13 milyar 450 milyon TL'ye, Türkiye Hayat Emeklilik ise yüzde 52 artışla 11 milyar 8 milyon TL'ye yükselterek iki şirket toplamda 24,5 milyar TL ile rekor kârlılığa imza attı.</cite> <cite index=\"30-10\">Şirket yetkilileri, 2026 Haziran ayı sonunda TÜFE yıllık bazda yüzde 2,1 olarak gerçekleşirken sigorta enflasyonunun yüzde 15,5 ile bunun önemli ölçüde altında kaldığını belirtti.</cite>",
-      "source": "Sigortacı Gazetesi"
+      "title": "Türkiye Sigorta ve Türkiye Hayat Emeklilik'ten rekor kâr",
+      "summary": "İki şirket, 2026'nın ilk yarısında net kârlarını sırasıyla yüzde 44 ve yüzde 52 artırarak toplamda 24,5 milyar TL rekor net kârlılığa ulaştı.",
+      "source": "A Haber / Dünya Gazetesi"
     },
     {
-      "title": "Anadolu Hayat Emeklilik'in BES fon büyüklüğü 407 milyar TL'ye ulaştı",
-      "summary": "<cite index=\"27-2,27-3\">Şirketin gönüllü BES ve otomatik katılım toplam fon büyüklüğü 407 milyar TL'ye ulaşırken katılımcı sayısı 3,4 milyonu aştı ve 397 bin çocuk katılımcı ile 18 yaş altı segmentte yüzde 23,1 pazar payıyla liderliğini korudu.</cite> <cite index=\"27-4\">Hayat sigortası prim üretimi 2026'nın ikinci çeyreğinde geçen yıla göre yüzde 32,0 oranında artarak 11,8 milyar TL'yi aştı.</cite>",
+      "title": "Anadolu Hayat Emeklilik'in BES fonu 407 milyar TL'ye çıktı",
+      "summary": "Şirketin gönüllü BES ve otomatik katılım toplam fon büyüklüğü 407 milyar TL'ye ulaşırken, katılımcı sayısı 3,4 milyonu aştı ve hayat sigortası prim üretimi yüzde 32 arttı.",
       "source": "Sigorta Medya"
     },
     {
-      "title": "Türkiye Hayat Emeklilik'in net kârı ilk yarıda 11 milyar TL'ye çıktı",
-      "summary": "<cite index=\"29-2,29-3\">Şirket, yılın ilk yarısında net kârını geçen yılın aynı dönemine göre yüzde 52 artırarak 11 milyar TL'ye çıkarırken devlet katkısı dahil toplam BES ve OKS fon büyüklüğü yüzde 49 artışla 525 milyar TL'ye ulaştı.</cite> Şirket, emeklilik ve hayat sigortası branşlarındaki pazar liderliğini sürdürdüğünü açıkladı.",
+      "title": "Türkiye Hayat Emeklilik'in ilk yarı net kârı 11 milyar TL'ye ulaştı",
+      "summary": "Şirketin BES ve OKS fon büyüklüğü devlet katkısı dahil yüzde 49 artışla 525 milyar TL'ye yükselirken, emeklilik branşında yüzde 22 pazar payıyla liderliğini sürdürdüğü açıklandı.",
       "source": "Sigorta Medya"
     }
   ]
