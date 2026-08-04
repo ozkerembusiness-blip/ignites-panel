@@ -4791,24 +4791,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.549198150634766,
-      "chg": 0.03
+      "value": 47.54280090332031,
+      "chg": 0.02
     },
     "eurtry": {
-      "value": 54.79970169067383,
-      "chg": -0.17
+      "value": 54.80670166015625,
+      "chg": -0.15
     },
     "gold_oz": {
-      "value": 4119.39990234375,
-      "chg": 2.12
+      "value": 4142.2001953125,
+      "chg": 2.69
     },
     "bist100": {
-      "value": 13485.7900390625,
-      "chg": 0.21
+      "value": 13687.9296875,
+      "chg": 2.07
     },
     "gram_altin": {
-      "value": 6297.5,
-      "chg": 2.12
+      "value": 6331.5,
+      "chg": 2.69
     },
     "policy_rate": {
       "value": 37.0,
@@ -4817,34 +4817,34 @@
   },
   "news": [
     {
-      "title": "TCMB politika faizi %37'de sabit, Ağustos'ta toplantı yok",
-      "summary": "<cite index=\"3-11,3-7\">TCMB, 23 Temmuz 2026 tarihinde gerçekleştirdiği Para Politikası Kurulu toplantısında politika faizini 37 seviyesinde sabit bıraktı ve bir sonraki faiz kararı 10 Eylül 2026 Perşembe günü açıklanacak.</cite> <cite index=\"1-1,1-2\">TCMB'nin 2026 yılı PPK takvimine göre ağustos ayında faiz toplantısı gerçekleştirilmeyecek, bu nedenle bugünkü karar eylülde yapılacak toplantıya kadar geçerliliğini koruyacak.</cite>",
-      "source": "Yatirimx.com.tr / Kıbrıs Gazetesi"
+      "title": "TCMB Ağustos'ta toplantı yapmıyor, faiz %37'de sabit kaldı",
+      "summary": "<cite index=\"4-6,4-7\">TCMB, Ağustos 2026'da Para Politikası Kurulu (PPK) toplantısı gerçekleştirmeyecek; Temmuz ayındaki toplantının ardından bir sonraki faiz kararı 10 Eylül 2026'da açıklanacak.</cite> <cite index=\"9-3,9-4\">TCMB, politika faizi olan bir hafta vadeli repo ihale faiz oranını yüzde 37'de sabit tuttu.</cite>",
+      "source": "Yatirimx.com.tr / Para Dergi"
     },
     {
-      "title": "Uzmanlardan TCMB'ye faiz indirimi ve normalleşme beklentisi",
-      "summary": "<cite index=\"8-3,8-4\">Repo ihalelerine dönüş veya faiz indirim sürecine ilişkin açık bir yönlendirme verilmemesi kısa vadede güvercin fiyatlamayı sınırlasa da, TCMB'nin normalleşme sürecine önce bir hafta vadeli repo ihalelerini yeniden başlatarak adım atabileceği değerlendiriliyor.</cite> <cite index=\"8-5\">Enflasyon verilerinde iyileşme görülmesi halinde repo ihalelerinin ağustosta devreye alınmasıyla fonlama maliyetinin kademeli gerilemesi ve politika faizinin yılı yüzde 34 seviyesinde tamamlaması bekleniyor.</cite>",
-      "source": "AA / Para Dergi"
+      "title": "Uzmanlardan yıl sonu faiz ve enflasyon beklentisi",
+      "summary": "<cite index=\"9-6,9-7\">TCMB yıl sonuna kadar 10 Eylül, 22 Ekim ve 10 Aralık olmak üzere üç PPK toplantısı daha yapacak; ekonomistler yüzde 24'lük yıl sonu enflasyon hedefine ulaşmanın güç göründüğünü belirtiyor.</cite> Bazı uzmanlar ise enflasyonda iyileşme olursa repo ihalelerinin ağustosta devreye alınabileceğini öngörüyor.",
+      "source": "Para Dergi / AA"
     },
     {
-      "title": "Altın fiyatları dar bantta: Gram altın 6.200 TL civarında",
-      "summary": "<cite index=\"20-1\">Gram altın güne 6.199,27 TL'den, ons altın ise 4.052,50 dolardan başladı.</cite> <cite index=\"19-4\">Fed'in faiz yol haritasına dair ipucu sunacak kritik ABD istihdam verileri öncesi yatırımcıların temkinli duruşu piyasada etkili oldu.</cite>",
-      "source": "Memurlar.net / Halk TV"
+      "title": "Altın bugün yükselişte, ons 4.062 dolara çıktı",
+      "summary": "<cite index=\"20-1,20-2\">Altının onsu 4 Ağustos 2026 sabah saatlerinde 4 bin 62 dolardan alıcı bulurken, gram altın Kapalıçarşı'da 6 bin 212 TL'den satılıyor.</cite> <cite index=\"19-15\">ABD-İran görüşmelerine ilişkin belirsizlik güvenli liman talebini desteklerken, yatırımcılar Fed'in faiz politikası sinyallerini bekliyor.</cite>",
+      "source": "Doğruhaber / İstiklal.com.tr"
     },
     {
-      "title": "Dolar/TL 47,55 seviyesinde, Euro 54,8 TL'yi test etti",
-      "summary": "<cite index=\"18-8\">Dolar/TL saat 07:15 itibarıyla 47,5447 (alış) 47,5652'den (satış) işlem görürken Euro ise aynı saat itibarıyla 54,8240 TL seviyelerinde seyretti.</cite> <cite index=\"24-5,24-6\">TCMB, doların dünkü efektif kurunu alışta 47,4165, satışta 47,6065 lira olarak açıkladı; önceki efektif kur ise alışta 47,3121, satışta 47,5017 lira olarak belirlenmişti.</cite>",
-      "source": "Ekonomim / Dünya Gazetesi"
+      "title": "Dolar ve euro bugün yatay seyrediyor",
+      "summary": "<cite index=\"22-1\">4 Ağustos 2026 Salı günü Dolar/TL saat 07:15 itibarıyla 47,5447 (alış) - 47,5652 (satış) seviyesinden işlem görürken Euro 54,8240 TL seviyelerinde seyrediyor.</cite>",
+      "source": "Ekonomim.com"
     },
     {
-      "title": "Tamamlayıcı Emeklilik Sistemi (TES) için gözler mevzuatta",
-      "summary": "<cite index=\"26-7,26-8\">TES, mevcut Otomatik Katılım Sistemi'nin geliştirilerek ikinci basamak bir emeklilik modeli hâline getirilmesini hedefleyen bir yapı olarak, çalışanların SGK emekli aylığına bağımlı kalmadan ek gelir elde etmesini amaçlıyor.</cite> <cite index=\"32-2,32-3\">Kesinti oranı, devlet katkısı ve uygulama detaylarının Resmî Gazete'de yayımlanacak düzenleme ile kesinleşeceği belirtiliyor.</cite>",
-      "source": "SGMD / Müşavir Rotası"
+      "title": "Anadolu Hayat Emeklilik'te BES fon büyüklüğü 407 milyar TL'ye ulaştı",
+      "summary": "<cite index=\"34-7,34-8\">Anadolu Hayat Emeklilik 2026 yılı ikinci çeyrek finansal sonuçlarını açıkladı; Bireysel Emeklilik Sistemi'ndeki toplam fon büyüklüğü 407 milyar TL'ye ulaştı.</cite> <cite index=\"34-13\">Hayat sigortası prim üretimi ise 2026 ikinci çeyreğinde geçen yıla göre artarak 11,8 milyar TL'yi geçti.</cite>",
+      "source": "Patron Rehberi"
     },
     {
-      "title": "BES'te devlet katkısı düşse de yüksek fon getirisi cazibesini koruyor",
-      "summary": "<cite index=\"14-13\">BES'te devlet katkısının yüzde 30'dan yüzde 20'ye indirilmesi gönüllü sistemde yeni katılımları yavaşlatsa da yüksek fon getirileri sistemi yatırımcı için hâlâ güçlü bir alternatif olarak öne çıkarıyor.</cite> Sigorta sektöründe de büyüme sürüyor; <cite index=\"13-2\">Türkiye Sigorta Birliği Başkanı Uğur Gülen, aktif büyüklüğü 2.2 trilyon TL'yi aşan sektörün özsermaye yapısını güçlendirmeye devam ederek finansal dayanıklılığını artırdığını belirtti.</cite>",
-      "source": "Posta.com.tr / Milliyet"
+      "title": "Tamamlayıcı Emeklilik Sistemi (TES) 2026'da devreye girecek",
+      "summary": "<cite index=\"29-1\">Tamamlayıcı Emeklilik Sistemi (TES), 2026 yılının ikinci çeyreğinde yürürlüğe girmesi planlanıyor ve çalışan maaşlarından OKS benzeri kesinti yapılmaya başlanacak.</cite> <cite index=\"30-2,30-3\">Bireysel Emeklilik Sisteminde (BES) olanların TES veya OKS ile ilişkilendirilmesi söz konusu değil; BES sistemindeki birikimler ayrı bir hesap olarak devam edecek.</cite>",
+      "source": "Kolay İK / SGMD"
     }
   ]
 }
