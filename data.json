@@ -4791,29 +4791,60 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.569000244140625,
+      "value": 47.56731033325195,
       "chg": 0.06
     },
     "eurtry": {
-      "value": 55.00675964355469,
-      "chg": 0.52
+      "value": 54.96057891845703,
+      "chg": 0.44
     },
     "gold_oz": {
-      "value": 4236.2001953125,
-      "chg": 3.44
+      "value": 4289.7998046875,
+      "chg": 4.75
     },
     "bist100": {
-      "value": 13597.8798828125,
-      "chg": -0.66
+      "value": 13703.1298828125,
+      "chg": 0.11
     },
     "gram_altin": {
-      "value": 6478.75,
-      "chg": 3.44
+      "value": 6560.49,
+      "chg": 4.75
     },
     "policy_rate": {
       "value": 37.0,
       "note": "23 Temmuz 2026 PPK kararı"
     }
   },
-  "news": []
+  "news": [
+    {
+      "title": "BES'te devlet katkısı yüzde 20'ye düşürüldü",
+      "summary": "Resmi Gazete'de yayımlanan Cumhurbaşkanı Kararı ile bireysel emeklilik hesaplarına yatırılan katkı payları için devlet katkısı oranı yüzde 30'dan yüzde 20'ye çekildi.",
+      "source": "Memurlar.net"
+    },
+    {
+      "title": "TCMB politika faizini yüzde 37'de sabit tuttu",
+      "summary": "Merkez Bankası Temmuz ayı PPK toplantısında bir hafta vadeli repo faizini yüzde 37'de sabit bıraktı; Ağustos ayında toplantı yapılmayacağı için karar Eylül'e kadar geçerliliğini koruyacak.",
+      "source": "Dünya Gazetesi"
+    },
+    {
+      "title": "Gram altın 6.400 TL sınırını aştı, rekor tazeledi",
+      "summary": "5 Ağustos'ta ons altın 4.200 dolar seviyesine yaklaşırken, dolar endeksindeki zayıflık ve düşen petrol fiyatlarının etkisiyle gram altın 6.420 TL'yi, çeyrek altın ise 10.490 TL'yi aştı.",
+      "source": "Gazete Kritik"
+    },
+    {
+      "title": "Quick Sigorta yarın Borsa İstanbul'da işlem görmeye başlayacak",
+      "summary": "Sigorta sektöründe 12 yıl sonra gerçekleştirilen ilk halka arzla Quick Sigorta, 6 Ağustos 2026'da 'QUICK' koduyla Borsa İstanbul'da işlem görmeye başlayacak; halka arz Garanti BBVA Yatırım liderliğinde tamamlandı.",
+      "source": "Sigorta Gazetesi"
+    },
+    {
+      "title": "Anadolu Hayat Emeklilik'te BES fon büyüklüğü 407 milyar TL'ye çıktı",
+      "summary": "Şirketin 2026 ikinci çeyrek finansal sonuçlarına göre aktif büyüklük yıllık yüzde 49 artışla 481 milyar TL'ye, bireysel emeklilik fon büyüklüğü ise 407 milyar TL'ye yükseldi.",
+      "source": "Kapsül Haber Ajansı"
+    },
+    {
+      "title": "Altın piyasasında ons altın 4.177 dolar seviyesinde işlem görüyor",
+      "summary": "Küresel piyasalardaki dalgalanma ve enflasyon korkularının etkisiyle 5 Ağustos'ta gram altın alışta 6.385 TL, Cumhuriyet altını ise 41.052 TL seviyesinde işlem gördü.",
+      "source": "Mynet Finans"
+    }
+  ]
 }
