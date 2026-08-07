@@ -1227,13 +1227,13 @@
     "BEE": {
       "code": "BEE",
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 1.101372,
+      "price": 1.097501,
       "returns": {
-        "1a": 3.14,
-        "6a": 25.44,
-        "1y": 55.73,
-        "3y": 199.0,
-        "5y": 907.33
+        "1a": 2.78,
+        "6a": 25.0,
+        "1y": 55.19,
+        "3y": 197.95,
+        "5y": 903.79
       }
     },
     "BEF": {
@@ -2391,13 +2391,13 @@
     "FJG": {
       "code": "FJG",
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş.  RE-PIE PORTFÖY DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.168438,
+      "price": 0.168059,
       "returns": {
-        "1a": 2.48,
-        "6a": 15.58,
-        "1y": 44.12,
-        "3y": 283.88,
-        "5y": 1420.75
+        "1a": 2.25,
+        "6a": 15.32,
+        "1y": 43.8,
+        "3y": 283.01,
+        "5y": 1417.33
       }
     },
     "FOA": {
@@ -4791,24 +4791,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.665199279785156,
-      "chg": 0.24
+      "value": 47.70130157470703,
+      "chg": 0.32
     },
     "eurtry": {
-      "value": 54.986698150634766,
-      "chg": -0.09
+      "value": 55.02627182006836,
+      "chg": -0.02
     },
     "gold_oz": {
-      "value": 4354.7998046875,
-      "chg": 2.66
+      "value": 4385.10009765625,
+      "chg": 3.37
     },
     "bist100": {
-      "value": 13882.8896484375,
-      "chg": 0.61
+      "value": 13814.3095703125,
+      "chg": 0.11
     },
     "gram_altin": {
-      "value": 6673.6,
-      "chg": 2.66
+      "value": 6725.13,
+      "chg": 3.37
     },
     "policy_rate": {
       "value": 37.0,
@@ -4817,34 +4817,34 @@
   },
   "news": [
     {
-      "title": "Altın fiyatları Hürmüz Boğazı geriliminden yükseldi",
-      "summary": "Altın fiyatları haftanın son iş gününde yükselişle başladı; İran'da yaşanan gerilimin etkisiyle ons altın 4.200 doların üzerinde kalırken gram altın 6.546 TL'yi test etti. Gram altın 6.505-6.596 TL, çeyrek altın ise 10.591-10.761 TL aralığında işlem gördü.",
-      "source": "En Son Olay / Bigpara"
+      "title": "Altın fiyatları Ocak'tan bu yana en güçlü haftasında",
+      "summary": "7 Ağustos 2026 Cuma günü ons altın 4.298 dolara çıkarken gram altın günlük %1,4 artışla 6.583 TL'ye, çeyrek altın ise 10.764 TL'ye yükseldi. Ağustos ayı başından bu yana gram altın %6,3 değer kazandı.",
+      "source": "BloombergHT"
     },
     {
-      "title": "Dolar 47,70 TL, Euro 55 TL seviyesinde seyrediyor",
-      "summary": "7 Ağustos 2026 Cuma günü Dolar/TL 47,70 TL, Euro ise 55,00-55,10 TL seviyelerinde işlem gördü. Serbest piyasada döviz kurlarındaki hareketlilik sürerken sterlin 64,22 TL'ye ulaştı.",
-      "source": "Ekonomim / Bursa TV"
+      "title": "Dolar/TL tarihi zirvesini yeniledi, 47,70 TL seviyesinde",
+      "summary": "Dolar/TL kuru 7 Ağustos'ta 47,69-47,71 TL bandında rekor tazeleyerek işlem gördü; ABD'de beklenen tarım dışı istihdam verisi ve Orta Doğu'daki jeopolitik gelişmeler kur üzerinde etkili oldu.",
+      "source": "Halk TV / Habervakti"
     },
     {
-      "title": "TCMB Ağustos'ta toplanmıyor, 13 Ağustos'ta enflasyon raporu var",
-      "summary": "TCMB, Temmuz ayı PPK toplantısında politika faizini yüzde 37'de sabit tutmuş olup, 2026 yılı takvimine göre Ağustos ayında PPK toplantısı bulunmuyor; bir sonraki faiz kararı 10 Eylül'de açıklanacak. Merkez Bankası, yılın 3. Enflasyon Raporu'nu 13 Ağustos'ta İstanbul'da duyuracak.",
-      "source": "Mynet Finans / Internet Haber"
+      "title": "TCMB Ağustos'ta toplantı yapmayacak, faiz %37'de sabit kalacak",
+      "summary": "TCMB'nin yıllık PPK takvimine göre Ağustos ayında faiz toplantısı bulunmuyor; 23 Temmuz'daki kararla sabit tutulan %37'lik politika faizi bir sonraki toplantı olan 10 Eylül'e kadar geçerliliğini koruyacak.",
+      "source": "Yatirimx.com.tr"
     },
     {
-      "title": "Uzmanlar TCMB'nin normalleşme sürecini değerlendirdi",
-      "summary": "Uzmanlar, TCMB'nin enflasyon verilerinde iyileşme görülmesi halinde repo ihalelerini Ağustos ayında devreye alarak fonlama maliyetini kademeli düşürebileceğini ve politika faizinin yıl sonunda yüzde 34 seviyesinde tamamlanabileceğini öngörüyor. Merkez Bankası'nın karar metninde enflasyon görünümü ve enerji fiyatlarına ilişkin risklerin yakından takip edildiği vurgulandı.",
-      "source": "AA / Ekonomim TV"
+      "title": "BES ve OKS'de fon büyüklüğü 2,5 trilyon TL'yi aştı",
+      "summary": "Bireysel Emeklilik Sistemi (BES) ve Otomatik Katılım Sistemi'ndeki (OKS) devlet katkısı ile katılımcı fon tutarlarının toplam büyüklüğü 2 trilyon 508 milyar 611 milyon liraya ulaşırken toplam katılımcı sayısı 17 milyona yaklaştı.",
+      "source": "Milliyet"
     },
     {
-      "title": "BES'te devlet katkısı yüzde 20'ye düşürüldü, TES gündemde",
-      "summary": "Bireysel Emeklilik Sistemi'nde devlet katkısı oranının yüzde 30'dan yüzde 20'ye indirilmesi gönüllü sistemde yeni katılımları yavaşlatsa da yüksek fon getirileri sistemi yatırımcı için hâlâ güçlü bir alternatif olarak öne çıkarıyor. Çalışanın brüt maaşından yüzde 3 kesinti ve işverenden yüzde 3 katkı esasına dayanan Tamamlayıcı Emeklilik Sistemi (TES) de gündemde yer alıyor.",
-      "source": "Posta.com.tr"
+      "title": "Türkiye Sigorta ve Türkiye Hayat Emeklilik'ten rekor kârlılık",
+      "summary": "Türkiye Sigorta ve Türkiye Hayat Emeklilik, 2026'nın ilk yarısında toplamda %48 artışla 24,5 milyar TL rekor net kârlılığa ulaştı; Türkiye Sigorta net kârını %44 artışla 13,45 milyar TL'ye çıkardı.",
+      "source": "A Haber / Dünya Gazetesi"
     },
     {
-      "title": "Sigorta sektörü aktif büyüklüğü 2,2 trilyon TL'yi aştı",
-      "summary": "Türkiye Sigorta Birliği Başkanı Uğur Gülen, sigorta sektörünün aktif büyüklüğünün 2,2 trilyon TL'yi aştığını belirterek sektörün özsermaye yapısını güçlendirerek finansal dayanıklılığını artırdığını ifade etti. BES'te ise 18 yaş altı katılımın büyümeyi desteklediği ve emeklilik yatırım fonlarının haftalık performans raporlarının yayımlandığı görülüyor.",
-      "source": "Milliyet / Türkiye Sigorta"
+      "title": "Sigorta sektöründe ilk 6 ayda 4 şirketten 3'ü kârını büyüttü",
+      "summary": "2026'nın ilk altı aylık bilanço döneminde Türkiye Sigorta, Anadolu Sigorta ve Anadolu Hayat Emeklilik net kârını çift haneli oranlarda artırırken, Anadolu Hayat Emeklilik net kârını %49,35 büyüterek en hızlı büyüyen şirket oldu.",
+      "source": "BorsanınGündemi.com"
     }
   ]
 }
