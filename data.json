@@ -951,13 +951,13 @@
     "APG": {
       "code": "APG",
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.282216,
+      "price": 0.282251,
       "returns": {
-        "1a": 2.29,
-        "6a": 11.09,
-        "1y": 31.55,
-        "3y": 135.8,
-        "5y": 731.02
+        "1a": 2.3,
+        "6a": 11.1,
+        "1y": 31.56,
+        "3y": 135.83,
+        "5y": 731.13
       }
     },
     "ATE": {
@@ -2403,11 +2403,11 @@
     "FOA": {
       "code": "FOA",
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. AZİMUT FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.015519,
+      "price": 0.015611,
       "returns": {
-        "1a": 2.31,
-        "6a": 14.77,
-        "1y": 42.86,
+        "1a": 2.91,
+        "6a": 15.45,
+        "1y": 43.71,
         "3y": null,
         "5y": null
       }
@@ -4803,60 +4803,29 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.714599609375,
-      "chg": 0.11
+      "value": 47.709800720214844,
+      "chg": 0.1
     },
     "eurtry": {
-      "value": 55.184749603271484,
-      "chg": 0.62
+      "value": 55.15113067626953,
+      "chg": 0.56
     },
     "gold_oz": {
-      "value": 4407.0,
-      "chg": 1.53
+      "value": 4393.2001953125,
+      "chg": 1.21
     },
     "bist100": {
-      "value": 13905.4404296875,
-      "chg": 0.91
+      "value": 13888.91015625,
+      "chg": 0.79
     },
     "gram_altin": {
-      "value": 6760.6,
-      "chg": 1.53
+      "value": 6738.75,
+      "chg": 1.21
     },
     "policy_rate": {
       "value": 37.0,
       "note": "23 Temmuz 2026 PPK kararı"
     }
   },
-  "news": [
-    {
-      "title": "TCMB Ağustos'ta PPK toplantısı yapmayacak, faiz %37'de sabit",
-      "summary": "<cite index=\"11-6,11-7\">TCMB, Ağustos 2026'da Para Politikası Kurulu (PPK) toplantısı gerçekleştirmeyecek; Temmuz ayındaki toplantının ardından bir sonraki faiz kararı 10 Eylül 2026 Perşembe günü açıklanacak.</cite> <cite index=\"11-11\">TCMB, 23 Temmuz 2026 tarihinde gerçekleştirdiği PPK toplantısında politika faizini sabit bıraktı.</cite>",
-      "source": "Yatirimx.com.tr"
-    },
-    {
-      "title": "Altın fiyatlarında kâr satışı: Ons altın geri çekildi",
-      "summary": "<cite index=\"19-1,19-2\">Piyasaların açılışıyla birlikte spot altının ons fiyatı yüzde 0,5 oranında değer kaybederek 4.322,28 dolar seviyesine çekildi; cuma günü ABD'deki zayıf istihdam verilerinin etkisiyle altın 17 Haziran'dan bu yana görülen en yüksek seviyeyi test etmişti.</cite> <cite index=\"19-5\">Çarşamba günü ABD Tüketici Fiyat Endeksi (TÜFE), perşembe günü ise Üretici Fiyat Endeksi (ÜFE) kamuoyuna duyurulacak.</cite>",
-      "source": "Bigpara/Hürriyet"
-    },
-    {
-      "title": "Dolar/TL 47,70 seviyesinde işlem görüyor",
-      "summary": "<cite index=\"24-2\">10 Ağustos'ta dolar/TL alış 47,7025 TL, satış 47,7306 TL seviyesinde seyretti.</cite> Döviz piyasasındaki hareketlilik gün boyu devam etti.",
-      "source": "Timeturk"
-    },
-    {
-      "title": "Sigorta sektöründe ilk 6 ayda 4 şirketten 3'ü kârını büyüttü",
-      "summary": "<cite index=\"29-3,29-4\">2026'nın ilk altı aylık bilanço döneminde sigorta sektöründe üç şirket kârını artırırken, Türkiye Sigorta 13,45 milyar TL ile en yüksek net kâra ulaştı, Anadolu Hayat Emeklilik ise yüzde 49,35 ile en hızlı büyüyen şirket oldu.</cite>",
-      "source": "BorsaninGundemi.com"
-    },
-    {
-      "title": "Anadolu Hayat Emeklilik'in aktif büyüklüğü 481 milyar TL'ye çıktı",
-      "summary": "<cite index=\"31-1\">Anadolu Hayat Emeklilik, 2026'nın ikinci çeyreğinde aktif büyüklüğünü yüzde 49 artırarak 481 milyar TL'ye, BES fon büyüklüğünü ise 407 milyar TL'ye çıkardı.</cite>",
-      "source": "Kapsül Haber Ajansı"
-    },
-    {
-      "title": "BES'te devlet katkısı yüzde 20'ye düşürüldü, yeni katılım yavaşladı",
-      "summary": "<cite index=\"1-13\">BES'te devlet katkısının yüzde 30'dan yüzde 20'ye indirilmesi gönüllü sistemde yeni katılımları yavaşlatsa da yüksek fon getirileri, sistemi yatırımcı için hâlâ güçlü bir alternatif olarak öne çıkarıyor.</cite>",
-      "source": "Posta Gazetesi"
-    }
-  ]
+  "news": []
 }
