@@ -1635,11 +1635,11 @@
     "BSR": {
       "code": "BSR",
       "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.014302,
+      "price": 0.0143,
       "returns": {
-        "1a": 0.95,
-        "6a": 6.48,
-        "1y": 25.53,
+        "1a": 0.93,
+        "6a": 6.47,
+        "1y": 25.52,
         "3y": null,
         "5y": null
       }
@@ -2187,12 +2187,12 @@
     "FFZ": {
       "code": "FFZ",
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. INVEO PORTFÖY FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.087117,
+      "price": 0.087352,
       "returns": {
-        "1a": -0.21,
-        "6a": 4.34,
-        "1y": 31.5,
-        "3y": 259.13,
+        "1a": 0.06,
+        "6a": 4.62,
+        "1y": 31.85,
+        "3y": 260.1,
         "5y": null
       }
     },
@@ -2295,13 +2295,13 @@
     "FIK": {
       "code": "FIK",
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.204303,
+      "price": 0.204651,
       "returns": {
-        "1a": 6.92,
-        "6a": 12.37,
-        "1y": 36.28,
-        "3y": 206.54,
-        "5y": 886.59
+        "1a": 7.1,
+        "6a": 12.56,
+        "1y": 36.51,
+        "3y": 207.07,
+        "5y": 888.27
       }
     },
     "FIM": {
@@ -2415,12 +2415,12 @@
     "FVI": {
       "code": "FVI",
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.02995,
+      "price": 0.029971,
       "returns": {
-        "1a": 2.48,
-        "6a": 11.8,
-        "1y": 33.32,
-        "3y": 111.74,
+        "1a": 2.55,
+        "6a": 11.88,
+        "1y": 33.41,
+        "3y": 111.88,
         "5y": null
       }
     },
@@ -4803,24 +4803,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 47.736698150634766,
+      "value": 47.734798431396484,
       "chg": 0.09
     },
     "eurtry": {
-      "value": 55.083988189697266,
-      "chg": -0.04
+      "value": 55.112911224365234,
+      "chg": 0.01
     },
     "gold_oz": {
-      "value": 4417.2998046875,
-      "chg": 1.27
+      "value": 4444.7998046875,
+      "chg": 1.9
     },
     "bist100": {
-      "value": 13621.3203125,
-      "chg": -1.38
+      "value": 13676.3203125,
+      "chg": -0.98
     },
     "gram_altin": {
-      "value": 6779.54,
-      "chg": 1.27
+      "value": 6821.47,
+      "chg": 1.9
     },
     "policy_rate": {
       "value": 37.0,
