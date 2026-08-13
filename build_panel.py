@@ -21,7 +21,6 @@ from collections import OrderedDict
 
 import yfinance as yf
 from pytefas import Crawler
-from anthropic import Anthropic
 
 # --- Ayarlar -----------------------------------------------------------
 
@@ -138,13 +137,13 @@ def collect_market_data():
 
 
 def fetch_news():
-    """Anthropic API'yi (web arama araciyla) kullanarak BES/emeklilik/sigorta/
-    faiz-doviz gundemiyle ilgili 5-6 guncel haberi ceker ve ozetletir.
-    ANTHROPIC_API_KEY tanimli degilse veya bir hata olursa bos liste doner
-    (site o zaman haber bolumunu atlar, geri kalan her sey calismaya devam eder)."""
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    """Google Gemini API'yi (ucretsiz katman, Google arama destekli) kullanarak
+    BES/emeklilik/sigorta/faiz-doviz gundemiyle ilgili 5-6 guncel haberi ceker
+    ve ozetletir. GEMINI_API_KEY tanimli degilse veya bir hata olursa bos liste
+    doner, site geri kalaniyla calismaya devam eder."""
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("[uyarı] ANTHROPIC_API_KEY tanımlı değil, haber bölümü atlanıyor")
+        print("[uyarı] GEMINI_API_KEY tanımlı değil, haber bölümü atlanıyor")
         return []
 
     prompt = (
@@ -152,27 +151,26 @@ def fetch_news():
         "yatırım fonları, hayat sigortası ve emeklilik şirketleri sektörü, "
         "TCMB faiz kararları/politikası ve döviz-altın piyasası ile ilgili "
         "BUGÜNE ait en önemli 5-6 haberi bul. Her biri için kısa bir başlık "
-        "(en fazla 12 kelime), 1-2 cümlelik özet ve kaynağın adını ver. "
-        "SADECE geçerli bir JSON dizisi olarak cevap ver, başka hiçbir "
-        "açıklama veya metin ekleme. Format: "
-        '[{"title": "...", "summary": "...", "source": "..."}]'
+        "(en fazla 12 kelime), 1-2 cümlelik özet, kaynağın adı ve haberin "
+        "linkini ver. SADECE geçerli bir JSON dizisi olarak cevap ver, başka "
+        "hiçbir açıklama veya metin ekleme. Format: "
+        '[{"title": "...", "summary": "...", "source": "...", "url": "..."}]'
     )
     try:
-        client = Anthropic(api_key=api_key)
-        response = client.messages.create(
-            model="claude-sonnet-5",
-            max_tokens=4096,
-            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
-            messages=[{"role": "user", "content": prompt}],
+        from google import genai
+        from google.genai.types import GenerateContentConfig, GoogleSearch, Tool
+
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model="gemini-3.5-flash",
+            contents=prompt,
+            config=GenerateContentConfig(tools=[Tool(google_search=GoogleSearch())]),
         )
-        text = "".join(b.text for b in response.content if b.type == "text").strip()
-        if response.stop_reason == "max_tokens":
-            print("[uyarı] Haber yanıtı max_tokens sınırında kesildi, JSON eksik olabilir")
+        text = (response.text or "").strip()
         if text.startswith("```"):
             text = text.strip("`")
             if text.startswith("json"):
                 text = text[4:]
-        # Modelin JSON dizisinden once/sonra fazladan metin eklemesi ihtimaline karsi
         start, end = text.find("["), text.rfind("]")
         if start != -1 and end != -1:
             text = text[start:end + 1]
@@ -188,8 +186,13 @@ def render_news(news):
         return '<div class="hint">Gündem haberleri şu an alınamadı.</div>'
     cards = []
     for item in news:
+        title = item.get("title", "")
+        title_html = (
+            f'<a href="{item["url"]}" target="_blank" rel="noopener">{title}</a>'
+            if item.get("url") else title
+        )
         cards.append(f'''<div class="news-card">
-          <div class="news-title">{item.get("title", "")}</div>
+          <div class="news-title">{title_html}</div>
           <div class="news-summary">{item.get("summary", "")}</div>
           <div class="news-source">{item.get("source", "")}</div>
         </div>''')
