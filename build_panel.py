@@ -158,15 +158,14 @@ def fetch_news():
     )
     try:
         from google import genai
-        from google.genai.types import GenerateContentConfig, GoogleSearch, Tool
 
         client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-            config=GenerateContentConfig(tools=[Tool(google_search=GoogleSearch())]),
+        interaction = client.interactions.create(
+            model="gemini-3.6-flash",
+            input=prompt,
+            tools=[{"type": "google_search"}],
         )
-        text = (response.text or "").strip()
+        text = (interaction.output_text or "").strip()
         if text.startswith("```"):
             text = text.strip("`")
             if text.startswith("json"):
