@@ -52,6 +52,18 @@
   .hint{font-size:12px;color:var(--text-muted);}
   footer{border-top:1px solid var(--line);padding-top:18px;font-size:12.5px;color:var(--text-muted);line-height:1.6;}
   footer b{color:var(--text);}
+
+  #loginScreen{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;z-index:50;}
+  .login-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:34px 32px;width:100%;max-width:340px;}
+  .login-card .eyebrow{margin-bottom:16px;}
+  .login-card h2{font-family:'Fraunces',serif;font-size:22px;margin:0 0 22px;}
+  .login-card input, .login-card select{width:100%;background:var(--panel-2);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:11px 12px;font-family:'Inter',sans-serif;font-size:14px;margin-bottom:12px;}
+  .login-card button{width:100%;background:var(--gold);border:none;border-radius:8px;color:#0E1420;font-weight:700;padding:11px 12px;font-size:14px;cursor:pointer;margin-top:6px;}
+  .login-card button:hover{opacity:.9;}
+  #loginError{color:var(--down);font-size:12.5px;margin-top:10px;min-height:16px;}
+  #mainContent{display:none;}
+  .logout{position:fixed;top:16px;right:20px;font-size:12px;color:var(--text-muted);cursor:pointer;z-index:10;}
+  .logout:hover{color:var(--text);}
   @media (max-width:640px){
     .ticker{grid-template-columns:repeat(3,1fr);}
     .tick:nth-child(3){border-right:none;}
@@ -64,17 +76,40 @@
 </style>
 </head>
 <body>
+
+<div id="loginScreen">
+  <div class="login-card">
+    <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
+    <h2>Giriş yap</h2>
+    <select id="loginUser">
+      <option value="">Kullanıcı seç…</option>
+      <option value="kerem">Kerem</option>
+      <option value="aysen">Ayşen</option>
+      <option value="ozan">Ozan</option>
+      <option value="latife">Latife</option>
+      <option value="zehra">Zehra</option>
+      <option value="fikret">Fikret</option>
+    </select>
+    <input type="password" id="loginPass" placeholder="Şifre" onkeydown="if(event.key==='Enter')doLogin()">
+    <button onclick="doLogin()">Giriş</button>
+    <div id="loginError"></div>
+  </div>
+</div>
+
+<div class="logout" id="logoutBtn" onclick="doLogout()" style="display:none;">Çıkış yap</div>
+
+<div id="mainContent">
 <div class="wrap">
 
   <div class="eyebrow">AGESA · BEFAS Sabah Paneli</div>
   <h1>Günaydın — piyasalar ve fonların bugün böyle görünüyor.</h1>
-  <div class="date-line">13.08.2026 22:25 · Otomatik güncelleme</div>
+  <div class="date-line">13.08.2026 22:30 · Otomatik güncelleme</div>
 
   <div class="ticker">
     <div class="tick">
           <div class="label">Dolar</div>
-          <div class="val">47.78</div>
-          <span class="chg up">▲ %0.06</span>
+          <div class="val">47.83</div>
+          <span class="chg up">▲ %0.18</span>
         </div>
 <div class="tick">
           <div class="label">Euro</div>
@@ -83,8 +118,8 @@
         </div>
 <div class="tick">
           <div class="label">Gram Altın</div>
-          <div class="val">6.774.21</div>
-          <span class="chg up">▲ %0.03</span>
+          <div class="val">6.780.86</div>
+          <span class="chg flat">▶ %0.00</span>
         </div>
 <div class="tick">
           <div class="label">BİST 100</div>
@@ -415,11 +450,50 @@
   </section>
 
   <footer>
-    <b>Not:</b> Bu sayfa her hafta içi 07:00 ve 12:00'de GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS ve piyasa verileri kullanılarak). Son güncelleme: 13.08.2026 22:25. Yatırım tavsiyesi değildir.
+    <b>Not:</b> Bu sayfa her hafta içi 07:00 ve 12:00'de GitHub Actions tarafından otomatik olarak yeniden oluşturulur (TEFAS ve piyasa verileri kullanılarak). Son güncelleme: 13.08.2026 22:30. Yatırım tavsiyesi değildir.
   </footer>
+</div>
 </div>
 
 <script>
+  // ---------- Basit giriş ekranı (client-side, sadece dış görünürlüğe engel) ----------
+  const ALLOWED_USERS = ["kerem","aysen","ozan","latife","zehra","fikret"];
+  const PASS_HASH = "10dba55c3dfaf643e656969f4ba9bd63a9343859f2dfcd9c3b2879b29c60dd54"; // sha256("ignites")
+
+  async function sha256(str){
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,"0")).join("");
+  }
+
+  async function doLogin(){
+    const user = document.getElementById("loginUser").value;
+    const pass = document.getElementById("loginPass").value;
+    const err = document.getElementById("loginError");
+    if(!user){ err.textContent = "Lütfen kullanıcı seç."; return; }
+    const hash = await sha256(pass);
+    if(ALLOWED_USERS.includes(user) && hash === PASS_HASH){
+      localStorage.setItem("befas_auth", user);
+      showApp();
+    } else {
+      err.textContent = "Kullanıcı adı veya şifre hatalı.";
+    }
+  }
+
+  function doLogout(){
+    localStorage.removeItem("befas_auth");
+    location.reload();
+  }
+
+  function showApp(){
+    document.getElementById("loginScreen").style.display = "none";
+    document.getElementById("mainContent").style.display = "block";
+    document.getElementById("logoutBtn").style.display = "block";
+  }
+
+  if(ALLOWED_USERS.includes(localStorage.getItem("befas_auth"))){
+    showApp();
+  }
+
   function filterCategory(){
     const selected = document.getElementById("categoryFilter").value;
     document.querySelectorAll(".category-block").forEach(block => {
