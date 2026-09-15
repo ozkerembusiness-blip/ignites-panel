@@ -951,13 +951,13 @@
     "APG": {
       "code": "APG",
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. YENİLENEBİLİR ENERJİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.269081,
+      "price": 0.287114,
       "returns": {
-        "1a": -5.78,
-        "6a": 8.2,
-        "1y": 26.22,
-        "3y": 119.74,
-        "5y": 714.24
+        "1a": 0.54,
+        "6a": 15.45,
+        "1y": 34.68,
+        "3y": 134.47,
+        "5y": 768.81
       }
     },
     "ATE": {
@@ -4803,24 +4803,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 48.63570022583008,
+      "value": 48.637001037597656,
       "chg": 0.06
     },
     "eurtry": {
-      "value": 56.14611053466797,
-      "chg": -0.42
+      "value": 56.205360412597656,
+      "chg": -0.31
     },
     "gold_oz": {
-      "value": 4309.0,
-      "chg": -0.99
+      "value": 4335.39990234375,
+      "chg": -0.38
     },
     "bist100": {
-      "value": 13976.4697265625,
-      "chg": -1.82
+      "value": 14004.6904296875,
+      "chg": -1.62
     },
     "gram_altin": {
-      "value": 6737.87,
-      "chg": -0.99
+      "value": 6779.33,
+      "chg": -0.38
     },
     "policy_rate": {
       "value": 37.0,
