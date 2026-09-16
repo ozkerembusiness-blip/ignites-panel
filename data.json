@@ -2510,7 +2510,7 @@
     },
     "GCT": {
       "code": "GCT",
-      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "name": "GARANTİ EMEKLİLİK VE HAYAT A.Ş. EMTİA FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "price": 0.079662,
       "returns": {
         "1a": 2.92,
@@ -4803,24 +4803,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 48.64619827270508,
-      "chg": 0.05
+      "value": 48.65299987792969,
+      "chg": 0.06
     },
     "eurtry": {
-      "value": 56.189090728759766,
-      "chg": 0.05
+      "value": 56.15007019042969,
+      "chg": -0.02
     },
     "gold_oz": {
-      "value": 4371.10009765625,
-      "chg": 0.88
+      "value": 4384.39990234375,
+      "chg": 1.19
     },
     "bist100": {
-      "value": 13478.76953125,
-      "chg": -2.98
+      "value": 13015.25,
+      "chg": -6.31
     },
     "gram_altin": {
-      "value": 6836.45,
-      "chg": 0.88
+      "value": 6858.21,
+      "chg": 1.19
     },
     "policy_rate": {
       "value": 37.0,
