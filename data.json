@@ -951,13 +951,13 @@
     "APG": {
       "code": "APG",
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. YENİLENEBİLİR ENERJİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.285754,
+      "price": 0.286085,
       "returns": {
-        "1a": -0.96,
-        "6a": 14.97,
-        "1y": 28.6,
-        "3y": 134.12,
-        "5y": 748.72
+        "1a": -0.84,
+        "6a": 15.11,
+        "1y": 28.75,
+        "3y": 134.4,
+        "5y": 749.7
       }
     },
     "ATE": {
@@ -2403,11 +2403,11 @@
     "FOA": {
       "code": "FOA",
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. AZİMUT FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.016194,
+      "price": 0.016241,
       "returns": {
-        "1a": 0.42,
-        "6a": 17.85,
-        "1y": 44.02,
+        "1a": 0.71,
+        "6a": 18.19,
+        "1y": 44.44,
         "3y": null,
         "5y": null
       }
@@ -4803,24 +4803,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 48.770999908447266,
-      "chg": -0.13
+      "value": 48.849998474121094,
+      "chg": 0.03
     },
     "eurtry": {
-      "value": 55.7393798828125,
-      "chg": -0.35
+      "value": 55.6856803894043,
+      "chg": -0.45
     },
     "gold_oz": {
-      "value": 4302.2001953125,
-      "chg": -0.38
+      "value": 4307.2998046875,
+      "chg": -0.26
     },
     "bist100": {
-      "value": 13083.41015625,
-      "chg": -1.27
+      "value": 12966.099609375,
+      "chg": -2.16
     },
     "gram_altin": {
-      "value": 6745.95,
-      "chg": -0.38
+      "value": 6764.88,
+      "chg": -0.26
     },
     "policy_rate": {
       "value": 37.0,
