@@ -15,13 +15,13 @@
     "ABE": {
       "code": "ABE",
       "name": "ANADOLU HAYAT EMEKLİLİK A.Ş.S&P 500 YABANCI BYF FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.451162,
+      "price": 0.451175,
       "returns": {
         "1a": 0.52,
-        "6a": 24.91,
+        "6a": 24.92,
         "1y": 32.27,
-        "3y": 201.21,
-        "5y": 505.75
+        "3y": 201.22,
+        "5y": 505.77
       }
     },
     "ACV": {
@@ -2943,7 +2943,7 @@
     "GMF": {
       "code": "GMF",
       "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. GÜMÜŞ FON SEPETİ EMEKLİLİK YATIRIM FONU",
-      "price": 0.022177,
+      "price": 0.022176,
       "returns": {
         "1a": -4.45,
         "6a": -5.04,
@@ -4239,11 +4239,11 @@
     "TVC": {
       "code": "TVC",
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
-      "price": 0.013369,
+      "price": 0.013681,
       "returns": {
-        "1a": -9.12,
-        "6a": 2.5,
-        "1y": 20.03,
+        "1a": -7.0,
+        "6a": 4.89,
+        "1y": 22.83,
         "3y": null,
         "5y": null
       }
@@ -4251,11 +4251,11 @@
     "TVG": {
       "code": "TVG",
       "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ  EMEKLİLİK YATIRIM FONU",
-      "price": 0.015854,
+      "price": 0.015824,
       "returns": {
-        "1a": -4.06,
-        "6a": 15.05,
-        "1y": 38.66,
+        "1a": -4.24,
+        "6a": 14.83,
+        "1y": 38.39,
         "3y": null,
         "5y": null
       }
@@ -4803,24 +4803,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 49.139801025390625,
+      "value": 49.141300201416016,
       "chg": 0.23
     },
     "eurtry": {
-      "value": 55.28881072998047,
-      "chg": -0.48
+      "value": 55.38888931274414,
+      "chg": -0.3
     },
     "gold_oz": {
-      "value": 4214.5,
-      "chg": 0.29
+      "value": 4175.7001953125,
+      "chg": -0.63
     },
     "bist100": {
-      "value": 12352.3095703125,
-      "chg": 0.84
+      "value": 12262.5302734375,
+      "chg": 0.11
     },
     "gram_altin": {
-      "value": 6658.4,
-      "chg": 0.29
+      "value": 6597.31,
+      "chg": -0.63
     },
     "policy_rate": {
       "value": 37.0,
