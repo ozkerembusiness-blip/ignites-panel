@@ -1380,6 +1380,18 @@
         "5y": 568.8
       }
     },
+    "BNA": {
+      "code": "BNA",
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "price": 0.72658,
+      "returns": {
+        "1a": -5.07,
+        "6a": -2.69,
+        "1y": 21.25,
+        "3y": 306.67,
+        "5y": 1169.27
+      }
+    },
     "BNB": {
       "code": "BNB",
       "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
@@ -4047,13 +4059,13 @@
     "PRC": {
       "code": "PRC",
       "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. BAŞLANGIÇ KATILIM EMEKLİLİK YATIRIM FONU",
-      "price": 0.110383,
+      "price": 0.096516,
       "returns": {
-        "1a": 18.16,
-        "6a": 38.69,
-        "1y": 66.74,
-        "3y": 296.04,
-        "5y": 500.23
+        "1a": 3.32,
+        "6a": 21.26,
+        "1y": 45.79,
+        "3y": 246.28,
+        "5y": 424.83
       }
     },
     "PRS": {
@@ -4791,24 +4803,24 @@
   },
   "market": {
     "usdtry": {
-      "value": 49.192588806152344,
-      "chg": 0.11
+      "value": 49.191898345947266,
+      "chg": 0.1
     },
     "eurtry": {
-      "value": 55.083370208740234,
-      "chg": 0.01
+      "value": 55.0666618347168,
+      "chg": -0.02
     },
     "gold_oz": {
-      "value": 4135.5,
-      "chg": -1.23
+      "value": 4129.60009765625,
+      "chg": -1.37
     },
     "bist100": {
-      "value": 12112.4599609375,
-      "chg": -2.12
+      "value": 12122.9404296875,
+      "chg": -2.03
     },
     "gram_altin": {
-      "value": 6540.61,
-      "chg": -1.23
+      "value": 6531.19,
+      "chg": -1.37
     },
     "policy_rate": {
       "value": 37.0,
